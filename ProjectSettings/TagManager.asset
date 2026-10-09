@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - CharacterBody
+  - Dino
+  - Fighter
+  - Ranger
+  - FlyingDinosaur
+  - Arrow
   layers:
   - Default
   - TransparentFX

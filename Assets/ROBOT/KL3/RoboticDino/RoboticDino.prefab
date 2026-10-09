@@ -1,0 +1,1851 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &49101440575628226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3899935426220466776}
+  m_Layer: 0
+  m_Name: Stegosaurus R Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3899935426220466776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49101440575628226}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000963951, y: -0.00000003553549, z: 0.9902368, w: -0.13939542}
+  m_LocalPosition: {x: -0.07993222, y: 0.26974785, z: -0.00017350914}
+  m_LocalScale: {x: 0.99999887, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 118565627382533953}
+  m_Father: {fileID: 6182320639423089772}
+  m_LocalEulerAnglesHint: {x: -0.000011365397, y: 0.000109949826, z: -163.97427}
+--- !u!1 &96929527011673095
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8261448925382358238}
+  m_Layer: 0
+  m_Name: Stegosaurus Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8261448925382358238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96929527011673095}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.020861482, y: 0.0015965998, z: 0.6187029, w: 0.7853464}
+  m_LocalPosition: {x: -0.39370418, y: -0.043072812, z: -0.038046155}
+  m_LocalScale: {x: 1.0000002, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6564050382381038322}
+  - {fileID: 5375414013909494079}
+  - {fileID: 1700317993753064111}
+  - {fileID: 2853378045187127590}
+  - {fileID: 5555887105758839061}
+  - {fileID: 4330079083868981970}
+  - {fileID: 5042725141911417569}
+  m_Father: {fileID: 5648282571423034207}
+  m_LocalEulerAnglesHint: {x: -1.991006, y: -1.3362832, z: 76.48593}
+--- !u!1 &128640534049401254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1751594636581609970}
+  m_Layer: 0
+  m_Name: Stegosaurus R Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1751594636581609970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128640534049401254}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.07053369, y: 0.02100092, z: 0.6306922, w: 0.7725356}
+  m_LocalPosition: {x: -0.3930384, y: 0.006156826, z: 0.06155463}
+  m_LocalScale: {x: 1.0000001, y: 0.9999995, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1138175096278998658}
+  m_Father: {fileID: 8261769579613252789}
+  m_LocalEulerAnglesHint: {x: 4.731668, y: 6.997915, z: 78.745346}
+--- !u!1 &506510305041631004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 303122111375484072}
+  m_Layer: 0
+  m_Name: Stegosaurus Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &303122111375484072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506510305041631004}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.017726468, y: 0.016705813, z: -0.05980723, w: 0.9979127}
+  m_LocalPosition: {x: -0.6466035, y: -0.1944882, z: -0.0000027650494}
+  m_LocalScale: {x: 1.0000004, y: 1.0000004, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2501586954388583310}
+  m_Father: {fileID: 2123941262088035711}
+  m_LocalEulerAnglesHint: {x: 2.1420536, y: 1.7904049, z: -6.826058}
+--- !u!1 &535358092583100447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5042725141911417569}
+  m_Layer: 0
+  m_Name: Stegosaurus R Upper Eyelid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5042725141911417569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535358092583100447}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.43087515, y: -0.30065343, z: -0.29140663, w: 0.79939747}
+  m_LocalPosition: {x: -0.011117859, y: 0.2267884, z: -0.12095225}
+  m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8027167617566148060}
+  m_Father: {fileID: 8261448925382358238}
+  m_LocalEulerAnglesHint: {x: -59.780758, y: -27.136196, z: -24.26152}
+--- !u!1 &551187831717272110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5481015798039389625}
+  m_Layer: 0
+  m_Name: Stegosaurus L Upper Eyelid_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5481015798039389625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551187831717272110}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.2604325, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2853378045187127590}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &742073950986916520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1980614335944475265}
+  m_Layer: 0
+  m_Name: Stegosaurus L Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1980614335944475265
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742073950986916520}
+  serializedVersion: 2
+  m_LocalRotation: {x: 4.092645e-11, y: 9.417338e-10, z: 0.11133419, w: 0.99378306}
+  m_LocalPosition: {x: -0.54028183, y: -0.16631113, z: -0.01466349}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3634019276655422913}
+  m_Father: {fileID: 4962763438317285191}
+  m_LocalEulerAnglesHint: {x: -0.0000000073539317, y: 0.00000010776596, z: 12.784462}
+--- !u!1 &774743441448643158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2589780781676238491}
+  m_Layer: 0
+  m_Name: Stegosaurus Tail03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2589780781676238491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774743441448643158}
+  serializedVersion: 2
+  m_LocalRotation: {x: -7.3386447e-10, y: 0.00000041797185, z: -0.14309493, w: 0.98970896}
+  m_LocalPosition: {x: -0.646369, y: 0.14881693, z: 0.1264195}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4329816656303953561}
+  m_Father: {fileID: 2883725698539597278}
+  m_LocalEulerAnglesHint: {x: 0.0000067704514, y: 0.000047415175, z: -16.453953}
+--- !u!1 &868753446465483794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6564050382381038322}
+  m_Layer: 0
+  m_Name: Stegosaurus Jaw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6564050382381038322
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868753446465483794}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.05572558, y: 0.026812704, z: -0.73700404, w: 0.67305344}
+  m_LocalPosition: {x: 0.018811733, y: 0.32617548, z: -0.030066498}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4366346500103277897}
+  m_Father: {fileID: 8261448925382358238}
+  m_LocalEulerAnglesHint: {x: -2.0338798, y: 6.794418, z: -95.31428}
+--- !u!1 &952856291688052137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4224439525113269423}
+  m_Layer: 0
+  m_Name: Stegosaurus L Toe01_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4224439525113269423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952856291688052137}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.25519532, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5114131007104242260}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &974042455246793330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 118565627382533953}
+  m_Layer: 0
+  m_Name: Stegosaurus R Toe01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &118565627382533953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974042455246793330}
+  serializedVersion: 2
+  m_LocalRotation: {x: -8.73115e-11, y: 0.000000005574294, z: 4.6566134e-10, w: 1}
+  m_LocalPosition: {x: -0.27563792, y: -0.05854612, z: -0.053994928}
+  m_LocalScale: {x: 1, y: 0.9999998, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1051649693088087111}
+  m_Father: {fileID: 3899935426220466776}
+  m_LocalEulerAnglesHint: {x: -0.00000001000516, y: 0.000000638767, z: 0.000000053360857}
+--- !u!1 &1263055728786267193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5602186419122769092}
+  m_Layer: 0
+  m_Name: Stegosaurus L Eyebrow_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5602186419122769092
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263055728786267193}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.26043245, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5375414013909494079}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1451897409474844455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5648282571423034207}
+  m_Layer: 0
+  m_Name: Stegosaurus Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5648282571423034207
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451897409474844455}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0042086234, y: 0.02586192, z: 0.15974979, w: 0.98680973}
+  m_LocalPosition: {x: -0.5033424, y: -0.25673646, z: -0.022594083}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8261448925382358238}
+  m_Father: {fileID: 2501586954388583310}
+  m_LocalEulerAnglesHint: {x: -0.94938225, y: 2.8489895, z: 18.3675}
+--- !u!1 &1500343951844140478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5555887105758839061}
+  m_Layer: 0
+  m_Name: Stegosaurus R Eyebrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5555887105758839061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500343951844140478}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.34370723, y: -0.17293218, z: -0.4251452, w: 0.8192749}
+  m_LocalPosition: {x: -0.068408355, y: 0.19530167, z: -0.088326745}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7422661052316190330}
+  m_Father: {fileID: 8261448925382358238}
+  m_LocalEulerAnglesHint: {x: -45.25314, y: 0.72380894, z: -55.15387}
+--- !u!1 &1863147236467754896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6182320639423089772}
+  m_Layer: 0
+  m_Name: Stegosaurus R Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6182320639423089772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863147236467754896}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.101383485, y: -0.09177918, z: 0.17200024, w: 0.9755583}
+  m_LocalPosition: {x: -0.095594674, y: 0.13194059, z: -0.04414113}
+  m_LocalScale: {x: 0.9999997, y: 0.99999976, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3899935426220466776}
+  m_Father: {fileID: 8222962161162749349}
+  m_LocalEulerAnglesHint: {x: -9.569212, y: -12.530939, z: 21.051096}
+--- !u!1 &2338917230096685950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7017666118577035189}
+  m_Layer: 0
+  m_Name: Stegosaurus L Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7017666118577035189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2338917230096685950}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000012821057, y: 0.000000031862715, z: 0.5656564, w: 0.824641}
+  m_LocalPosition: {x: -0.64931107, y: -0.03518557, z: 0.18187541}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2867406058934243437}
+  m_Father: {fileID: 331288964554928567}
+  m_LocalEulerAnglesHint: {x: -0.0000032768737, y: 0.0000021798737, z: 68.895775}
+--- !u!1 &2632403099601721898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8365457968069543572}
+  - component: {fileID: 5708209396545521013}
+  m_Layer: 0
+  m_Name: Gozilla_13_Rig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8365457968069543572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2632403099601721898}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.7772, y: 1.7772, z: 1.7772}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8977993175152693490}
+  - {fileID: 6167483463915515005}
+  m_Father: {fileID: 4649862151000506966}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &5708209396545521013
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2632403099601721898}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a5fb4b987d00a9148ac60f53d1ca50be, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &3242673337380134231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4962763438317285191}
+  m_Layer: 0
+  m_Name: Stegosaurus L UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4962763438317285191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3242673337380134231}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.57653314, y: -0.25965852, z: 0.5741414, w: 0.520143}
+  m_LocalPosition: {x: -0.41866928, y: 0.057720497, z: 0.19961692}
+  m_LocalScale: {x: 0.9999999, y: 0.99999976, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1980614335944475265}
+  m_Father: {fileID: 4591096109109679277}
+  m_LocalEulerAnglesHint: {x: -17.553604, y: -77.86826, z: 109.86982}
+--- !u!1 &3363628228408863114
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2853378045187127590}
+  m_Layer: 0
+  m_Name: Stegosaurus L Upper Eyelid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2853378045187127590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3363628228408863114}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.48857525, y: 0.27987906, z: -0.26900184, w: 0.78140897}
+  m_LocalPosition: {x: -0.011113739, y: 0.22679847, z: 0.12094047}
+  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5481015798039389625}
+  m_Father: {fileID: 8261448925382358238}
+  m_LocalEulerAnglesHint: {x: 66.08249, y: 25.501013, z: -21.2465}
+--- !u!1 &4137300902128476334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6610184477829288441}
+  m_Layer: 0
+  m_Name: Stegosaurus R Finger0_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6610184477829288441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4137300902128476334}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.23729162, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1138175096278998658}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &4392561875974146659
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5114131007104242260}
+  m_Layer: 0
+  m_Name: Stegosaurus L Toe01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5114131007104242260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4392561875974146659}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00000008166536, y: -0.000000021943045, z: 0.000000002823072, w: 1}
+  m_LocalPosition: {x: -0.24658276, y: -0.05854615, z: 0.13449305}
+  m_LocalScale: {x: 0.99999976, y: 0.99999994, z: 0.9999997}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4224439525113269423}
+  m_Father: {fileID: 4795039343534997924}
+  m_LocalEulerAnglesHint: {x: -0.0000000066701062, y: 0.00000102605, z: 0}
+--- !u!1 &4475963561801384774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4514005125030133076}
+  m_Layer: 0
+  m_Name: Stegosaurus R UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4514005125030133076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4475963561801384774}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.62604934, y: 0.33055794, z: 0.37198094, w: 0.6003531}
+  m_LocalPosition: {x: -0.43593574, y: 0.10324079, z: -0.13328083}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8261769579613252789}
+  m_Father: {fileID: 3815471783954908792}
+  m_LocalEulerAnglesHint: {x: 30.383066, y: 90.16023, z: 94.029205}
+--- !u!1 &4561322357314253719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6167483463915515005}
+  - component: {fileID: 8595493532491372902}
+  m_Layer: 0
+  m_Name: RoboticDino_Skinned
+  m_TagString: CharacterBody
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6167483463915515005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4561322357314253719}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8365457968069543572}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &8595493532491372902
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4561322357314253719}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 2f9886f36b2a1994999ab3cc193ac23a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  serializedVersion: 2
+  m_Quality: 4
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 98b22c4714a9f064eb3c55b369f69b61, type: 2}
+  m_Bones:
+  - {fileID: 1325278024623721449}
+  - {fileID: 2123941262088035711}
+  - {fileID: 303122111375484072}
+  - {fileID: 2501586954388583310}
+  - {fileID: 5648282571423034207}
+  - {fileID: 8261448925382358238}
+  - {fileID: 6564050382381038322}
+  - {fileID: 4366346500103277897}
+  - {fileID: 3226309924281770076}
+  - {fileID: 5555887105758839061}
+  - {fileID: 5375414013909494079}
+  - {fileID: 5042725141911417569}
+  - {fileID: 2853378045187127590}
+  - {fileID: 4330079083868981970}
+  - {fileID: 1700317993753064111}
+  - {fileID: 4591096109109679277}
+  - {fileID: 4962763438317285191}
+  - {fileID: 1980614335944475265}
+  - {fileID: 3634019276655422913}
+  - {fileID: 777610598058282437}
+  - {fileID: 3815471783954908792}
+  - {fileID: 4514005125030133076}
+  - {fileID: 8261769579613252789}
+  - {fileID: 1751594636581609970}
+  - {fileID: 1138175096278998658}
+  - {fileID: 331288964554928567}
+  - {fileID: 7017666118577035189}
+  - {fileID: 2867406058934243437}
+  - {fileID: 4795039343534997924}
+  - {fileID: 5114131007104242260}
+  - {fileID: 105714245389315198}
+  - {fileID: 8222962161162749349}
+  - {fileID: 6182320639423089772}
+  - {fileID: 3899935426220466776}
+  - {fileID: 118565627382533953}
+  - {fileID: 5775428441652018549}
+  - {fileID: 2883725698539597278}
+  - {fileID: 2589780781676238491}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1325278024623721449}
+  m_AABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_DirtyAABB: 1
+--- !u!1 &4615204381273932910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1325278024623721449}
+  m_Layer: 0
+  m_Name: Stegosaurus Pelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1325278024623721449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4615204381273932910}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.51128006, y: 0.51128066, z: 0.48845893, w: 0.48845953}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 331288964554928567}
+  - {fileID: 105714245389315198}
+  - {fileID: 2123941262088035711}
+  - {fileID: 5775428441652018549}
+  m_Father: {fileID: 8977993175152693490}
+  m_LocalEulerAnglesHint: {x: -87.3849, y: 179.99838, z: -89.99833}
+--- !u!1 &4801929339092126628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3634019276655422913}
+  m_Layer: 0
+  m_Name: Stegosaurus L Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3634019276655422913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4801929339092126628}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0661822, y: 0.07692132, z: 0.684614, w: 0.72180796}
+  m_LocalPosition: {x: -0.39499846, y: -0.046716113, z: -0.010012123}
+  m_LocalScale: {x: 1, y: 0.9999998, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 777610598058282437}
+  m_Father: {fileID: 1980614335944475265}
+  m_LocalEulerAnglesHint: {x: -11.587518, y: 1.1947773, z: 86.849}
+--- !u!1 &4832896773564004363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 54508966662649805}
+  m_Layer: 0
+  m_Name: Stegosaurus R Lower Eyelid_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &54508966662649805
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4832896773564004363}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.2604325, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4330079083868981970}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &4906500778030502171
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7968241736590157971}
+  m_Layer: 0
+  m_Name: Stegosaurus L Lower Eyelid_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7968241736590157971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906500778030502171}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.2604325, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1700317993753064111}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &4907971808944452669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8222962161162749349}
+  m_Layer: 0
+  m_Name: Stegosaurus R Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8222962161162749349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4907971808944452669}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000011113952, y: 0.000000045792202, z: 0.53105974, w: 0.8473344}
+  m_LocalPosition: {x: -0.64166886, y: -0.11405083, z: -0.17656407}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6182320639423089772}
+  m_Father: {fileID: 105714245389315198}
+  m_LocalEulerAnglesHint: {x: -0.000003865818, y: 0.0000037699629, z: 64.15417}
+--- !u!1 &5223085429537863991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5775428441652018549}
+  m_Layer: 0
+  m_Name: Stegosaurus Tail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5775428441652018549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5223085429537863991}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.02450678, y: -0.052541226, z: 0.8399678, w: 0.5395303}
+  m_LocalPosition: {x: 0.22483857, y: -0.67521954, z: 0.010271908}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2883725698539597278}
+  m_Father: {fileID: 1325278024623721449}
+  m_LocalEulerAnglesHint: {x: 6.5869083, y: -0.8954844, z: 114.52136}
+--- !u!1 &5230676184719028790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5233313821686254969}
+  m_Layer: 0
+  m_Name: Stegosaurus Tongue02_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5233313821686254969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5230676184719028790}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.10646013, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3226309924281770076}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &5876022731667655737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4795039343534997924}
+  m_Layer: 0
+  m_Name: Stegosaurus L Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4795039343534997924
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5876022731667655737}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.010278337, y: -0.0800768, z: 0.99335074, w: -0.08207541}
+  m_LocalPosition: {x: -0.04769717, y: 0.27364025, z: 0.04471102}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5114131007104242260}
+  m_Father: {fileID: 2867406058934243437}
+  m_LocalEulerAnglesHint: {x: 9.056102, y: 1.9477628, z: -170.39908}
+--- !u!1 &6391546487397878384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4329816656303953561}
+  m_Layer: 0
+  m_Name: Stegosaurus Tail03_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4329816656303953561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6391546487397878384}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.50017744, y: 0.025870446, z: 0.09367658}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2589780781676238491}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &6551416408969220427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2867406058934243437}
+  m_Layer: 0
+  m_Name: Stegosaurus L Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2867406058934243437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6551416408969220427}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0013768664, y: 0.19382143, z: 0.16261953, w: 0.96746385}
+  m_LocalPosition: {x: -0.06665507, y: 0.14827274, z: 0.04546879}
+  m_LocalScale: {x: 1.0000001, y: 0.9999997, z: 0.9999998}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4795039343534997924}
+  m_Father: {fileID: 7017666118577035189}
+  m_LocalEulerAnglesHint: {x: -3.7671854, y: 22.04865, z: 18.348951}
+--- !u!1 &6596185382621828911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2883725698539597278}
+  m_Layer: 0
+  m_Name: Stegosaurus Tail02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2883725698539597278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6596185382621828911}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.016200598, y: -0.033234652, z: -0.09989495, w: 0.99431086}
+  m_LocalPosition: {x: -0.6842856, y: 0.25033674, z: 0.08558857}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2589780781676238491}
+  m_Father: {fileID: 5775428441652018549}
+  m_LocalEulerAnglesHint: {x: -2.2268918, y: -3.606396, z: -11.403996}
+--- !u!1 &6635374935244808425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8977993175152693490}
+  m_Layer: 0
+  m_Name: Stegosaurus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8977993175152693490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6635374935244808425}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.50000036, y: 0.49999967, z: 0.49999967, w: 0.50000036}
+  m_LocalPosition: {x: 0, y: 1.3504388, z: -0.28134143}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1325278024623721449}
+  m_Father: {fileID: 8365457968069543572}
+  m_LocalEulerAnglesHint: {x: -90, y: 89.999916, z: 0}
+--- !u!1 &6702755658420640952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 331288964554928567}
+  m_Layer: 0
+  m_Name: Stegosaurus L Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &331288964554928567
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6702755658420640952}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.02044328, y: 0.98566526, z: 0.0504276, w: 0.15969723}
+  m_LocalPosition: {x: 0.07904126, y: 0.0000018477442, z: 0.73586106}
+  m_LocalScale: {x: 0.9999999, y: 1.0000004, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7017666118577035189}
+  m_Father: {fileID: 1325278024623721449}
+  m_LocalEulerAnglesHint: {x: -6.0812654, y: 161.66791, z: -1.3942058}
+--- !u!1 &6781091482955208337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4591096109109679277}
+  m_Layer: 0
+  m_Name: Stegosaurus L Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4591096109109679277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6781091482955208337}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.648663, y: 0.12597455, z: 0.7423877, w: -0.1105769}
+  m_LocalPosition: {x: -0.14606674, y: 0.0035136715, z: 0.27135918}
+  m_LocalScale: {x: 1, y: 0.9999997, z: 0.99999845}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4962763438317285191}
+  m_Father: {fileID: 2501586954388583310}
+  m_LocalEulerAnglesHint: {x: -2.4982936, y: -82.71215, z: -160.85721}
+--- !u!1 &6948511489230185796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7422661052316190330}
+  m_Layer: 0
+  m_Name: Stegosaurus R Eyebrow_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7422661052316190330
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6948511489230185796}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.2604325, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5555887105758839061}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &7056203685409971406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3226309924281770076}
+  m_Layer: 0
+  m_Name: Stegosaurus Tongue02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3226309924281770076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7056203685409971406}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000016154745, y: 0.0000008754043, z: -0.19866125, w: 0.98006827}
+  m_LocalPosition: {x: -0.10646057, y: -0.00007797241, z: -0.000000011920928}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5233313821686254969}
+  m_Father: {fileID: 4366346500103277897}
+  m_LocalEulerAnglesHint: {x: 0.000011748261, y: 0.00006177276, z: -22.917297}
+--- !u!1 &7350985391969227979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 777610598058282437}
+  m_Layer: 0
+  m_Name: Stegosaurus L Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &777610598058282437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7350985391969227979}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00039815906, y: 0.000000002008164, z: 7.995688e-13, w: 0.99999994}
+  m_LocalPosition: {x: -0.22344336, y: 0.10585825, z: -0.046794005}
+  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3451977705819384499}
+  m_Father: {fileID: 3634019276655422913}
+  m_LocalEulerAnglesHint: {x: -0.045625664, y: 0.00000023011867, z: 6.2120226e-18}
+--- !u!1 &7476034172840848007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8027167617566148060}
+  m_Layer: 0
+  m_Name: Stegosaurus R Upper Eyelid_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8027167617566148060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7476034172840848007}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.2604325, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5042725141911417569}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &7490267376536494197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8261769579613252789}
+  m_Layer: 0
+  m_Name: Stegosaurus R Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8261769579613252789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7490267376536494197}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000009582609, y: -0.0000000043813126, z: 0.3490532, w: 0.937103}
+  m_LocalPosition: {x: -0.4429092, y: -0.3400797, z: 0.08919183}
+  m_LocalScale: {x: 1, y: 0.9999998, z: 0.9999997}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1751594636581609970}
+  m_Father: {fileID: 4514005125030133076}
+  m_LocalEulerAnglesHint: {x: 0.0000012042658, y: -0.000000087192774, z: 40.85883}
+--- !u!1 &7852354516702746740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2123941262088035711}
+  m_Layer: 0
+  m_Name: Stegosaurus Spine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2123941262088035711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7852354516702746740}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.018313216, y: -0.013614398, z: -0.8022986, w: 0.59648657}
+  m_LocalPosition: {x: -0.112419315, y: 0.16880488, z: -0.0051355218}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 303122111375484072}
+  m_Father: {fileID: 1325278024623721449}
+  m_LocalEulerAnglesHint: {x: 0.000088792454, y: -2.6151392, z: -106.740456}
+--- !u!1 &7945131462703592591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1138175096278998658}
+  m_Layer: 0
+  m_Name: Stegosaurus R Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1138175096278998658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7945131462703592591}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00039812335, y: 0.00000009943326, z: -0.000000083004124, w: 0.99999994}
+  m_LocalPosition: {x: -0.22899392, y: 0.1041765, z: 0.005586483}
+  m_LocalScale: {x: 0.9999999, y: 1.0000002, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6610184477829288441}
+  m_Father: {fileID: 1751594636581609970}
+  m_LocalEulerAnglesHint: {x: 0.045625452, y: -3.3993616e-10, z: -0.00000042688694}
+--- !u!1 &8010194383143242421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4649862151000506966}
+  m_Layer: 0
+  m_Name: RoboticDino
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4649862151000506966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8010194383143242421}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8365457968069543572}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8125115671271911556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2501586954388583310}
+  m_Layer: 0
+  m_Name: Stegosaurus Spine2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2501586954388583310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8125115671271911556}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.018038768, y: 0.016368343, z: -0.07863475, w: 0.9966059}
+  m_LocalPosition: {x: -0.6859634, y: -0.11597906, z: -0.0204808}
+  m_LocalScale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4591096109109679277}
+  - {fileID: 5648282571423034207}
+  - {fileID: 3815471783954908792}
+  m_Father: {fileID: 303122111375484072}
+  m_LocalEulerAnglesHint: {x: 2.2081144, y: 1.7082837, z: -8.989948}
+--- !u!1 &8200825665661316691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 105714245389315198}
+  m_Layer: 0
+  m_Name: Stegosaurus R Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &105714245389315198
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8200825665661316691}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.07814987, y: 0.98926806, z: -0.04806353, w: -0.11371583}
+  m_LocalPosition: {x: 0.14579742, y: -0.0000018477442, z: -0.7255908}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8222962161162749349}
+  m_Father: {fileID: 1325278024623721449}
+  m_LocalEulerAnglesHint: {x: 6.480738, y: -167.35689, z: -8.315001}
+--- !u!1 &8592744434514739881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3451977705819384499}
+  m_Layer: 0
+  m_Name: Stegosaurus L Finger0_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3451977705819384499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8592744434514739881}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.23729177, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 777610598058282437}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &8713502118155325591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1051649693088087111}
+  m_Layer: 0
+  m_Name: Stegosaurus R Toe01_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1051649693088087111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8713502118155325591}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.25519562, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 118565627382533953}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &8891549802107222135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5375414013909494079}
+  m_Layer: 0
+  m_Name: Stegosaurus L Eyebrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5375414013909494079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8891549802107222135}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.35939485, y: 0.23077843, z: -0.3802747, w: 0.8203462}
+  m_LocalPosition: {x: -0.06840408, y: 0.19529289, z: 0.08832817}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5602186419122769092}
+  m_Father: {fileID: 8261448925382358238}
+  m_LocalEulerAnglesHint: {x: 49.92254, y: 9.413159, z: -45.351116}
+--- !u!1 &8899421692948417797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3815471783954908792}
+  m_Layer: 0
+  m_Name: Stegosaurus R Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3815471783954908792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8899421692948417797}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6503126, y: -0.11428123, z: 0.74428535, w: -0.100362405}
+  m_LocalPosition: {x: -0.103505984, y: -0.030642956, z: -0.28867134}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4514005125030133076}
+  m_Father: {fileID: 2501586954388583310}
+  m_LocalEulerAnglesHint: {x: 2.2684636, y: 82.63631, z: -162.64642}
+--- !u!1 &9100530915631349058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1700317993753064111}
+  m_Layer: 0
+  m_Name: Stegosaurus L Lower Eyelid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1700317993753064111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9100530915631349058}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.2593506, y: -0.47795507, z: 0.68215567, w: -0.48883533}
+  m_LocalPosition: {x: -0.025329437, y: 0.21905266, z: 0.11784138}
+  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7968241736590157971}
+  m_Father: {fileID: 8261448925382358238}
+  m_LocalEulerAnglesHint: {x: 64.90948, y: 15.5175705, z: -98.84435}
+--- !u!1 &9120632872130223266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4366346500103277897}
+  m_Layer: 0
+  m_Name: Stegosaurus Tongue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4366346500103277897
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9120632872130223266}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00000031346883, y: -0.0000006644189, z: 0.19308454, w: 0.98118216}
+  m_LocalPosition: {x: -0.106327206, y: -0.012095642, z: 0.0000073862075}
+  m_LocalScale: {x: 0.99999976, y: 0.9999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3226309924281770076}
+  m_Father: {fileID: 6564050382381038322}
+  m_LocalEulerAnglesHint: {x: -0.000020544088, y: -0.000081639824, z: 22.265697}
+--- !u!1 &9152146737942596950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4330079083868981970}
+  m_Layer: 0
+  m_Name: Stegosaurus R Lower Eyelid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4330079083868981970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9152146737942596950}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.25935048, y: 0.4779511, z: 0.68215835, w: -0.4888354}
+  m_LocalPosition: {x: -0.025329437, y: 0.21905327, z: -0.117840156}
+  m_LocalScale: {x: 0.99999976, y: 0.9999999, z: 0.9999998}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 54508966662649805}
+  m_Father: {fileID: 8261448925382358238}
+  m_LocalEulerAnglesHint: {x: -64.90909, y: -15.516641, z: -98.84524}

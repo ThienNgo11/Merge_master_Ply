@@ -1,0 +1,1864 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &360321818882832916
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7385452820652402593}
+  - component: {fileID: 7860780479958108254}
+  m_Layer: 0
+  m_Name: Gozilla_9_Rig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7385452820652402593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360321818882832916}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.16, y: 1.16, z: 1.16}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5217264065021787116}
+  - {fileID: 8796616614126111754}
+  m_Father: {fileID: 1269621578956294402}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &7860780479958108254
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360321818882832916}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 11547f3afa29d1942993665c473a7ba5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &465685314265625021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6841847617654232265}
+  m_Layer: 0
+  m_Name: TRex L Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6841847617654232265
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465685314265625021}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000003995896, y: -0.000000004015619, z: 0.57923317, w: 0.8151619}
+  m_LocalPosition: {x: -0.41020346, y: -0.06305997, z: -0.10811809}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5155532924992446853}
+  m_Father: {fileID: 3698312930712492438}
+  m_LocalEulerAnglesHint: {x: 0.00000063979695, y: -0.00000010987315, z: 70.79324}
+--- !u!1 &499169597740693632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5515900154074746357}
+  m_Layer: 0
+  m_Name: TRex L Mouth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5515900154074746357
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499169597740693632}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00027969325, y: 0.7071067, z: -0.0002813881, w: 0.7071067}
+  m_LocalPosition: {x: -0.16694504, y: 0.23835586, z: 0.43010262}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 804110753742418253}
+  m_LocalEulerAnglesHint: {x: 0.00013733082, y: 90, z: -0.045463562}
+--- !u!1 &663746368528361813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5085156286905917014}
+  m_Layer: 0
+  m_Name: TRex Pelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5085156286905917014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663746368528361813}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.49999934, w: 0.50000066}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3698312930712492438}
+  - {fileID: 3924990539348624322}
+  - {fileID: 1806073491883688091}
+  - {fileID: 4899938564751575471}
+  m_Father: {fileID: 5217264065021787116}
+  m_LocalEulerAnglesHint: {x: -90, y: 89.99992, z: 0}
+--- !u!1 &716073591444037642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7083710601363045531}
+  m_Layer: 0
+  m_Name: TRex Tail03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7083710601363045531
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716073591444037642}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0014304819, y: 0.044295363, z: -0.18187723, w: 0.98232204}
+  m_LocalPosition: {x: -0.35988352, y: 0.31053883, z: -0.079296015}
+  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1525421858318325827}
+  m_Father: {fileID: 2236533347883613509}
+  m_LocalEulerAnglesHint: {x: 1.0842739, y: 4.9634233, z: -20.932095}
+--- !u!1 &789739230373108806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5308805181752448345}
+  m_Layer: 0
+  m_Name: TRex Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5308805181752448345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789739230373108806}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.008647537, y: 0.01523362, z: 0.01910602, w: 0.999664}
+  m_LocalPosition: {x: -0.4057044, y: -0.024733067, z: -0.012085576}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8800730243214056135}
+  - {fileID: 139601149669665514}
+  - {fileID: 4076170031539973298}
+  m_Father: {fileID: 1806073491883688091}
+  m_LocalEulerAnglesHint: {x: 0.95729387, y: 1.7645156, z: 2.2046}
+--- !u!1 &958919362166198169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 139601149669665514}
+  m_Layer: 0
+  m_Name: TRex Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &139601149669665514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958919362166198169}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.008794459, y: 0.015149277, z: -0.009436123, w: 0.99980205}
+  m_LocalPosition: {x: -0.39086455, y: -0.06855705, z: -0.02114025}
+  m_LocalScale: {x: 0.9999999, y: 0.9999998, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 804110753742418253}
+  m_Father: {fileID: 5308805181752448345}
+  m_LocalEulerAnglesHint: {x: 1.0240059, y: 1.7266613, z: -1.0660518}
+--- !u!1 &976321520054663130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1269621578956294402}
+  m_Layer: 0
+  m_Name: YellowRobotDino
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1269621578956294402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976321520054663130}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7385452820652402593}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1039776991323924370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4899938564751575471}
+  m_Layer: 0
+  m_Name: TRex Tail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4899938564751575471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039776991323924370}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.013374316, y: 0.04225125, z: 0.9526802, w: 0.30072656}
+  m_LocalPosition: {x: -0.04310313, y: -0.34482768, z: 0.000000923872}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2236533347883613509}
+  m_Father: {fileID: 5085156286905917014}
+  m_LocalEulerAnglesHint: {x: -5.0800734, y: -0.0040692748, z: 144.96214}
+--- !u!1 &1299843691225245806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5065166979285517711}
+  m_Layer: 0
+  m_Name: TRex L Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5065166979285517711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299843691225245806}
+  serializedVersion: 2
+  m_LocalRotation: {x: 1.094709e-10, y: -0.000000001354455, z: 0.74180096, w: 0.67062014}
+  m_LocalPosition: {x: -0.2627729, y: -0.22864534, z: -0.035966408}
+  m_LocalScale: {x: 0.9999998, y: 0.9999998, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2248511435587082536}
+  m_Father: {fileID: 500171386526063746}
+  m_LocalEulerAnglesHint: {x: 0.00000012354683, y: -0.00000009478087, z: 95.7701}
+--- !u!1 &1320814972759930122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8828685127208337113}
+  m_Layer: 0
+  m_Name: TRex L Eyebrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8828685127208337113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320814972759930122}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.14230537, y: 0.15905698, z: 0.46311507, w: 0.86021775}
+  m_LocalPosition: {x: -0.8053148, y: 0.66283715, z: 0.21976964}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 804110753742418253}
+  m_LocalEulerAnglesHint: {x: -23.088375, y: 8.869832, z: 54.77815}
+--- !u!1 &1863612242363534265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9120162758197362148}
+  m_Layer: 0
+  m_Name: TRex R Mouth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9120162758197362148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863612242363534265}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00028167054, y: -0.7071067, z: -0.00028336537, w: 0.7071067}
+  m_LocalPosition: {x: -0.16392441, y: 0.23549491, z: -0.43735716}
+  m_LocalScale: {x: 0.9999998, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 804110753742418253}
+  m_LocalEulerAnglesHint: {x: -0.00013732915, y: -90, z: -0.045783997}
+--- !u!1 &1986516582035981523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2472495938574313981}
+  m_Layer: 0
+  m_Name: TRex Tail05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2472495938574313981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986516582035981523}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0014052249, y: 0.044296008, z: -0.118682556, w: 0.99194276}
+  m_LocalPosition: {x: -0.37362927, y: 0.0829531, z: -0.12498957}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1525421858318325827}
+  m_LocalEulerAnglesHint: {x: 0.44270137, y: 5.0608897, z: -13.626055}
+--- !u!1 &2012073271392740642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2236533347883613509}
+  m_Layer: 0
+  m_Name: TRex Tail02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2236533347883613509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012073271392740642}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.018554859, y: 0.040247295, z: -0.21471252, w: 0.9756713}
+  m_LocalPosition: {x: -0.20055875, y: 0.43617952, z: -0.041976567}
+  m_LocalScale: {x: 1.0000001, y: 0.99999976, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7083710601363045531}
+  m_Father: {fileID: 4899938564751575471}
+  m_LocalEulerAnglesHint: {x: 3.066219, y: 4.052442, z: -24.713594}
+--- !u!1 &2534870374763939089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 500171386526063746}
+  m_Layer: 0
+  m_Name: TRex L UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &500171386526063746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2534870374763939089}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5056485, y: -0.37039575, z: 0.054962233, w: 0.7772424}
+  m_LocalPosition: {x: -0.29930595, y: 0.12790293, z: 0.09616191}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5065166979285517711}
+  m_Father: {fileID: 8800730243214056135}
+  m_LocalEulerAnglesHint: {x: -48.185497, y: -71.25519, z: 43.627785}
+--- !u!1 &2879016637664808116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8800730243214056135}
+  m_Layer: 0
+  m_Name: TRex L Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8800730243214056135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2879016637664808116}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.560162, y: 0.3403601, z: 0.7050194, w: -0.2707788}
+  m_LocalPosition: {x: -0.20487115, y: 0.021456566, z: 0.20291191}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999998}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 500171386526063746}
+  m_Father: {fileID: 5308805181752448345}
+  m_LocalEulerAnglesHint: {x: -10.169509, y: -81.778885, z: -129.16753}
+--- !u!1 &2944022638064428060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3816205309638446349}
+  m_Layer: 0
+  m_Name: TRex R Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3816205309638446349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2944022638064428060}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000000016019972, y: -0.000000010414218, z: 0.59137803, w: 0.8063945}
+  m_LocalPosition: {x: -0.4063713, y: -0.048055053, z: 0.12839772}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7505076219215873762}
+  m_Father: {fileID: 3924990539348624322}
+  m_LocalEulerAnglesHint: {x: 0.0000005577054, y: -0.0000010708986, z: 72.509705}
+--- !u!1 &3227996604564626800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6470426171220403549}
+  m_Layer: 0
+  m_Name: TRex R Eyebrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6470426171220403549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3227996604564626800}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.14230536, y: -0.15905957, z: 0.46311417, w: 0.8602177}
+  m_LocalPosition: {x: -0.7760173, y: 0.65766937, z: -0.24145776}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 0.9999998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 804110753742418253}
+  m_LocalEulerAnglesHint: {x: 23.08851, y: -8.870141, z: 54.777985}
+--- !u!1 &3238942744684114878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5155532924992446853}
+  m_Layer: 0
+  m_Name: TRex L Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5155532924992446853
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3238942744684114878}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.1189891, y: -0.041809052, z: -0.059613436, w: 0.99022216}
+  m_LocalPosition: {x: -0.43634135, y: 0.22607392, z: 0.0049950816}
+  m_LocalScale: {x: 0.9999998, y: 1.0000001, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1279071363445324372}
+  m_Father: {fileID: 6841847617654232265}
+  m_LocalEulerAnglesHint: {x: -13.924083, y: -4.0536776, z: -6.395127}
+--- !u!1 &3269416225459330456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2227761865332979053}
+  m_Layer: 0
+  m_Name: TRex Tongue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2227761865332979053
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3269416225459330456}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0000000011617455, y: -0.0000009538238, z: 0.3428875, w: 0.9393765}
+  m_LocalPosition: {x: -0.38802186, y: 0.08872757, z: 0.0000013446808}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 994487435215487940}
+  m_Father: {fileID: 836933344518411094}
+  m_LocalEulerAnglesHint: {x: 0.00003760271, y: -0.00010262834, z: 40.10578}
+--- !u!1 &3902417711089921469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2167549389024447306}
+  m_Layer: 0
+  m_Name: TRex Tongue03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2167549389024447306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3902417711089921469}
+  serializedVersion: 2
+  m_LocalRotation: {x: -3.490418e-10, y: -0.00000017840996, z: 0.0659095, w: 0.9978256}
+  m_LocalPosition: {x: -0.2353862, y: -0.00015441894, z: 0.0000000047683715}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 994487435215487940}
+  m_LocalEulerAnglesHint: {x: 0.0000013075615, y: -0.000020402458, z: 7.5581503}
+--- !u!1 &3951449831788453809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8723739685990114635}
+  m_Layer: 0
+  m_Name: TRex L Upper Mouth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8723739685990114635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3951449831788453809}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00027969325, y: 0.7071067, z: -0.0002813881, w: 0.7071067}
+  m_LocalPosition: {x: -0.28549287, y: 0.9106934, z: 0.3003645}
+  m_LocalScale: {x: 0.99999976, y: 0.9999997, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 804110753742418253}
+  m_LocalEulerAnglesHint: {x: 0.00013733082, y: 90, z: -0.045463562}
+--- !u!1 &4012847405807511413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3924990539348624322}
+  m_Layer: 0
+  m_Name: TRex R Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3924990539348624322
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4012847405807511413}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.24001068, y: 0.9679575, z: -0.073566414, w: 0.0064130896}
+  m_LocalPosition: {x: 0.04310304, y: 0.215516, z: -0.517242}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3816205309638446349}
+  m_Father: {fileID: 5085156286905917014}
+  m_LocalEulerAnglesHint: {x: 8.009651, y: 177.23734, z: -28.045366}
+--- !u!1 &4078531712948785096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4076170031539973298}
+  m_Layer: 0
+  m_Name: TRex R Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4076170031539973298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4078531712948785096}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.56016123, y: -0.340362, z: 0.7050185, w: -0.27078035}
+  m_LocalPosition: {x: -0.17891516, y: 0.0060611144, z: -0.22706485}
+  m_LocalScale: {x: 0.9999999, y: 0.9999998, z: 0.9999997}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7070389113654316157}
+  m_Father: {fileID: 5308805181752448345}
+  m_LocalEulerAnglesHint: {x: 10.169553, y: 81.77894, z: -129.16722}
+--- !u!1 &4213609423392836268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5188123427902486735}
+  m_Layer: 0
+  m_Name: TRex L Lower Mouth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5188123427902486735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4213609423392836268}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6660935, y: -0.23731518, z: -0.66590506, w: -0.23784734}
+  m_LocalPosition: {x: -0.6205823, y: -0.046506803, z: 0.27096283}
+  m_LocalScale: {x: 0.9999997, y: 0.9999998, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836933344518411094}
+  m_LocalEulerAnglesHint: {x: -39.26558, y: -89.99986, z: 179.95416}
+--- !u!1 &4390198467307383694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3456040049237624803}
+  m_Layer: 0
+  m_Name: TRex R Toe02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3456040049237624803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4390198467307383694}
+  serializedVersion: 2
+  m_LocalRotation: {x: 4.656613e-10, y: 0.000000013504177, z: -6.2883726e-18, w: 1}
+  m_LocalPosition: {x: -0.16018151, y: -0.01397461, z: -0.06586077}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6706843082304210020}
+  m_LocalEulerAnglesHint: {x: 0.00000005336085, y: 0.0000015474646, z: 0}
+--- !u!1 &4914630808062320893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 526035218072157475}
+  m_Layer: 0
+  m_Name: TRex R Finger1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &526035218072157475
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4914630808062320893}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00037663084, y: 0.00012912715, z: -0.32429978, w: 0.9459543}
+  m_LocalPosition: {x: -0.11646987, y: -0.09526216, z: -0.10393381}
+  m_LocalScale: {x: 0.99999994, y: 1.0000002, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1248718877734409886}
+  m_LocalEulerAnglesHint: {x: 0.045624796, y: 0.00000081208566, z: -37.846313}
+--- !u!1 &5093611703737735095
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8500457265608054047}
+  m_Layer: 0
+  m_Name: TRex R Upper Eyelid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8500457265608054047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5093611703737735095}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.3707124, y: -0.25499952, z: -0.45503715, w: 0.76843274}
+  m_LocalPosition: {x: -0.58561677, y: 0.4847814, z: -0.13584293}
+  m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 804110753742418253}
+  m_LocalEulerAnglesHint: {x: -53.302677, y: -5.234967, z: -58.636147}
+--- !u!1 &5162725128763406986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8382866587881804551}
+  m_Layer: 0
+  m_Name: TRex R Upper Mouth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8382866587881804551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5162725128763406986}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00028167054, y: -0.7071067, z: -0.00028336537, w: 0.7071067}
+  m_LocalPosition: {x: -0.25280195, y: 0.91395634, z: -0.30356336}
+  m_LocalScale: {x: 0.9999998, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 804110753742418253}
+  m_LocalEulerAnglesHint: {x: -0.00013732915, y: -90, z: -0.045783997}
+--- !u!1 &5321026415932661210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4762378563810412254}
+  m_Layer: 0
+  m_Name: TRex L Toe01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4762378563810412254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5321026415932661210}
+  serializedVersion: 2
+  m_LocalRotation: {x: -1.6006897e-10, y: 0.000000013292771, z: 1.3096722e-10, w: 1}
+  m_LocalPosition: {x: -0.24492268, y: -0.03156791, z: 0.0980659}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6932978365973997049}
+  m_Father: {fileID: 1279071363445324372}
+  m_LocalEulerAnglesHint: {x: -0.000000053360843, y: -0.0000012106244, z: 0.00000021344343}
+--- !u!1 &5483488910570840741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1525421858318325827}
+  m_Layer: 0
+  m_Name: TRex Tail04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1525421858318325827
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5483488910570840741}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0014050831, y: 0.044296034, z: -0.11868559, w: 0.99194235}
+  m_LocalPosition: {x: -0.43864384, y: 0.16240683, z: -0.115992405}
+  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2472495938574313981}
+  m_Father: {fileID: 7083710601363045531}
+  m_LocalEulerAnglesHint: {x: 0.4427333, y: 5.0608897, z: -13.626403}
+--- !u!1 &5827887726979198224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5217264065021787116}
+  m_Layer: 0
+  m_Name: TRex
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5217264065021787116
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5827887726979198224}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.50000036, y: 0.49999967, z: 0.49999967, w: 0.50000036}
+  m_LocalPosition: {x: 0, y: 1.2499999, z: 0.21551725}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5085156286905917014}
+  m_Father: {fileID: 7385452820652402593}
+  m_LocalEulerAnglesHint: {x: -90, y: 89.999916, z: 0}
+--- !u!1 &5831191859167411914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7873516612570450279}
+  m_Layer: 0
+  m_Name: TRex L Finger1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7873516612570450279
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5831191859167411914}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0003766614, y: -0.00012912456, z: -0.32429978, w: 0.9459543}
+  m_LocalPosition: {x: -0.08718511, y: -0.15333651, z: 0.048260186}
+  m_LocalScale: {x: 0.99999976, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2248511435587082536}
+  m_LocalEulerAnglesHint: {x: -0.045628015, y: 0.00000060364476, z: -37.846313}
+--- !u!1 &6104878986165317125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 994487435215487940}
+  m_Layer: 0
+  m_Name: TRex Tongue02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &994487435215487940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6104878986165317125}
+  serializedVersion: 2
+  m_LocalRotation: {x: -7.4208545e-10, y: 0.0000006784291, z: -0.24397747, w: 0.9697809}
+  m_LocalPosition: {x: -0.26282653, y: -0.0001651001, z: -0.0000000047683715}
+  m_LocalScale: {x: 1.0000001, y: 0.9999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2167549389024447306}
+  m_Father: {fileID: 2227761865332979053}
+  m_LocalEulerAnglesHint: {x: 0.000018884888, y: 0.00007541369, z: -28.242825}
+--- !u!1 &6260668006602740747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3763747239176217266}
+  m_Layer: 0
+  m_Name: TRex R Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3763747239176217266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6260668006602740747}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000010299626, y: -0.000000012631201, z: 0.63195086, w: 0.7750085}
+  m_LocalPosition: {x: -0.32124838, y: -0.11195552, z: 0.08298933}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1248718877734409886}
+  m_Father: {fileID: 7070389113654316157}
+  m_LocalEulerAnglesHint: {x: 0.0000018294078, y: -0.00000037590968, z: 78.3884}
+--- !u!1 &6356198842857908166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 836933344518411094}
+  m_Layer: 0
+  m_Name: TRex Jaw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &836933344518411094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6356198842857908166}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000004716262, y: 0.000002167417, z: -0.82395285, w: 0.5666583}
+  m_LocalPosition: {x: 0.13184828, y: 0.2048749, z: -0.009766082}
+  m_LocalScale: {x: 1.0000002, y: 0.99999994, z: 0.9999998}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5188123427902486735}
+  - {fileID: 8577536357013741040}
+  - {fileID: 2227761865332979053}
+  m_Father: {fileID: 804110753742418253}
+  m_LocalEulerAnglesHint: {x: 0.00017401857, y: 0.00018526964, z: -110.96494}
+--- !u!1 &6369538683026979180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8796616614126111754}
+  - component: {fileID: 5724178692586384234}
+  m_Layer: 0
+  m_Name: YellowDino_Skinned
+  m_TagString: CharacterBody
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8796616614126111754
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6369538683026979180}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7385452820652402593}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &5724178692586384234
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6369538683026979180}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 2a36c0122028f8f40a652357f506e380, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  serializedVersion: 2
+  m_Quality: 4
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 9afdabd79b656e84db0b74a75f1ca34c, type: 2}
+  m_Bones:
+  - {fileID: 5217264065021787116}
+  - {fileID: 5085156286905917014}
+  - {fileID: 1806073491883688091}
+  - {fileID: 5308805181752448345}
+  - {fileID: 139601149669665514}
+  - {fileID: 804110753742418253}
+  - {fileID: 836933344518411094}
+  - {fileID: 2227761865332979053}
+  - {fileID: 994487435215487940}
+  - {fileID: 2167549389024447306}
+  - {fileID: 5188123427902486735}
+  - {fileID: 8577536357013741040}
+  - {fileID: 2997099986114793388}
+  - {fileID: 8500457265608054047}
+  - {fileID: 6620898246316393228}
+  - {fileID: 1656410210261144703}
+  - {fileID: 6470426171220403549}
+  - {fileID: 8828685127208337113}
+  - {fileID: 9120162758197362148}
+  - {fileID: 8382866587881804551}
+  - {fileID: 5515900154074746357}
+  - {fileID: 8723739685990114635}
+  - {fileID: 8800730243214056135}
+  - {fileID: 500171386526063746}
+  - {fileID: 5065166979285517711}
+  - {fileID: 2248511435587082536}
+  - {fileID: 5525618107561323456}
+  - {fileID: 7873516612570450279}
+  - {fileID: 4076170031539973298}
+  - {fileID: 7070389113654316157}
+  - {fileID: 3763747239176217266}
+  - {fileID: 1248718877734409886}
+  - {fileID: 66278891425338665}
+  - {fileID: 526035218072157475}
+  - {fileID: 3698312930712492438}
+  - {fileID: 6841847617654232265}
+  - {fileID: 5155532924992446853}
+  - {fileID: 1279071363445324372}
+  - {fileID: 4762378563810412254}
+  - {fileID: 6932978365973997049}
+  - {fileID: 3924990539348624322}
+  - {fileID: 3816205309638446349}
+  - {fileID: 7505076219215873762}
+  - {fileID: 2557086053279806892}
+  - {fileID: 6706843082304210020}
+  - {fileID: 3456040049237624803}
+  - {fileID: 4899938564751575471}
+  - {fileID: 2236533347883613509}
+  - {fileID: 7083710601363045531}
+  - {fileID: 1525421858318325827}
+  - {fileID: 2472495938574313981}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 5085156286905917014}
+  m_AABB:
+    m_Center: {x: 0.10574317, y: 0.45506364, z: -0.016736686}
+    m_Extent: {x: 1.4072411, y: 2.167488, z: 1.421397}
+  m_DirtyAABB: 0
+--- !u!1 &6477828640964750167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6620898246316393228}
+  m_Layer: 0
+  m_Name: TRex L Upper Eyelid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6620898246316393228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6477828640964750167}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.4133499, y: 0.31429914, z: -0.43769208, w: 0.7340188}
+  m_LocalPosition: {x: -0.5856196, y: 0.48478803, z: 0.13584681}
+  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 0.99999976}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 804110753742418253}
+  m_LocalEulerAnglesHint: {x: 61.877964, y: 12.19438, z: -54.287685}
+--- !u!1 &6638591232407362014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6932978365973997049}
+  m_Layer: 0
+  m_Name: TRex L Toe02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6932978365973997049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638591232407362014}
+  serializedVersion: 2
+  m_LocalRotation: {x: -1.6006897e-10, y: 0.000000013292771, z: 1.3096722e-10, w: 1}
+  m_LocalPosition: {x: -0.14806497, y: -0.014111374, z: 0.0898256}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4762378563810412254}
+  m_LocalEulerAnglesHint: {x: -0.000000053360843, y: -0.0000012106244, z: 0.00000021344343}
+--- !u!1 &6758120831149537496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2248511435587082536}
+  m_Layer: 0
+  m_Name: TRex L Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2248511435587082536
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6758120831149537496}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.48691383, y: -0.1960392, z: -0.60100245, w: 0.6027268}
+  m_LocalPosition: {x: -0.18464388, y: 0.11281833, z: -0.038525593}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5525618107561323456}
+  - {fileID: 7873516612570450279}
+  m_Father: {fileID: 5065166979285517711}
+  m_LocalEulerAnglesHint: {x: -55.345123, y: 37.855896, z: -110.22474}
+--- !u!1 &6851033718806475484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5525618107561323456}
+  m_Layer: 0
+  m_Name: TRex L Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5525618107561323456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6851033718806475484}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.094875306, y: -0.059300758, z: -0.31990257, w: 0.9408212}
+  m_LocalPosition: {x: -0.0998507, y: -0.12655191, z: -0.0050126016}
+  m_LocalScale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2248511435587082536}
+  m_LocalEulerAnglesHint: {x: -12.501332, y: -2.9874227, z: -37.231335}
+--- !u!1 &6967106603158156635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7070389113654316157}
+  m_Layer: 0
+  m_Name: TRex R UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7070389113654316157
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6967106603158156635}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.3848159, y: 0.021684151, z: 0.1850909, w: 0.9039845}
+  m_LocalPosition: {x: -0.29836228, y: 0.150765, z: -0.05865317}
+  m_LocalScale: {x: 1.0000004, y: 1, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3763747239176217266}
+  m_Father: {fileID: 4076170031539973298}
+  m_LocalEulerAnglesHint: {x: 43.448956, y: 14.490495, z: 28.942427}
+--- !u!1 &7275521160905291050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8577536357013741040}
+  m_Layer: 0
+  m_Name: TRex R Lower Mouth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8577536357013741040
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275521160905291050}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.66609454, y: -0.2373162, z: 0.66590464, w: 0.23784469}
+  m_LocalPosition: {x: -0.6205828, y: -0.046505738, z: -0.2709631}
+  m_LocalScale: {x: 0.9999998, y: 0.9999999, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 836933344518411094}
+  m_LocalEulerAnglesHint: {x: 39.26544, y: 90.00013, z: 179.95457}
+--- !u!1 &7286406908360181133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3698312930712492438}
+  m_Layer: 0
+  m_Name: TRex L Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3698312930712492438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7286406908360181133}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.24281311, y: 0.96930456, z: 0.030877685, w: 0.023173874}
+  m_LocalPosition: {x: 0.04310304, y: 0.21551862, z: 0.5172408}
+  m_LocalScale: {x: 0.99999994, y: 0.9999997, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6841847617654232265}
+  m_Father: {fileID: 5085156286905917014}
+  m_LocalEulerAnglesHint: {x: -4.077951, y: 178.2805, z: -28.065443}
+--- !u!1 &7337524671858575431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2997099986114793388}
+  m_Layer: 0
+  m_Name: TRex R Lower Eyelid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2997099986114793388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7337524671858575431}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.2455449, y: -0.3560513, z: -0.6946188, w: 0.574839}
+  m_LocalPosition: {x: -0.53640103, y: 0.47119835, z: -0.1546709}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 804110753742418253}
+  m_LocalEulerAnglesHint: {x: -50.981014, y: -6.221067, z: -97.812096}
+--- !u!1 &7540676072045591096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2557086053279806892}
+  m_Layer: 0
+  m_Name: TRex R Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2557086053279806892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7540676072045591096}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.026344903, y: 0.022229671, z: 0.8787855, w: -0.4759705}
+  m_LocalPosition: {x: 0.0023653656, y: 0.36388668, z: -0.083210014}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1.0000004}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6706843082304210020}
+  m_Father: {fileID: 7505076219215873762}
+  m_LocalEulerAnglesHint: {x: -0.8016761, y: -3.8687406, z: -123.09092}
+--- !u!1 &8024788761838219381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6706843082304210020}
+  m_Layer: 0
+  m_Name: TRex R Toe01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6706843082304210020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8024788761838219381}
+  serializedVersion: 2
+  m_LocalRotation: {x: -6.54839e-11, y: 0.000000010345957, z: -0.0000000021245736, w: 1}
+  m_LocalPosition: {x: -0.25711235, y: -0.03165531, z: -0.059091028}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3456040049237624803}
+  m_Father: {fileID: 2557086053279806892}
+  m_LocalEulerAnglesHint: {x: 0.00000005336085, y: 0.0000015474646, z: 0}
+--- !u!1 &8313347579946302886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 804110753742418253}
+  m_Layer: 0
+  m_Name: TRex Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &804110753742418253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8313347579946302886}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.01829515, y: -0.0066705365, z: 0.4068635, w: 0.9132814}
+  m_LocalPosition: {x: -0.27154955, y: -0.04385302, z: -0.022625709}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 836933344518411094}
+  - {fileID: 8828685127208337113}
+  - {fileID: 1656410210261144703}
+  - {fileID: 5515900154074746357}
+  - {fileID: 6620898246316393228}
+  - {fileID: 8723739685990114635}
+  - {fileID: 6470426171220403549}
+  - {fileID: 2997099986114793388}
+  - {fileID: 9120162758197362148}
+  - {fileID: 8500457265608054047}
+  - {fileID: 8382866587881804551}
+  m_Father: {fileID: 139601149669665514}
+  m_LocalEulerAnglesHint: {x: -1.6038749, y: -1.5518752, z: 48.047314}
+--- !u!1 &8697251854322439490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1656410210261144703}
+  m_Layer: 0
+  m_Name: TRex L Lower Eyelid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1656410210261144703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8697251854322439490}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.25529388, y: 0.38706914, z: -0.68470687, w: 0.562298}
+  m_LocalPosition: {x: -0.53639966, y: 0.47119406, z: 0.15467933}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 804110753742418253}
+  m_LocalEulerAnglesHint: {x: 54.80152, y: 8.549709, z: -96.774734}
+--- !u!1 &8794677023967903892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1279071363445324372}
+  m_Layer: 0
+  m_Name: TRex L Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1279071363445324372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8794677023967903892}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.20031755, y: -0.026296752, z: 0.846995, w: -0.49171212}
+  m_LocalPosition: {x: 0.0048169196, y: 0.3663927, z: 0.07124706}
+  m_LocalScale: {x: 0.99999976, y: 0.99999976, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4762378563810412254}
+  m_Father: {fileID: 5155532924992446853}
+  m_LocalEulerAnglesHint: {x: -8.768975, y: 21.68577, z: -121.40922}
+--- !u!1 &8877140676327155400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1248718877734409886}
+  m_Layer: 0
+  m_Name: TRex R Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1248718877734409886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8877140676327155400}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.31725433, y: 0.23081055, z: -0.5955019, w: 0.7010376}
+  m_LocalPosition: {x: -0.16935562, y: 0.14007384, z: 0.0018860006}
+  m_LocalScale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 66278891425338665}
+  - {fileID: 526035218072157475}
+  m_Father: {fileID: 3763747239176217266}
+  m_LocalEulerAnglesHint: {x: 46.030594, y: -4.480569, z: -82.59709}
+--- !u!1 &8943568562705640047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1806073491883688091}
+  m_Layer: 0
+  m_Name: TRex Spine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1806073491883688091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8943568562705640047}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.015047399, y: 0.008964898, z: -0.5109698, w: 0.8594202}
+  m_LocalPosition: {x: -0.086207196, y: 0.21551715, z: -0.0000005811453}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5308805181752448345}
+  m_Father: {fileID: 5085156286905917014}
+  m_LocalEulerAnglesHint: {x: 2.0072331, y: 0.0018170914, z: -61.46732}
+--- !u!1 &8969987943491796501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7505076219215873762}
+  m_Layer: 0
+  m_Name: TRex R Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7505076219215873762
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8969987943491796501}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.12502712, y: -0.023766749, z: -0.07870284, w: 0.9887412}
+  m_LocalPosition: {x: -0.42545566, y: 0.24261771, z: 0.040647637}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2557086053279806892}
+  m_Father: {fileID: 3816205309638446349}
+  m_LocalEulerAnglesHint: {x: 14.093078, y: -3.9420507, z: -9.589644}
+--- !u!1 &9216930250342364393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 66278891425338665}
+  m_Layer: 0
+  m_Name: TRex R Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &66278891425338665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9216930250342364393}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.09487529, y: 0.059300758, z: -0.3199026, w: 0.9408212}
+  m_LocalPosition: {x: -0.09013544, y: -0.1215993, z: -0.055677578}
+  m_LocalScale: {x: 1, y: 1.0000002, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1248718877734409886}
+  m_LocalEulerAnglesHint: {x: 12.50133, y: 2.9874227, z: -37.231335}

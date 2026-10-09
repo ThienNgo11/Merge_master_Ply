@@ -1,0 +1,1981 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2310680284366946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4848909057118431130}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Eyebrow_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4848909057118431130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2310680284366946}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.42790523, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1242960657809051946}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &202359540503102256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 566124443277599488}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &566124443277599488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202359540503102256}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000000011249334, y: -5.515162e-10, z: 0.8914964, w: 0.45302778}
+  m_LocalPosition: {x: -0.092463255, y: -0.20831567, z: -0.06939115}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999998}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8539822514068821159}
+  m_Father: {fileID: 7660521115966807763}
+  m_LocalEulerAnglesHint: {x: 0.0000006063976, y: 0.00000009518658, z: 120.81762}
+--- !u!1 &202593327885673709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5994877306202361306}
+  m_Layer: 0
+  m_Name: Parasaurolophus Pelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5994877306202361306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202593327885673709}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.49999934, w: 0.50000066}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7928188230819775991}
+  - {fileID: 7070612815799117696}
+  - {fileID: 5178310543093933556}
+  - {fileID: 8512442773793173191}
+  m_Father: {fileID: 1100662376673548544}
+  m_LocalEulerAnglesHint: {x: -89.9319, y: 15.648048, z: 74.29482}
+--- !u!1 &247962918459029137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8506932310379532198}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Finger0_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8506932310379532198
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247962918459029137}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.037519276, y: -0.07763093, z: -0.022040213}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4718640433376071517}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &441470495923426945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8006916132565900445}
+  m_Layer: 0
+  m_Name: Parasaurolophus Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8006916132565900445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441470495923426945}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.058693197, y: 0.03775753, z: 0.26735356, w: 0.9610679}
+  m_LocalPosition: {x: -0.3268144, y: -0.0038035098, z: 0.023187252}
+  m_LocalScale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6183995806525375224}
+  - {fileID: 1242960657809051946}
+  - {fileID: 6949567289319252482}
+  - {fileID: 641272819265991738}
+  - {fileID: 4887859991642520839}
+  - {fileID: 4602789737928472746}
+  - {fileID: 1777811688022629593}
+  - {fileID: 2046206234049242107}
+  - {fileID: 4720738453736094812}
+  m_Father: {fileID: 5531400954526958457}
+  m_LocalEulerAnglesHint: {x: 4.412875, y: 9.725458, z: 82.82746}
+--- !u!1 &447897572249593109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8184390836722499685}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Lower Eyelid_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8184390836722499685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447897572249593109}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.42790544, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1777811688022629593}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &462349277502369324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8182159125751305424}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8182159125751305424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462349277502369324}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.026666561, y: 0.079998024, z: -0.12917781, w: 0.98802954}
+  m_LocalPosition: {x: -0.53015953, y: 0.082996495, z: 0.02611852}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6903477646491290986}
+  m_Father: {fileID: 8014198008583281421}
+  m_LocalEulerAnglesHint: {x: 12.796279, y: 7.8263965, z: -62.639954}
+--- !u!1 &579631594969912706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1596020163454648192}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1596020163454648192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579631594969912706}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.1260419, y: 0.012678313, z: -0.69556075, w: 0.70721143}
+  m_LocalPosition: {x: -0.15129046, y: 0.16127862, z: 0.10459708}
+  m_LocalScale: {x: 1.0000002, y: 0.99999994, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6936737805163029247}
+  m_Father: {fileID: 6558213538701186169}
+  m_LocalEulerAnglesHint: {x: -9.254172, y: 11.303308, z: -85.085396}
+--- !u!1 &599549933676578572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6949567289319252482}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Lower Eyelid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6949567289319252482
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599549933676578572}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.23694639, y: -0.3329378, z: 0.8303179, w: -0.37892097}
+  m_LocalPosition: {x: -0.14253524, y: 0.33626556, z: 0.15736206}
+  m_LocalScale: {x: 1.0000004, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2588076628915739638}
+  m_Father: {fileID: 8006916132565900445}
+  m_LocalEulerAnglesHint: {x: 45.904682, y: -22.29767, z: -114.37193}
+--- !u!1 &800495809907109906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 749336826452844765}
+  m_Layer: 0
+  m_Name: Parasaurolophus Tail03_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &749336826452844765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800495809907109906}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.52386093, y: -0.16234735, z: 0.4218215}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1569176838213012068}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &815462188832104423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1652781352738909737}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Toe01_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1652781352738909737
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815462188832104423}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.1886664, y: -0.018784229, z: -0.09215294}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2679589304518872849}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1040410634093059520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5670645249598375923}
+  m_Layer: 0
+  m_Name: Parasaurolophus Tongue02_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5670645249598375923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040410634093059520}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.18303521, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 21094244531069825}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1080281482097890876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2588076628915739638}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Lower Eyelid_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2588076628915739638
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080281482097890876}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.42790538, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6949567289319252482}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1112096689902412404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6661573656951483545}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Finger0_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6661573656951483545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112096689902412404}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.037519388, y: -0.07763104, z: 0.022040311}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6936737805163029247}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1326521295370506923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4887859991642520839}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Upper Mouth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4887859991642520839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326521295370506923}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.46490237, y: -0.4613805, z: 0.6281117, w: -0.42008272}
+  m_LocalPosition: {x: 0.07320007, y: 0.60117424, z: 0.039305862}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 0.9999996}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3214758562503280496}
+  m_Father: {fileID: 8006916132565900445}
+  m_LocalEulerAnglesHint: {x: 75.975494, y: -54.132885, z: -155.95955}
+--- !u!1 &1747792017031394066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8549546499837946484}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Upper Eyelid_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8549546499837946484
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747792017031394066}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.42790535, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 641272819265991738}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &1758542928698285183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4602789737928472746}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Eyebrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4602789737928472746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758542928698285183}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.46354002, y: -0.16986461, z: -0.4369185, w: 0.7519168}
+  m_LocalPosition: {x: -0.19488753, y: 0.3160172, z: -0.10401399}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.9999998}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1875537908833749832}
+  m_Father: {fileID: 8006916132565900445}
+  m_LocalEulerAnglesHint: {x: -70.015686, y: 14.954096, z: -82.10124}
+--- !u!1 &1805953982363954595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2277251106861039725}
+  - component: {fileID: 6995403357995941822}
+  m_Layer: 0
+  m_Name: para_rig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2277251106861039725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805953982363954595}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.1918286, y: 1.1918286, z: 1.1918286}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1100662376673548544}
+  - {fileID: 5105370123232668381}
+  m_Father: {fileID: 1813365057470319401}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &6995403357995941822
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805953982363954595}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 419203e54dd4b24418f824bd59a0883d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &2581864220477535337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6936737805163029247}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6936737805163029247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2581864220477535337}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.078851506, y: 0.0269272, z: -0.6570815, w: 0.74920046}
+  m_LocalPosition: {x: -0.06786343, y: -0.044905666, z: 0.036027357}
+  m_LocalScale: {x: 0.99999946, y: 0.9999998, z: 0.9999998}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6661573656951483545}
+  m_Father: {fileID: 1596020163454648192}
+  m_LocalEulerAnglesHint: {x: -4.747485, y: 8.30642, z: -78.002}
+--- !u!1 &2689265808749819142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1569176838213012068}
+  m_Layer: 0
+  m_Name: Parasaurolophus Tail03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1569176838213012068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2689265808749819142}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.070687324, y: -0.10173099, z: -0.12378945, w: 0.98454577}
+  m_LocalPosition: {x: -0.570699, y: -0.039122764, z: 0.27534124}
+  m_LocalScale: {x: 0.9999996, y: 0.9999995, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 749336826452844765}
+  m_Father: {fileID: 8271513579268712206}
+  m_LocalEulerAnglesHint: {x: -7.4293985, y: 37.17076, z: -1.4619496}
+--- !u!1 &2706156908254115022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3214758562503280496}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Upper Mouth_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3214758562503280496
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2706156908254115022}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.42790535, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4887859991642520839}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &2882696708836177539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7928188230819775991}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7928188230819775991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2882696708836177539}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.19525775, y: 0.97857535, z: 0.0062290197, w: 0.06500762}
+  m_LocalPosition: {x: 0.083904475, y: 0.12585793, z: 0.29366606}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8014198008583281421}
+  m_Father: {fileID: 5994877306202361306}
+  m_LocalEulerAnglesHint: {x: -3.7392876, y: 166.72615, z: -45.7503}
+--- !u!1 &3133561812617896504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7092827985497900564}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7092827985497900564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133561812617896504}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.12142954, y: -0.028034458, z: 0.966513, w: -0.22432488}
+  m_LocalPosition: {x: 0.16386923, y: 0.33663198, z: -0.032646008}
+  m_LocalScale: {x: 1.0000002, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2679589304518872849}
+  m_Father: {fileID: 5097182487447183890}
+  m_LocalEulerAnglesHint: {x: -3.692552, y: -16.81485, z: -178.15486}
+--- !u!1 &3220418733903610477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7660521115966807763}
+  m_Layer: 0
+  m_Name: Parasaurolophus R UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7660521115966807763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3220418733903610477}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.105614714, y: 0.3249272, z: 0.44498092, w: 0.8278042}
+  m_LocalPosition: {x: -0.20823199, y: -0.085214056, z: -0.16376224}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 566124443277599488}
+  m_Father: {fileID: 7319800858812986978}
+  m_LocalEulerAnglesHint: {x: -11.624329, y: 57.54165, z: 43.116814}
+--- !u!1 &3378443289685778649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5178310543093933556}
+  m_Layer: 0
+  m_Name: Parasaurolophus Spine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5178310543093933556
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3378443289685778649}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000019414965, y: 0.0000009804247, z: -0.72092414, w: 0.69301397}
+  m_LocalPosition: {x: -0.041952565, y: 0.16780932, z: -0.00000046566134}
+  m_LocalScale: {x: 0.9999997, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6754388966879596348}
+  m_Father: {fileID: 5994877306202361306}
+  m_LocalEulerAnglesHint: {x: -0.000083585175, y: 0.00024512736, z: -90.063644}
+--- !u!1 &3717490000187060145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5531400954526958457}
+  m_Layer: 0
+  m_Name: Parasaurolophus Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5531400954526958457
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3717490000187060145}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000000047357327, y: -0.00000087203193, z: 0.31203392, w: 0.950071}
+  m_LocalPosition: {x: -0.20106037, y: -0.12480202, z: 0.017865568}
+  m_LocalScale: {x: 1.0000004, y: 1.0000001, z: 0.99999976}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8006916132565900445}
+  m_Father: {fileID: 494239179560110306}
+  m_LocalEulerAnglesHint: {x: -1.6598958, y: 0.25005978, z: 19.921993}
+--- !u!1 &3890502656308734076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4720738453736094812}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Upper Mouth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4720738453736094812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3890502656308734076}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.37081483, y: 0.53492343, z: 0.6569013, w: -0.38057065}
+  m_LocalPosition: {x: 0.07320648, y: 0.6011653, z: -0.03932761}
+  m_LocalScale: {x: 0.9999997, y: 0.9999997, z: 0.9999997}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6381694389630687214}
+  m_Father: {fileID: 8006916132565900445}
+  m_LocalEulerAnglesHint: {x: -80.0723, y: 27.65656, z: -143.19778}
+--- !u!1 &3993972485333008759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 641272819265991738}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Upper Eyelid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &641272819265991738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3993972485333008759}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.37693715, y: 0.03312905, z: -0.30630505, w: 0.8734976}
+  m_LocalPosition: {x: -0.1380278, y: 0.35588577, z: 0.17740019}
+  m_LocalScale: {x: 0.99999976, y: 0.99999976, z: 0.99999964}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8549546499837946484}
+  m_Father: {fileID: 8006916132565900445}
+  m_LocalEulerAnglesHint: {x: 55.749496, y: -12.381021, z: -87.87391}
+--- !u!1 &4042340290782884155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6429149638738197192}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6429149638738197192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042340290782884155}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0000000070201565, y: -0.000000018792901, z: 0.6728159, w: 0.73980993}
+  m_LocalPosition: {x: -0.44381192, y: 0.042956524, z: 0.0081000915}
+  m_LocalScale: {x: 1.0000004, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5097182487447183890}
+  m_Father: {fileID: 7070612815799117696}
+  m_LocalEulerAnglesHint: {x: -0.0000013349749, y: 0.000001479493, z: 107.85882}
+--- !u!1 &4093314735135566797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3187935148039834269}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3187935148039834269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4093314735135566797}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.57602745, y: 0.025708865, z: 0.8168138, w: -0.01861675}
+  m_LocalPosition: {x: -0.06291476, y: 0.23306136, z: 0.13192466}
+  m_LocalScale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 576715548384834883}
+  m_Father: {fileID: 494239179560110306}
+  m_LocalEulerAnglesHint: {x: 8.71176, y: -67.864815, z: 159.68161}
+--- !u!1 &4135463584971154257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1100662376673548544}
+  m_Layer: 0
+  m_Name: Parasaurolophus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1100662376673548544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4135463584971154257}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.50000036, y: 0.49999967, z: 0.49999967, w: 0.50000036}
+  m_LocalPosition: {x: 0, y: 1.1746655, z: 0.16780935}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5994877306202361306}
+  m_Father: {fileID: 2277251106861039725}
+  m_LocalEulerAnglesHint: {x: -68.85381, y: -0.28670907, z: 89.27513}
+--- !u!1 &4242578117248319491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 576715548384834883}
+  m_Layer: 0
+  m_Name: Parasaurolophus L UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &576715548384834883
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4242578117248319491}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.14825271, y: -0.39458653, z: 0.43718952, w: 0.79447335}
+  m_LocalPosition: {x: -0.2335506, y: -0.08451383, z: 0.1255051}
+  m_LocalScale: {x: 1, y: 0.99999976, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6558213538701186169}
+  m_Father: {fileID: 3187935148039834269}
+  m_LocalEulerAnglesHint: {x: 12.247091, y: -72.61226, z: 37.344933}
+--- !u!1 &4326269104502515643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 494239179560110306}
+  m_Layer: 0
+  m_Name: Parasaurolophus Spine2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &494239179560110306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4326269104502515643}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.003350273, y: -0.044151023, z: 0.074797384, w: 0.9962153}
+  m_LocalPosition: {x: -0.21591325, y: -0.06649367, z: -0.00000059103417}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3187935148039834269}
+  - {fileID: 5531400954526958457}
+  - {fileID: 7319800858812986978}
+  m_Father: {fileID: 6754388966879596348}
+  m_LocalEulerAnglesHint: {x: 0.83810437, y: -5.7976637, z: 5.603488}
+--- !u!1 &4380290201806101678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5293448179087631430}
+  m_Layer: 0
+  m_Name: Parasaurolophus Tongue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5293448179087631430
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4380290201806101678}
+  serializedVersion: 2
+  m_LocalRotation: {x: 2.877952e-11, y: -0.0000007102814, z: 0.25588742, w: 0.9667066}
+  m_LocalPosition: {x: -0.08087288, y: 0.06377456, z: -0.00000071525574}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 21094244531069825}
+  m_Father: {fileID: 6183995806525375224}
+  m_LocalEulerAnglesHint: {x: 0.000024942901, y: -0.00009089383, z: 34.811283}
+--- !u!1 &4705026617237774273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2050485130719173221}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Toe01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2050485130719173221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4705026617237774273}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0000000037252903, y: 0.0000000027066631, z: -4.656632e-10, w: 1}
+  m_LocalPosition: {x: -0.25365388, y: -0.04178557, z: 0.028172087}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7334748519280444292}
+  m_Father: {fileID: 6903477646491290986}
+  m_LocalEulerAnglesHint: {x: 0, y: -0.00000071370124, z: 0}
+--- !u!1 &5326953155855526308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5105370123232668381}
+  - component: {fileID: 4790841855807314858}
+  m_Layer: 0
+  m_Name: BlueDino_Skinned
+  m_TagString: CharacterBody
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5105370123232668381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5326953155855526308}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2277251106861039725}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &4790841855807314858
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5326953155855526308}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bee9b79214aee73449dc327f90d2fd65, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  serializedVersion: 2
+  m_Quality: 4
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 706400a7ef3346d4995901a30874dc1e, type: 2}
+  m_Bones:
+  - {fileID: 5994877306202361306}
+  - {fileID: 5178310543093933556}
+  - {fileID: 6754388966879596348}
+  - {fileID: 494239179560110306}
+  - {fileID: 3187935148039834269}
+  - {fileID: 576715548384834883}
+  - {fileID: 6558213538701186169}
+  - {fileID: 1596020163454648192}
+  - {fileID: 6936737805163029247}
+  - {fileID: 7319800858812986978}
+  - {fileID: 7660521115966807763}
+  - {fileID: 566124443277599488}
+  - {fileID: 8539822514068821159}
+  - {fileID: 4718640433376071517}
+  - {fileID: 5531400954526958457}
+  - {fileID: 8006916132565900445}
+  - {fileID: 6183995806525375224}
+  - {fileID: 5293448179087631430}
+  - {fileID: 21094244531069825}
+  - {fileID: 1242960657809051946}
+  - {fileID: 6949567289319252482}
+  - {fileID: 641272819265991738}
+  - {fileID: 4602789737928472746}
+  - {fileID: 1777811688022629593}
+  - {fileID: 2046206234049242107}
+  - {fileID: 4720738453736094812}
+  - {fileID: 4887859991642520839}
+  - {fileID: 7928188230819775991}
+  - {fileID: 8014198008583281421}
+  - {fileID: 8182159125751305424}
+  - {fileID: 6903477646491290986}
+  - {fileID: 2050485130719173221}
+  - {fileID: 7070612815799117696}
+  - {fileID: 6429149638738197192}
+  - {fileID: 5097182487447183890}
+  - {fileID: 7092827985497900564}
+  - {fileID: 2679589304518872849}
+  - {fileID: 8512442773793173191}
+  - {fileID: 8271513579268712206}
+  - {fileID: 1569176838213012068}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 5994877306202361306}
+  m_AABB:
+    m_Center: {x: 0.14450377, y: -0.14382052, z: -0.010596424}
+    m_Extent: {x: 1.3583925, y: 2.1484604, z: 0.8287858}
+  m_DirtyAABB: 0
+--- !u!1 &5892459992661255364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2046206234049242107}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Upper Eyelid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2046206234049242107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5892459992661255364}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.37693715, y: -0.03312731, z: -0.30630532, w: 0.87349755}
+  m_LocalPosition: {x: -0.1380278, y: 0.35588652, z: -0.17739822}
+  m_LocalScale: {x: 0.99999964, y: 0.9999997, z: 0.99999964}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3296304028578370427}
+  m_Father: {fileID: 8006916132565900445}
+  m_LocalEulerAnglesHint: {x: -55.73457, y: 12.424592, z: -87.89231}
+--- !u!1 &6056367545719344742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7334748519280444292}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Toe01_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7334748519280444292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6056367545719344742}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.20234421, y: -0.018476875, z: 0.056172956}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2050485130719173221}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &6071700552653648766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7319800858812986978}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7319800858812986978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6071700552653648766}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5760274, y: -0.025711196, z: 0.81681377, w: -0.018618269}
+  m_LocalPosition: {x: -0.08518313, y: 0.23304456, z: -0.11880249}
+  m_LocalScale: {x: 0.99999976, y: 0.99999946, z: 0.9999998}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7660521115966807763}
+  m_Father: {fileID: 494239179560110306}
+  m_LocalEulerAnglesHint: {x: -9.028633, y: 66.756546, z: 160.02974}
+--- !u!1 &6202245037949778333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6183995806525375224}
+  m_Layer: 0
+  m_Name: Parasaurolophus Jaw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6183995806525375224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6202245037949778333}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000006242009, y: 0.0000022093443, z: -0.8279614, w: 0.5607851}
+  m_LocalPosition: {x: 0.1112882, y: 0.23032969, z: -0.011092404}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5293448179087631430}
+  m_Father: {fileID: 8006916132565900445}
+  m_LocalEulerAnglesHint: {x: -0.33506238, y: 1.068901, z: -142.22316}
+--- !u!1 &6630612593480401578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8512442773793173191}
+  m_Layer: 0
+  m_Name: Parasaurolophus Tail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8512442773793173191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6630612593480401578}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.037440833, y: -0.11808498, z: 0.70434237, w: 0.6989679}
+  m_LocalPosition: {x: 0.0000003874302, y: -0.33561876, z: 0.0000009302057}
+  m_LocalScale: {x: 0.99999976, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8271513579268712206}
+  m_Father: {fileID: 5994877306202361306}
+  m_LocalEulerAnglesHint: {x: -8.827127, y: -13.638431, z: 94.46279}
+--- !u!1 &6673031872405949360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 21094244531069825}
+  m_Layer: 0
+  m_Name: Parasaurolophus Tongue02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &21094244531069825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6673031872405949360}
+  serializedVersion: 2
+  m_LocalRotation: {x: 9.247573e-10, y: 0.00000018363755, z: -0.0662, w: 0.9978064}
+  m_LocalPosition: {x: -0.18303458, y: -0.00014434815, z: 0.000000009536743}
+  m_LocalScale: {x: 1.0000002, y: 0.99999994, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5670645249598375923}
+  m_Father: {fileID: 5293448179087631430}
+  m_LocalEulerAnglesHint: {x: 0.0000007121043, y: 0.0000008442339, z: -2.432615}
+--- !u!1 &7126101447091428719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4718640433376071517}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4718640433376071517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7126101447091428719}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.07885148, y: -0.02692722, z: -0.6570815, w: 0.74920046}
+  m_LocalPosition: {x: -0.06786351, y: -0.044905975, z: -0.036027677}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8506932310379532198}
+  m_Father: {fileID: 8539822514068821159}
+  m_LocalEulerAnglesHint: {x: 4.747483, y: -8.306419, z: -77.70861}
+--- !u!1 &7340556712359124299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3296304028578370427}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Upper Eyelid_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3296304028578370427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7340556712359124299}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.42790535, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2046206234049242107}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &7513701904675154117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1813365057470319401}
+  m_Layer: 0
+  m_Name: BlueRobotDino
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1813365057470319401
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7513701904675154117}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 2277251106861039725}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!1 &7519050414963512618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6903477646491290986}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6903477646491290986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7519050414963512618}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.030587882, y: 0.012796565, z: 0.9220169, w: -0.3857272}
+  m_LocalPosition: {x: 0.044109717, y: 0.37179095, z: 0.032645818}
+  m_LocalScale: {x: 0.9999998, y: 0.9999999, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2050485130719173221}
+  m_Father: {fileID: 8182159125751305424}
+  m_LocalEulerAnglesHint: {x: -2.7437027, y: 2.6527336, z: -134.68228}
+--- !u!1 &7600743211615492652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8014198008583281421}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8014198008583281421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7600743211615492652}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0000000043472963, y: 0.000000006331005, z: 0.66245836, w: 0.7490987}
+  m_LocalPosition: {x: -0.44286218, y: -0.04551607, z: -0.026104037}
+  m_LocalScale: {x: 1.0000004, y: 1.0000002, z: 1.0000005}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8182159125751305424}
+  m_Father: {fileID: 7928188230819775991}
+  m_LocalEulerAnglesHint: {x: 0.000002442021, y: -0.0000000132361455, z: 134.90694}
+--- !u!1 &7625415898626290300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1242960657809051946}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Eyebrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1242960657809051946
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7625415898626290300}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.44392917, y: 0.19665746, z: -0.3718117, w: 0.79120725}
+  m_LocalPosition: {x: -0.19487838, y: 0.31599197, z: 0.10401441}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0.99999976}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4848909057118431130}
+  m_Father: {fileID: 8006916132565900445}
+  m_LocalEulerAnglesHint: {x: 69.98024, y: -15.253515, z: -82.4436}
+--- !u!1 &7701629859318023242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6558213538701186169}
+  m_Layer: 0
+  m_Name: Parasaurolophus L Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6558213538701186169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7701629859318023242}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000000030264207, y: -0.00000002164727, z: 0.89149636, w: 0.45302784}
+  m_LocalPosition: {x: -0.09246367, y: -0.20831542, z: 0.06939119}
+  m_LocalScale: {x: 1.0000001, y: 0.9999999, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1596020163454648192}
+  m_Father: {fileID: 576715548384834883}
+  m_LocalEulerAnglesHint: {x: 0.0000002751515, y: 0.00000037731044, z: 120.80822}
+--- !u!1 &7855065703340867736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1875537908833749832}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Eyebrow_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1875537908833749832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7855065703340867736}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.42790523, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4602789737928472746}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &8029237402658487417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6381694389630687214}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Upper Mouth_end
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6381694389630687214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8029237402658487417}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.42790535, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4720738453736094812}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 0}
+--- !u!1 &8029271176459110413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8271513579268712206}
+  m_Layer: 0
+  m_Name: Parasaurolophus Tail02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8271513579268712206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8029271176459110413}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.06571667, y: -0.10501062, z: -0.07633124, w: 0.98935723}
+  m_LocalPosition: {x: -0.65329677, y: 0.079999395, z: 0.15621614}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1569176838213012068}
+  m_Father: {fileID: 8512442773793173191}
+  m_LocalEulerAnglesHint: {x: -9.658813, y: 27.759424, z: 1.3356113}
+--- !u!1 &8207255020999826234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8539822514068821159}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8539822514068821159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8207255020999826234}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.1260419, y: -0.012678324, z: -0.69556075, w: 0.70721143}
+  m_LocalPosition: {x: -0.1512901, y: 0.1612782, z: -0.104597054}
+  m_LocalScale: {x: 0.9999997, y: 0.9999999, z: 0.9999998}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4718640433376071517}
+  m_Father: {fileID: 566124443277599488}
+  m_LocalEulerAnglesHint: {x: 9.218074, y: -11.2429905, z: -84.739456}
+--- !u!1 &8231858862596998579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6754388966879596348}
+  m_Layer: 0
+  m_Name: Parasaurolophus Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6754388966879596348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8231858862596998579}
+  serializedVersion: 2
+  m_LocalRotation: {x: 1.516857e-13, y: -0.00000016802328, z: 0.060579464, w: 0.9981634}
+  m_LocalPosition: {x: -0.2917822, y: -0.053509094, z: -0.0000006151748}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 494239179560110306}
+  m_Father: {fileID: 5178310543093933556}
+  m_LocalEulerAnglesHint: {x: 0.05537151, y: -0.7811352, z: 4.0058823}
+--- !u!1 &8675557577535588786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7070612815799117696}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7070612815799117696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8675557577535588786}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.095770024, y: 0.99166214, z: -0.005130129, w: -0.08606961}
+  m_LocalPosition: {x: 0.083904475, y: 0.12585633, z: -0.29366678}
+  m_LocalScale: {x: 1, y: 0.99999976, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6429149638738197192}
+  m_Father: {fileID: 5994877306202361306}
+  m_LocalEulerAnglesHint: {x: -0.4141268, y: -170.62416, z: -8.741904}
+--- !u!1 &8740405392082116500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1777811688022629593}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Lower Eyelid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1777811688022629593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8740405392082116500}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.23694634, y: 0.3329332, z: 0.8303197, w: -0.37892094}
+  m_LocalPosition: {x: -0.14253524, y: 0.3362663, z: -0.15736024}
+  m_LocalScale: {x: 1.0000004, y: 1.0000002, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8184390836722499685}
+  m_Father: {fileID: 8006916132565900445}
+  m_LocalEulerAnglesHint: {x: -45.74232, y: 22.689054, z: -114.5875}
+--- !u!1 &8827571073080243804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5097182487447183890}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5097182487447183890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8827571073080243804}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.01579708, y: -0.097330034, z: -0.07424233, w: 0.9923535}
+  m_LocalPosition: {x: -0.49691725, y: 0.19904132, z: -0.045778144}
+  m_LocalScale: {x: 0.99999976, y: 0.99999994, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7092827985497900564}
+  m_Father: {fileID: 6429149638738197192}
+  m_LocalEulerAnglesHint: {x: -7.2526565, y: -11.796749, z: -27.77088}
+--- !u!1 &9120175814780842525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2679589304518872849}
+  m_Layer: 0
+  m_Name: Parasaurolophus R Toe01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2679589304518872849
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9120175814780842525}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0000000037252907, y: 0.000000008556575, z: 0.000000001862647, w: 1}
+  m_LocalPosition: {x: -0.24419412, y: -0.04215452, z: -0.07397423}
+  m_LocalScale: {x: 1, y: 0.99999976, z: 0.99999976}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1652781352738909737}
+  m_Father: {fileID: 7092827985497900564}
+  m_LocalEulerAnglesHint: {x: -0.000000384957, y: 0.0000011488559, z: 0}
