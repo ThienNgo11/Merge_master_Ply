@@ -226,27 +226,27 @@ namespace GameToolSample.GamePlay.Manager
 
         protected virtual void TrackingPlaygame()
         {
-            TrackingMngr.Instance.TrackEvent(Analytics.EventType.LevelStart, (int)Analytics.EventType.LevelStart);
+            // Bypass Tracking on Luna Playable
         }
 
         protected virtual void TrackingVictory()
         {
-            TrackingMngr.Instance.TrackEvent(Analytics.EventType.LevelWon, (int)Analytics.EventType.LevelWon);
+            // Bypass Tracking on Luna Playable
         }
 
         protected virtual void TrackingLoseEnd()
         {
-            TrackingMngr.Instance.TrackEvent(Analytics.EventType.LevelFailed, (int)Analytics.EventType.LevelFailed);
+            // Bypass Tracking on Luna Playable
         }
 
         protected virtual void TrackingEndCard()
         {
-            TrackingMngr.Instance.TrackEvent(Analytics.EventType.EndCardShown, (int)Analytics.EventType.EndCardShown);
+            // Bypass Tracking on Luna Playable
         }
 
         protected virtual void TrackingLose()
         {
-            TrackingMngr.Instance.TrackEvent(Analytics.EventType.LevelFailed, (int)Analytics.EventType.LevelFailed);
+            // Bypass Tracking on Luna Playable
         }
 
         protected virtual void TrackingSkip()

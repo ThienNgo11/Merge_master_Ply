@@ -7,6 +7,13 @@ namespace GameToolSample.UIManager
         RevivePopup,
         LosePopup,
         EndCard,
+        OfflineEarningPopup,
+        FlyingDinoPopup,
+        SettingPopup,
+        CardPopup,
+        GemsPopup,
+        SummonPopup,
+        RankingPopup,
     }
 
     public enum eUIType

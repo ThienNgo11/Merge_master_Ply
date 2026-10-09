@@ -13,234 +13,756 @@ MonoBehaviour:
   m_Name: AudioTable
   m_EditorClassIdentifier: 
   musicTracksSerializers:
-  - key: BG_Home
+  - key: Clash
     track:
-      listAudio:
-      - {fileID: 8300000, guid: 9a20575b4f46f0b44a61e2006c2bdbf9, type: 3}
-      resourcePaths:
-      - 
+      listAudio: []
+      resourcePaths: []
     isDuplicated: 0
-  - key: BG_Ingame
+  - key: FL_Bg
     track:
       listAudio:
-      - {fileID: 8300000, guid: 781ca3597c20c8b4aa2fe0eb59d9661f, type: 3}
-      - {fileID: 8300000, guid: 21ff3ba6ad1fa4348970fd34ee1c6454, type: 3}
-      - {fileID: 8300000, guid: ad48d8bb0f5aa65419d5b25227b71573, type: 3}
-      - {fileID: 8300000, guid: fd18629955754e747ba4e8d094449da1, type: 3}
-      - {fileID: 8300000, guid: 84d9cf4b5cb74464ba3de6f07bf0a511, type: 3}
+      - {fileID: 8300000, guid: 7dc2ae50ae0f0c64dae638e6d7485285, type: 3}
       resourcePaths:
-      - 
-      - 
-      - 
-      - 
-      - 
+      - Audio/Music/FL/FL_Bg
     isDuplicated: 0
   soundTracksSerializers:
   - key: ButtonClick
     track:
       listAudio:
-      - {fileID: 8300000, guid: 16454ac42cac02c44bd86b754cb73b83, type: 3}
+      - {fileID: 8300000, guid: 7bd44df4a29c09a4c9dcf5caba8da780, type: 3}
       resourcePaths:
-      - 
+      - Audio/btnclick
     isFrequently: 1
     isDuplicated: 0
-  - key: CollectCoin
+  - key: CoinSpawn
     track:
       listAudio:
-      - {fileID: 8300000, guid: d15f8c47aeaf88345be9866f9e49cf0c, type: 3}
+      - {fileID: 8300000, guid: 101c141c72bd0784789d390ce6c9dae2, type: 3}
       resourcePaths:
-      - 
+      - Audio/SpawnCoin
     isFrequently: 0
     isDuplicated: 0
-  - key: CollectDiamond
+  - key: ClaimCoin
     track:
       listAudio:
-      - {fileID: 8300000, guid: d15f8c47aeaf88345be9866f9e49cf0c, type: 3}
+      - {fileID: 8300000, guid: 133de494ea9f11b4c8d6a7184a87fa77, type: 3}
       resourcePaths:
-      - 
-    isFrequently: 0
-    isDuplicated: 0
-  - key: Tick
-    track:
-      listAudio:
-      - {fileID: 8300000, guid: d15f8c47aeaf88345be9866f9e49cf0c, type: 3}
-      resourcePaths:
-      - 
-    isFrequently: 0
-    isDuplicated: 0
-  - key: Lose
-    track:
-      listAudio:
-      - {fileID: 8300000, guid: 964604da668c0d3469083c780f97ab90, type: 3}
-      resourcePaths:
-      - 
-    isFrequently: 0
-    isDuplicated: 0
-  - key: Victory
-    track:
-      listAudio:
-      - {fileID: 8300000, guid: 7673ec5ee33c18d478160ab2651c209d, type: 3}
-      resourcePaths:
-      - 
-    isFrequently: 0
-    isDuplicated: 0
-  - key: SuccessReward
-    track:
-      listAudio:
-      - {fileID: 8300000, guid: 97b020c9d5535c640aad5e66310f21a8, type: 3}
-      resourcePaths:
-      - 
-    isFrequently: 0
-    isDuplicated: 0
-  - key: Merge3Tiles
-    track:
-      listAudio:
-      - {fileID: 8300000, guid: 17722c7e66b118a40bb33d36d7ffc58e, type: 3}
-      resourcePaths:
-      - 
+      - Audio/ClaimCoin
     isFrequently: 1
     isDuplicated: 0
-  - key: OpenChest
+  - key: WarningHard
     track:
       listAudio:
-      - {fileID: 8300000, guid: e32d04664923e8f4899cf1b1d205fb99, type: 3}
+      - {fileID: 8300000, guid: 8936035c79493ad479c36f414c1ee657, type: 3}
       resourcePaths:
-      - 
+      - Audio/sfx_warning
     isFrequently: 0
     isDuplicated: 0
-  - key: Clock5s
+  - key: PersonDrawBowstring
     track:
-      listAudio:
-      - {fileID: 8300000, guid: 1e47e54f42abe154987308c35a153368, type: 3}
-      resourcePaths:
-      - 
-    isFrequently: 0
-    isDuplicated: 0
-  - key: CoinChest
-    track:
-      listAudio:
-      - {fileID: 8300000, guid: 1a33db6f51a879c468d98c3839fb4526, type: 3}
-      resourcePaths:
-      - 
-    isFrequently: 0
-    isDuplicated: 0
-  - key: CoinShop
-    track:
-      listAudio:
-      - {fileID: 8300000, guid: 3c2598e6813a11049b81c55651aacbd1, type: 3}
-      resourcePaths:
-      - 
-    isFrequently: 0
-    isDuplicated: 0
-  - key: ExtraBox
-    track:
-      listAudio:
-      - {fileID: 8300000, guid: 88fe6c22fb3703a4db4915da6ca7df5f, type: 3}
-      resourcePaths:
-      - 
-    isFrequently: 0
-    isDuplicated: 0
-  - key: Fail
-    track:
-      listAudio:
-      - {fileID: 8300000, guid: 36f42ae275c517542a7f83fa34a821f9, type: 3}
-      resourcePaths:
-      - 
-    isFrequently: 0
-    isDuplicated: 0
-  - key: Freeze
-    track:
-      listAudio:
-      - {fileID: 8300000, guid: f64ca3a518af55d48845fabd99f5ffe0, type: 3}
-      resourcePaths:
-      - 
-    isFrequently: 0
-    isDuplicated: 0
-  - key: Lose1
-    track:
-      listAudio:
-      - {fileID: 8300000, guid: 9c1967f5a697ef24cbcc122191902f6b, type: 3}
-      resourcePaths:
-      - 
-    isFrequently: 0
-    isDuplicated: 0
-  - key: Lose2Star
-    track:
-      listAudio:
-      - {fileID: 8300000, guid: 40d2bce969ebd784cb08edf0a2b86343, type: 3}
-      resourcePaths:
-      - 
-    isFrequently: 0
-    isDuplicated: 0
-  - key: Lose3Fail
-    track:
-      listAudio:
-      - {fileID: 8300000, guid: 894c9511d1eb7464e9af8ca801e04a09, type: 3}
-      resourcePaths:
-      - 
-    isFrequently: 0
-    isDuplicated: 0
-  - key: Mission
-    track:
-      listAudio:
-      - {fileID: 8300000, guid: 4367c5a514c0b8a4d9217d60a0e92ab8, type: 3}
-      resourcePaths:
-      - 
-    isFrequently: 0
-    isDuplicated: 0
-  - key: NewTiles
-    track:
-      listAudio:
-      - {fileID: 8300000, guid: 0a4ac401d030b8c409b8d16e7b63d98c, type: 3}
-      resourcePaths:
-      - 
-    isFrequently: 0
-    isDuplicated: 0
-  - key: Return
-    track:
-      listAudio:
-      - {fileID: 8300000, guid: da298d1a5b945424a891aa95524464d1, type: 3}
-      resourcePaths:
-      - 
-    isFrequently: 0
-    isDuplicated: 0
-  - key: StarWin
-    track:
-      listAudio:
-      - {fileID: 8300000, guid: c7bd251d2629d7b48a7e4dc8536cc8d8, type: 3}
-      resourcePaths:
-      - 
-    isFrequently: 0
-    isDuplicated: 0
-  - key: TouchTile
-    track:
-      listAudio:
-      - {fileID: 8300000, guid: d2718eacdad10fd4ea95ce7dabad5bf3, type: 3}
-      resourcePaths:
-      - 
+      listAudio: []
+      resourcePaths: []
     isFrequently: 1
     isDuplicated: 0
-  - key: Win1
+  - key: PersonReleaseBowstring
     track:
-      listAudio:
-      - {fileID: 8300000, guid: ddad320fd2af1c649b398e61c570d0e6, type: 3}
-      resourcePaths:
-      - 
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonImpact
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonPerish
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonFuse
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonSlot
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonConquest
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonPerish1
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonPerish2
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonPerish4
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonPerish8
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonPerish16
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonPerish32
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonPerish64
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonPerish128
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonPerish256
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonPerish512
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonPerish1024
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonImpact1
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonImpact2
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonImpact4
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonImpact8
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonImpact16
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonImpact32
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonImpact64
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonImpact128
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonImpact256
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonImpact512
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: PersonImpact1024
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian1Impact
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian1Perish
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian1Fuse
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian1Slot
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian2Impact
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian2Perish
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian2Fuse
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian2Slot
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian4Impact
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian4Perish
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian4Fuse
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian8Impact
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian8Perish
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian8Fuse
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian16Impact
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian16Perish
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian16Fuse
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian15Impact
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian15Perish
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian15Fuse
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian32Impact
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian32Perish
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian32Fuse
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian64Impact
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian64Perish
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian64Fuse
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian128Impact
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian128Perish
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian128Fuse
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian256Impact
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian256Perish
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian256Fuse
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian512Impact
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian512Perish
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian512Fuse
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian1024Impact
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian1024Perish
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Saurian1024Fuse
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 1
+    isDuplicated: 0
+  - key: ControlTouch
+    track:
+      listAudio: []
+      resourcePaths: []
     isFrequently: 0
     isDuplicated: 0
-  - key: Win2
+  - key: CollectCash
     track:
       listAudio:
-      - {fileID: 8300000, guid: 2c993531fa643b743ae687f494eab06e, type: 3}
+      - {fileID: 8300000, guid: 1634de918fd13724083b36c16a30583c, type: 3}
       resourcePaths:
-      - 
+      - Audio/SFX/COINS Collect Chime 01
     isFrequently: 0
     isDuplicated: 0
-  - key: BoosterTime
+  - key: StageFinished
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 0
+    isDuplicated: 0
+  - key: CombatantAcquisition
     track:
       listAudio:
-      - {fileID: 8300000, guid: 4458b3ca1bc1aa84dafb3fa06f422d6a, type: 3}
+      - {fileID: 8300000, guid: 69d77b8f637c13b40a0c7b746e9a131c, type: 3}
       resourcePaths:
-      - 
+      - Audio/SFX/Item purchase 24
     isFrequently: 0
+    isDuplicated: 0
+  - key: StageUnsuccessful
+    track:
+      listAudio: []
+      resourcePaths: []
+    isFrequently: 0
+    isDuplicated: 0
+  - key: PresentTile
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 3050230dbd8477a448add942d9221e18, type: 3}
+      resourcePaths:
+      - Audio/SFX/Prize Chest (2)
+    isFrequently: 0
+    isDuplicated: 0
+  - key: ChampionAccessible
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 3050230dbd8477a448add942d9221e18, type: 3}
+      resourcePaths:
+      - Audio/SFX/Prize Chest (2)
+    isFrequently: 0
+    isDuplicated: 0
+  - key: Whoosh
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: c266bf0747d38274d81998558721fc21, type: 3}
+      resourcePaths:
+      - Audio/SFX/ui_sfx_transition_swoosh
+    isFrequently: 0
+    isDuplicated: 0
+  - key: CofferRevealing
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 6fd1185422024894c9d630da949d6e0a, type: 3}
+      resourcePaths:
+      - Audio/SFX/MMM_ChestOpen_SFX
+    isFrequently: 0
+    isDuplicated: 0
+  - key: PrizeDialog
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: dc1199b52e274e54da83c420e5537b12, type: 3}
+      resourcePaths:
+      - Audio/SFX/MMM_RewardPop_SFX
+    isFrequently: 0
+    isDuplicated: 0
+  - key: MiniatureAssemble
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 620c84ea12f13f04184d87a5c98e0582, type: 3}
+      resourcePaths:
+      - Audio/SFX/Pop sounds 18
+    isFrequently: 0
+    isDuplicated: 0
+  - key: MiniatureCheckpointUnsealed
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 7bb509c67f051bc4091cd0b4d42645b5, type: 3}
+      resourcePaths:
+      - Audio/SFX/Win sound 14
+    isFrequently: 0
+    isDuplicated: 0
+  - key: MiniatureFinished
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 2dd52fb00f0061a449c85c4f87b95ef0, type: 3}
+      resourcePaths:
+      - Audio/SFX/success-1-6297
+    isFrequently: 0
+    isDuplicated: 0
+  - key: BattleStart
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 6574c0aa4f3f95d449b3205c9134ed5a, type: 3}
+      resourcePaths:
+      - Audio/SFX/battle_start
+    isFrequently: 0
+    isDuplicated: 0
+  - key: GrabUnit
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: f13a72eb5526d17478f5e23f611f19e3, type: 3}
+      resourcePaths:
+      - Audio/SFX/grab_unit
+    isFrequently: 0
+    isDuplicated: 0
+  - key: DropUnit
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 7b2c242c7410aa1479d7f5f7420e6bad, type: 3}
+      resourcePaths:
+      - Audio/SFX/drop_unit
+    isFrequently: 0
+    isDuplicated: 0
+  - key: Evolution
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 6f4911460feed7f4d8213c1fc8e360f7, type: 3}
+      resourcePaths:
+      - Audio/SFX/Evolution
+    isFrequently: 0
+    isDuplicated: 0
+  - key: FL_ShotGun
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: da9c9d6d321fabd4390bdac1d6261a4b, type: 3}
+      resourcePaths:
+      - Audio/SFX/FL/FL_ShotGun
+    isFrequently: 1
+    isDuplicated: 0
+  - key: FL_ShotRocket1
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 409e28d6feedacf4c984468914487925, type: 3}
+      resourcePaths:
+      - Audio/SFX/FL/FL_ShotRocket1
+    isFrequently: 1
+    isDuplicated: 0
+  - key: FL_DeathExplosion
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 46d1e661c10a5224f8d12d56b2a6f803, type: 3}
+      resourcePaths:
+      - Audio/SFX/FL/FL_DeathExplosion
+    isFrequently: 1
+    isDuplicated: 0
+  - key: FL_ShotHeavy
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 4e6ba8875c3abac46a3f013b1ddd2784, type: 3}
+      resourcePaths:
+      - Audio/SFX/FL/FL_ShotHeavy
+    isFrequently: 1
+    isDuplicated: 0
+  - key: FL_ShotRocket3
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: de573509852178141930256eb4091a1b, type: 3}
+      resourcePaths:
+      - Audio/SFX/FL/FL_ShotRocket3
+    isFrequently: 1
+    isDuplicated: 0
+  - key: FL_ShotFlame
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: b3e11d467796bb94ea373cdde0c4ea06, type: 3}
+      resourcePaths:
+      - Audio/SFX/FL/FL_ShotFlame
+    isFrequently: 1
+    isDuplicated: 0
+  - key: FL_ShotRocket2
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: cad022647c7320848b6b5f9c78f652f1, type: 3}
+      resourcePaths:
+      - Audio/SFX/FL/FL_ShotRocket2
+    isFrequently: 1
+    isDuplicated: 0
+  - key: RefMeleeAttack1
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 49869a759818e554487432f9ddf3aa97, type: 3}
+      resourcePaths:
+      - Audio/SFX/Ref/sfx_roboatk1
+    isFrequently: 1
+    isDuplicated: 0
+  - key: RefMeleeAttack2
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: a16fcb01811c82246bdbe1a825dce2a6, type: 3}
+      resourcePaths:
+      - Audio/SFX/Ref/sfx_roboatk2
+    isFrequently: 1
+    isDuplicated: 0
+  - key: RefMeleeAttack3
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 63004f3d74f07c94cbb389086c621a5d, type: 3}
+      resourcePaths:
+      - Audio/SFX/Ref/sfx_roboatk3
+    isFrequently: 1
+    isDuplicated: 0
+  - key: RefMerge
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 6625ee4a43a336645b2c82f4e1231c21, type: 3}
+      resourcePaths:
+      - Audio/SFX/Ref/Merge
+    isFrequently: 0
+    isDuplicated: 0
+  - key: RefPurchaseHuman
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: d76534fa2b230a5499b0db31ce286a66, type: 3}
+      resourcePaths:
+      - Audio/SFX/Ref/PurchaseHuman
+    isFrequently: 0
+    isDuplicated: 0
+  - key: RefPurchaseDino
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: e6527020dfdd1654f9bd67fc7675e77d, type: 3}
+      resourcePaths:
+      - Audio/SFX/Ref/PurchaseDino
+    isFrequently: 0
+    isDuplicated: 0
+  - key: RefHeroUnlock
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 6421d9c17f7bb42439c420d7271beac5, type: 3}
+      resourcePaths:
+      - Audio/SFX/Ref/HeroUnlock
+    isFrequently: 0
+    isDuplicated: 0
+  - key: FL_Win
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 87f0e3d6c424db641bf27c52ce9682f9, type: 3}
+      resourcePaths:
+      - Audio/SFX/FL/FL_Win
+    isFrequently: 0
+    isDuplicated: 0
+  - key: FL_Lose
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 103a0c4c6a7c3fa4c9f7d5d93a25431d, type: 3}
+      resourcePaths:
+      - Audio/SFX/FL/FL_Lose
+    isFrequently: 0
+    isDuplicated: 0
+  - key: RefCoinCollect
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: cc75daa6d2757e84e9f6874aba6a7e93, type: 3}
+      resourcePaths:
+      - Audio/SFX/Ref/CoinCollect
+    isFrequently: 1
+    isDuplicated: 0
+  - key: RefClick
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 92b440e4defab554da0c1787e06f9643, type: 3}
+      resourcePaths:
+      - Audio/SFX/Ref/Click
+    isFrequently: 1
+    isDuplicated: 0
+  - key: RefLuckyReward
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 31b11bb8e4ebca54f81ff5ff747f304d, type: 3}
+      resourcePaths:
+      - Audio/SFX/Ref/LuckyReward
+    isFrequently: 0
+    isDuplicated: 0
+  - key: RefTransform
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 92bfcaae5c2f8504496cdea8f958b379, type: 3}
+      resourcePaths:
+      - Audio/SFX/Ref/sfx_tranform
+    isFrequently: 0
+    isDuplicated: 0
+  - key: RefFortuneWheel
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 0c8a0f80f78a8fa4c8770b1aa6ece846, type: 3}
+      resourcePaths:
+      - Audio/SFX/Ref/FortuneWheel
+    isFrequently: 0
+    isDuplicated: 0
+  - key: FL_ShotLaser
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 477d0524962a4384a9cf251abb777dac, type: 3}
+      resourcePaths:
+      - Audio/SFX/FL/FL_ShotLaser
+    isFrequently: 1
     isDuplicated: 0

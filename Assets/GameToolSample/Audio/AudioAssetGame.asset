@@ -16,4 +16,4 @@ MonoBehaviour:
   soundAsset:
   - key: 1
     listAudio:
-    - {fileID: 8300000, guid: 16454ac42cac02c44bd86b754cb73b83, type: 3}
+    - {fileID: 8300000, guid: 7bd44df4a29c09a4c9dcf5caba8da780, type: 3}

@@ -78,7 +78,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1080, y: 2240}
+  m_ReferenceResolution: {x: 1080, y: 1920}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
@@ -134,13 +134,13 @@ MonoBehaviour:
   mainRect: {fileID: 3201443130840268616}
   scaler: {fileID: 3201443130840268618}
   cam: {fileID: 0}
-  aspect: 0.68007314
-  refAspect: 0.48214287
+  aspect: 0.5625
+  refAspect: 0.5625
   fatCanvas: 0
   fixedScaler: 0
   fixedRefAspect: 0
   SourceGameIsLanscape: 0
-  AspectCam: 1.47043
+  AspectCam: 1.7777778
   CurrentName: Iphone 7
   changeCamSize: 0
   changeCanvasScaler: 0
