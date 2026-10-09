@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b4bd13ab8b16450f8aa26387771d48d, type: 3}
+  m_Name: CanvasPrefTable
+  m_EditorClassIdentifier: 
+  ListLayer: 000000000100000002000000
+  Serializers:
+  - key: EndCard
+    settingUI:
+      UIType: 2
+      baseUI: {fileID: 6240064862693447705, guid: d9a3c59a18b7d4ac2b99f61878975a77, type: 3}
+      resourcePath: EndCard
+    isDuplicatedKey: 0

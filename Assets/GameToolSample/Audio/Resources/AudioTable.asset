@@ -1,0 +1,246 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9d3c3707c7e4dd7a5bb691aee62467, type: 3}
+  m_Name: AudioTable
+  m_EditorClassIdentifier: 
+  musicTracksSerializers:
+  - key: BG_Home
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 9a20575b4f46f0b44a61e2006c2bdbf9, type: 3}
+      resourcePaths:
+      - 
+    isDuplicated: 0
+  - key: BG_Ingame
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 781ca3597c20c8b4aa2fe0eb59d9661f, type: 3}
+      - {fileID: 8300000, guid: 21ff3ba6ad1fa4348970fd34ee1c6454, type: 3}
+      - {fileID: 8300000, guid: ad48d8bb0f5aa65419d5b25227b71573, type: 3}
+      - {fileID: 8300000, guid: fd18629955754e747ba4e8d094449da1, type: 3}
+      - {fileID: 8300000, guid: 84d9cf4b5cb74464ba3de6f07bf0a511, type: 3}
+      resourcePaths:
+      - 
+      - 
+      - 
+      - 
+      - 
+    isDuplicated: 0
+  soundTracksSerializers:
+  - key: ButtonClick
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 16454ac42cac02c44bd86b754cb73b83, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 1
+    isDuplicated: 0
+  - key: CollectCoin
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: d15f8c47aeaf88345be9866f9e49cf0c, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: CollectDiamond
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: d15f8c47aeaf88345be9866f9e49cf0c, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: Tick
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: d15f8c47aeaf88345be9866f9e49cf0c, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: Lose
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 964604da668c0d3469083c780f97ab90, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: Victory
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 7673ec5ee33c18d478160ab2651c209d, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: SuccessReward
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 97b020c9d5535c640aad5e66310f21a8, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: Merge3Tiles
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 17722c7e66b118a40bb33d36d7ffc58e, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 1
+    isDuplicated: 0
+  - key: OpenChest
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: e32d04664923e8f4899cf1b1d205fb99, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: Clock5s
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 1e47e54f42abe154987308c35a153368, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: CoinChest
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 1a33db6f51a879c468d98c3839fb4526, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: CoinShop
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 3c2598e6813a11049b81c55651aacbd1, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: ExtraBox
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 88fe6c22fb3703a4db4915da6ca7df5f, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: Fail
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 36f42ae275c517542a7f83fa34a821f9, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: Freeze
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: f64ca3a518af55d48845fabd99f5ffe0, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: Lose1
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 9c1967f5a697ef24cbcc122191902f6b, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: Lose2Star
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 40d2bce969ebd784cb08edf0a2b86343, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: Lose3Fail
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 894c9511d1eb7464e9af8ca801e04a09, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: Mission
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 4367c5a514c0b8a4d9217d60a0e92ab8, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: NewTiles
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 0a4ac401d030b8c409b8d16e7b63d98c, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: Return
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: da298d1a5b945424a891aa95524464d1, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: StarWin
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: c7bd251d2629d7b48a7e4dc8536cc8d8, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: TouchTile
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: d2718eacdad10fd4ea95ce7dabad5bf3, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 1
+    isDuplicated: 0
+  - key: Win1
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: ddad320fd2af1c649b398e61c570d0e6, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: Win2
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 2c993531fa643b743ae687f494eab06e, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
+  - key: BoosterTime
+    track:
+      listAudio:
+      - {fileID: 8300000, guid: 4458b3ca1bc1aa84dafb3fa06f422d6a, type: 3}
+      resourcePaths:
+      - 
+    isFrequently: 0
+    isDuplicated: 0
