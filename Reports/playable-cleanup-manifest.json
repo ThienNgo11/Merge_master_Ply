@@ -1,0 +1,1939 @@
+{
+  "method": "GUID closure from all retained assets/scenes/scripts/resources/settings, plus dynamic resource path strings; modified/untracked files protected",
+  "files": [
+    {
+      "path": "Assets/Layer Lab/GUI Pro-SuperCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/128/Button_Round03_Dark.png",
+      "bytes": 2424,
+      "sha256": "afa5c1fe9456078f50366ce792d27b0d3ecbd09a68ca9216c22274596b234357",
+      "guid": "84730dcdd17f68147b3d3594813a7d4c",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/Layer Lab/GUI Pro-SuperCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/128/ItemIcon_Battle.Png",
+      "bytes": 9764,
+      "sha256": "46e9cff8523159672844078c12bb78978c82c0a37fafb7d89b9e78b48262cb72",
+      "guid": "d031f4b21493c4841914d4257119a4e3",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/Layer Lab/GUI Pro-SuperCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/128/ItemIcon_Gem_Diamond_Purple.Png",
+      "bytes": 6313,
+      "sha256": "17c5274915df99ba02ed2a4dcbf957865c8dea79b43e9b68f5885a0a379c9cc6",
+      "guid": "9d828b669d63a451c8ae0a8541df8dc1",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/Layer Lab/GUI Pro-SuperCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/128/ItemIcon_Video 1.png",
+      "bytes": 9038,
+      "sha256": "35b4d2ddae00f07e49b5db299b18ba8ae6d4c9988c5c380b8c31a4976ed7f954",
+      "guid": "5009283db5dedb94bac2be09ad1fd197",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/Layer Lab/GUI Pro-SuperCasual/ResourcesData/Sprites/Components/UI_Etc/ResourceBar_Demo_Btn_Purple2.png",
+      "bytes": 646,
+      "sha256": "9d47f18437e50eb38ff5acb38160ed16ea83b98375dc0ebb5dad7029ed0f4048",
+      "guid": "02dc52ac5e8b84189b58ae5a14baa3b5",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/ROBOT/DinoControllers/KL01 Loading Controller.controller",
+      "bytes": 2105,
+      "sha256": "9dc35948000696c3ab20561b0a9822d7b5614071d0715e5e95c73c63aa03d5dc",
+      "guid": "5c34653016d91874a95564199bfe932e",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/ROBOT/DinoControllers/KL04 Controller.controller",
+      "bytes": 5386,
+      "sha256": "73280cac706714f83a6f388b8677bf89c761bea7144cd9e613a73385e0ab6ce5",
+      "guid": "38f21f6513194a34094acfe9a4b9d4cc",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/ROBOT/DinoControllers/KL05 Controller.controller",
+      "bytes": 5391,
+      "sha256": "437622680b8c55b3ac363190eba094c34fab28ce2540f238540ddaa7977e9628",
+      "guid": "9fe7fb5ec4d9a604bbd348141dbeda3f",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/ROBOT/DinoControllers/KL06 Controller.controller",
+      "bytes": 5388,
+      "sha256": "5ed89dbdc7f9ef9c2466fcf9ed41c51a60f1cadce14100555bd563ea50e63095",
+      "guid": "1971636050eec724e8bce14fd0925f96",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/ROBOT/DinoControllers/KL07 Controller.controller",
+      "bytes": 5386,
+      "sha256": "179bb45a4f3ba99aac62f6a39af7a01bd612bb59930578c364852f350f0b9014",
+      "guid": "e7c6a847f78586f40a70dba350850838",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/ROBOT/DinoControllers/KL08 Controller.controller",
+      "bytes": 5389,
+      "sha256": "afb3bf115eb5716977cdaec741d303144b25a6b62d172e714d6a76f2bc52f60a",
+      "guid": "588562e930f668d48a318897035a3423",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/ROBOT/DinoControllers/KL09 Controller.controller",
+      "bytes": 5388,
+      "sha256": "dbb9be7d7aca10a33d9d7a6e9c589a232f4ba9023e37c93ffb8168b9a4cec3a0",
+      "guid": "6b3992bcfa0479d49899a50c11904bf1",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/ROBOT/DinoControllers/KL10 Controller.controller",
+      "bytes": 5386,
+      "sha256": "864e1889ef94dad1b293b71ab8594c9f03056b400eaea1144e9ab6545eb71f24",
+      "guid": "71da4f709fb806242963d9bc532c9e89",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/ROBOT/DinoControllers/KL11 Controller.controller",
+      "bytes": 5385,
+      "sha256": "27840cb746e5481437f2aaa08eeee6b090732a7872e6a73d328bfed879a86246",
+      "guid": "489c8b991b7de0243b7cc73a91f1d2cf",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/ROBOT/DinoControllers/KLBoss Controller.controller",
+      "bytes": 5393,
+      "sha256": "0ac3c3ce6be13880f2b968ad60bd5787ee9e8f9f8caba21fd578c33781b277ea",
+      "guid": "b6a6b2a3eae044a468aa6c874abcedcc",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/ROBOT/KL1/blue_Loading.mat",
+      "bytes": 5188,
+      "sha256": "367942711138f818819f100ab400c4b95ee1c3bb81c1401a39dee0d43d945add",
+      "guid": "853de92d512ac5741b1ad07bf06c498f",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/ROBOT/RobotAnims/G1/G1_Wizard_Attack.anim",
+      "bytes": 592267,
+      "sha256": "c822861d8018859178b2532eaf5a96e2f84c2b3292ebd5abba3284f0f158e89c",
+      "guid": "696f9ae4c2620184eb716bced7a1de56",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/ROBOT/RobotAnims/Robot G1 Wizard Controller.controller",
+      "bytes": 6281,
+      "sha256": "8ddc3dee4a207a23130877276049ad5424e38315900028c29c9d6768904b3276",
+      "guid": "1029d5749ca32ce4bbfe8c1932800f96",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Game/Robot_Expolsion01.prefab",
+      "bytes": 11115,
+      "sha256": "1c1305d4a6bbd1edec2091868512faeec7923cda93ca8c6e577f1fb59be0862e",
+      "guid": "12d7dee2bee51b446a39e03087e2c1fe",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Game/Robot_Expolsion02.prefab",
+      "bytes": 11714,
+      "sha256": "dcffa95fcf5796500dbb2eb4c398374004724fa918b35aa660e26d139dadfe06",
+      "guid": "64ea09207118a46469a289c5f90ae576",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Game/Robot_Expolsion03.prefab",
+      "bytes": 14107,
+      "sha256": "fd9cc1ed1d51fdaa9566313e29caa7f6ff7fb69880a248a28d1d279f320637da",
+      "guid": "2edf47be878db2e47b09bf9d0dc7a2e3",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Materials/coin.mat",
+      "bytes": 1402,
+      "sha256": "358f94382f6325eef384bc6240a7f3e5ab8b6c6698bc8aa3a8577bd4baf776e4",
+      "guid": "3b9fb4bd89d4935458ad92d315ac7ef1",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Materials/coin_0.mat",
+      "bytes": 1402,
+      "sha256": "8683e3a4e603ed5ac93597b454830bcfa1a6fa034d9b74b15784b1249ee1606c",
+      "guid": "b9a9eb2ce8682084e91274f8a216b486",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Materials/confetti3x2.mat",
+      "bytes": 1617,
+      "sha256": "9fa6073e4c87fb48ac4acf43754594a1a6ca9aa60abad629a112ea3bdade969a",
+      "guid": "8c6af56f227c4dc49a83e44cc3019f30",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Materials/sparkle_legendary.mat",
+      "bytes": 1016,
+      "sha256": "b8b325ef3cfa6b27b9684f2df84a0e92a16977f027250fdafe8cf3047168fc4f",
+      "guid": "54133ea4f1ef24f4dbe1027cd87595f5",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Materials/trail.mat",
+      "bytes": 1004,
+      "sha256": "00107b1a3661d2b2ab0535588ff8849388a52025af93ce0092b03270111d1b0b",
+      "guid": "28d94a17ef9dcfa45b5a34c749593a46",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Meshes/Coin.asset",
+      "bytes": 12635,
+      "sha256": "2342e05249c0a77b7f7294ad1f484613f6baff4170c573b8fd892fc7ea7fb455",
+      "guid": "05274e2f07f14fb49a2175c23ffd258a",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Prefabs/Death/Robot_Expolsion01.prefab",
+      "bytes": 403095,
+      "sha256": "57014862e53b8530f5a1b79a00587d782507bece222edd118c222b61fcf12e5b",
+      "guid": "d047a90db900aaa4fb28ce1a6b86dbbd",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Prefabs/Death/Robot_Expolsion02.prefab",
+      "bytes": 405442,
+      "sha256": "74d0c3f0d8ab90abd7a1fb0607e6c3e19497dfabe49ca3c52a0f8b84f95e32da",
+      "guid": "03876bde0c50a05418bb3474b520d461",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Prefabs/Death/Robot_Expolsion03.prefab",
+      "bytes": 520332,
+      "sha256": "75f87971cf306984509018b3c4137231785acb30100fbca93e8bcfe112ad80fd",
+      "guid": "c55e0c7a436eb584db90d4d3d27cdb29",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Prefabs/UI/CoinBumpFX UI.prefab",
+      "bytes": 59150,
+      "sha256": "d43d7f85938e3d3c1ac87dd14b2c60098b41c00ee81bee68295b5b5a5c4ae3ad",
+      "guid": "0532ebe8193a9ac2b7e35d49709866bd",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Prefabs/UI/CoinFX UI.prefab",
+      "bytes": 115444,
+      "sha256": "1cf055c8287fc376fa75f2c06e2b96b5bfaa9d0890f96ce5019c60c4d78a8828",
+      "guid": "1ad733c62a332eec036388d108435281",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Prefabs/UI/GiftFxUI.prefab",
+      "bytes": 58667,
+      "sha256": "13fc04c297d1d5d3cdfd806fa142af8b890f22cc5fd0c53e75859396e2682f16",
+      "guid": "0c54bb502c7a7b4bfed746c0843ff32d",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Prefabs/UI/WinConfettiEffect.prefab",
+      "bytes": 118334,
+      "sha256": "885a6374fd8d210006af38e18b387a19c81c28fb6fdedc42db8e63d0a96c178d",
+      "guid": "ed4c07e143bed0b560089bb7e616901a",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Textures/Conffeti-3x2.png",
+      "bytes": 21333,
+      "sha256": "3e8a6b511aee5eee73d9e124c0892bc648285e6e9bf96cc6425c8a82b3ad0b30",
+      "guid": "42429c19343752b4c9c239c78a67fb4d",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Textures/Sparkle.png",
+      "bytes": 51592,
+      "sha256": "d998730812cd0864da80aeb6406469f0413de81d246113166c7e4dc8ba4d3b00",
+      "guid": "4d3c77d355d44d944863bcb8d943c62a",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Textures/coin.png",
+      "bytes": 10498,
+      "sha256": "e89751195265ec1e93964acd33f897cf7b776689db0409dd87472dff825e2fe1",
+      "guid": "6ff8c9afb8252d34ea71c692f6d99ba1",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Textures/img_coin.png",
+      "bytes": 5675,
+      "sha256": "78beba0b9e6817d872688779defc333d48d670b3a166f8637abda2967654d5a7",
+      "guid": "21976355793b79c44992809859d689a9",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/RefVFX/Textures/trail.png",
+      "bytes": 334,
+      "sha256": "ca22347e6cd6fe2455285ffcacd83eda5798728cf824516d538bee90a291cff2",
+      "guid": "c1fe28743b9e37045843245fdb586950",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Animations/UI/ButtonBounce.anim",
+      "bytes": 3566,
+      "sha256": "78ba3a95ef8a18e0d916e6aa67fb0e4ab12abcb76db4017c005486028f30b955",
+      "guid": "95b67a576c2624348bce866fef9eb9bc",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Animations/UI/Coins.anim",
+      "bytes": 21706,
+      "sha256": "638196590ded192b01b7ec744904023e7ea03e25b7d792ff09052ffeffdd77f7",
+      "guid": "0fd16a9e6f13e54428dc4da3b6c2a9cd",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/BlueHP.mat",
+      "bytes": 2380,
+      "sha256": "8660993392bb7e52b4620d6a73d4a2add53b82c472a24a866ada5410dcce7912",
+      "guid": "42f58ed1d34d11340bc315f336498c08",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/MAT_MAIN.mat",
+      "bytes": 1867,
+      "sha256": "aa8e88cf96d869376f8d27aa9613d23e4172de5baca5b3e07d6c1990c226225b",
+      "guid": "6b68c5c4d07bbaf4a90bfef6cf8e761b",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/PolyAdventureMaterial_01.mat",
+      "bytes": 1917,
+      "sha256": "5ae0aaa5d85e5bcdf944878ba7805dc94ad1bc12a700a751f0e1c43d81cba5db",
+      "guid": "c70258c4d3c52134c9954ce51f6bd4eb",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/Seagull.mat",
+      "bytes": 1900,
+      "sha256": "15058342ac8fb9544edb77eee25ce9cb9259d13c94f689bd5018cf05ea8b8404",
+      "guid": "b75748c3d2e1eea49a44fb21bf1787fc",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/Snake_Red.mat",
+      "bytes": 1865,
+      "sha256": "75f968dacbb365b8174e6806f2206909788c86a48faf9f49b1500b634184847a",
+      "guid": "d9e3f027c641a794799029253879f140",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/background 14.mat",
+      "bytes": 1862,
+      "sha256": "feaa5e4eb37f29e496ceadd56dfab9f92225fffdc4de941e6ae948c4fb0d93ab",
+      "guid": "931679f529da00543981434ac67e2e13",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/background 18.mat",
+      "bytes": 1860,
+      "sha256": "e6369bcd6e37333533d787bc56126e4cd8bf08bc9a114c2e3fab429886c8d890",
+      "guid": "c70fb49a675620c46b75d39512201678",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/background 8.mat",
+      "bytes": 1819,
+      "sha256": "a09366ace63b5a3ff8cf0c0bc23a771a140a596ba5d0de171cdc04ff18be340c",
+      "guid": "3eacb2600e3c9e14c810b032c425104a",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/background 9.mat",
+      "bytes": 1837,
+      "sha256": "a69c9948da522eb69ab7041dc0ccf2d512cd2b092e01117634ef70b2b1990b3a",
+      "guid": "1015d02578eb5284481a2f2124e7d642",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/base_mesh_1 1.mat",
+      "bytes": 1959,
+      "sha256": "a1a63b01c3c9f0523271510a83b5ff7d3d90c3fac1f010f9778dc2d713157140",
+      "guid": "6f5fc67d8a46a8f46a11d6500ba3efcd",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/base_mesh_1 2.mat",
+      "bytes": 1959,
+      "sha256": "f70fa8065dfa1bcf460e5e99a53cdfc793021aca339c58a10498f9eb21a03d3f",
+      "guid": "c23b671c80d351e4aaab6bb7b5d77ab0",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/base_mesh_1 3.mat",
+      "bytes": 1959,
+      "sha256": "0f5c8be6b1e4f22fe2d13533cde98006087c6e6c75dbaf60f3a2127abf2d3e94",
+      "guid": "33ee5e91b97504a48a60be60e4d51520",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/base_mesh_1 4.mat",
+      "bytes": 1959,
+      "sha256": "570017ac148d18b312e3820359e4022baacc1108ee694b3d4f0cc77bfdd48158",
+      "guid": "f41de4909223fa44b96686d872bec0d8",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/base_mesh_1 5.mat",
+      "bytes": 1959,
+      "sha256": "67741e1c35ba3ac88368f63c43dd0da42b2cd4f5e43bce39d1ec35a5a383e491",
+      "guid": "dbfa5dd964d6d274fab83edcec54efa1",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/base_mesh_1 6.mat",
+      "bytes": 1959,
+      "sha256": "9be74ebefbc4fbfb9f66b6b9a1993d58f95abdcf6e10c2d6feefbeac69a98878",
+      "guid": "882c3a86efb49af488eaf4df6e55b5f1",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/base_mesh_1 7.mat",
+      "bytes": 1959,
+      "sha256": "114c459eb5a745169a4e86e2cc979b5f4ed2c9b0cfd2e5016fc6d2104b4b2a29",
+      "guid": "4e2f6c874aa2f554f8f44e09eab52528",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/base_mesh_1 8.mat",
+      "bytes": 1959,
+      "sha256": "c9c8c73bbc097ba3ab645f45888ed3aff7c29f53ee9f48a4ee67fb2d71520bcb",
+      "guid": "1794488bae42a02419ce0421264aa019",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/base_mesh_1.mat",
+      "bytes": 1957,
+      "sha256": "3412ce883445e30c5c5094e685a8df46a1196dca497ffd2b746643f2bd1cdb8b",
+      "guid": "9a8750de52f5da84f8851be988f9e506",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/base_mesh_1_0.mat",
+      "bytes": 1964,
+      "sha256": "d10dd4eeda5004795612edb0960756e9bee1a0cd7ab9847c3decc0eedae5b56b",
+      "guid": "b7544088b92784746ab8b69244eb50fa",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/base_mesh_1_1.mat",
+      "bytes": 1957,
+      "sha256": "3412ce883445e30c5c5094e685a8df46a1196dca497ffd2b746643f2bd1cdb8b",
+      "guid": "2173eedc5fa0e5a4690d4896e0bcc1e8",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/base_mesh_2.mat",
+      "bytes": 1957,
+      "sha256": "2cdeb2ec4c5d52d574aa36381347413bfb2c7a6d516da39fc70ddcc5b7161f57",
+      "guid": "4356033515df1964b95a996932e4ed64",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/base_mesh_2_0.mat",
+      "bytes": 1964,
+      "sha256": "58c8c0c9201a81355ff824923caa1723340309a16f4eecb80661ff93ac2173ec",
+      "guid": "f23cfe581358ca249a1ed654630438f5",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/base_mesh_3.mat",
+      "bytes": 1957,
+      "sha256": "2a32f78f50924e188bcfedb792011d2a6cff41bc5dd120e4a037650b397d0d45",
+      "guid": "8ebbf3bb2d71f194d848f4ef068eeb1e",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/base_mesh_3_0.mat",
+      "bytes": 1964,
+      "sha256": "788ac02ef90c8570bb9b09822054b78146a62942b2ee5126e25437a2f7c841ae",
+      "guid": "b32526d784eb336439ae4f66ba882b43",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/base_mesh_4.mat",
+      "bytes": 1957,
+      "sha256": "2ae1c729cecbb93fd7c39841b7030eabc947e3a0d390b4385c1a9e0d1f215643",
+      "guid": "36c369ee45924d14c804c4b94be121dc",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/base_mesh_4_0.mat",
+      "bytes": 1964,
+      "sha256": "9c760b4f29c2bb29f1f4a4bdfe474e8aba6039212932800dfdeb802296513eb6",
+      "guid": "dda99fd3f3caefe409e66ae0d7c4d9e0",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/bld_fill 1.mat",
+      "bytes": 1954,
+      "sha256": "8512e4e63d90ef1abc93e8df7181d1ae4582d21f130240e9e4b1d799e2bc5acf",
+      "guid": "4beb4d7db63b9df46ade83522a77a5f1",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/bld_fill.mat",
+      "bytes": 1952,
+      "sha256": "2116996e93af140b9cf709bf6c56ef087c3b9a8a9f9922bd42418ba5c24e41e5",
+      "guid": "a698b0c970f6c7b4b9a232898886d019",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/bldvillage 1.mat",
+      "bytes": 1958,
+      "sha256": "1538485b206c6284e0bb81579153ecf78e19a7e91c2d6ff3673c53c5b38d13d8",
+      "guid": "b7bfcc8bff8c35b4bb98fec4d6cf1db2",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/bldvillage 2.mat",
+      "bytes": 1958,
+      "sha256": "3aead14853ad72f553ab63940a16b14112ac87bc360462ca71307df68e2858d9",
+      "guid": "4a2441fba68f99f499740f236ee25679",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/bldvillage 3.mat",
+      "bytes": 1961,
+      "sha256": "b35a85f0813d0a8b9f0766a6b4b283f988f9fd41fbc68b194f0baa4b6d487cf4",
+      "guid": "bff143e28d8b23743bd88d97934f6019",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/bldvillage 4.mat",
+      "bytes": 1972,
+      "sha256": "9ccdc56d22f87c0f2c2fd0be9e0f20bcb07bccb716de65fd2e222f55cbe62879",
+      "guid": "3d7aa7f49e4853441b673c9123dafd3e",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/bldvillage 5.mat",
+      "bytes": 1981,
+      "sha256": "ecf8523f7cf214eeb211b2c484ebe8840f6ab58693dad102d8c87644e3ec1c0b",
+      "guid": "e4b7092a2c2ca924282a45313512dff8",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/castle_fill.mat",
+      "bytes": 1964,
+      "sha256": "e8c8ed0a78f4d3a9a414c75415072350104c337fa9aeb391ff64d7f02c5d0f2a",
+      "guid": "8b243a317287be64885e922d11313483",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/church_fill.mat",
+      "bytes": 1970,
+      "sha256": "58540254a065e5fe96e7125214e373498f0b14d558d913c844b39900618d968e",
+      "guid": "835ab8c53d5264242ac1f29874ae0d1b",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/floor 2.mat",
+      "bytes": 1798,
+      "sha256": "8410f5aa92b725448f8c520814a52df9b49692070a32909a434c7793d3d0419d",
+      "guid": "4cb0ebf2d0e061347ada4a5789f30c6a",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/floor 3.mat",
+      "bytes": 1786,
+      "sha256": "62eabc5f595e8cb83155e3c7fe7a0002b3e5db17ec52edf99758cb053cf243ac",
+      "guid": "8942db11678598d47938c7e81764de2c",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/floor 4.mat",
+      "bytes": 1801,
+      "sha256": "9697696832194d7967a26683f3371bc5e83049a66a19f800db686f5543560bd3",
+      "guid": "c95dbb9f7792da54c96ace7c186b25a4",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/floor 5.mat",
+      "bytes": 1802,
+      "sha256": "3dfd45eb9cfe136cd24e5de52e4c6b936b328f71c429bc39f5e17ca017b0a163",
+      "guid": "585335d1cf93db3459565667af5e6ef0",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/floor.mat",
+      "bytes": 1809,
+      "sha256": "004d0f29baaf31ff881a49262d94ad771dafe758ef2dab35e6ae7970b78e813e",
+      "guid": "14340f86a1201c344aafd6f7aad27aac",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/green 5.mat",
+      "bytes": 1899,
+      "sha256": "cecb7b81f03fa5aa8244d2aafb79bf28ea031f22b8b4f7e7206881f45e431f58",
+      "guid": "1b3a6c299e08f0a45b6007d986ab8563",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/mat_testScene_lake.mat",
+      "bytes": 2355,
+      "sha256": "d8d39a814661659ec908067ed3086d90ac4e2896b7079236e28a16ae3c460cd4",
+      "guid": "39ebe18980cd38148b4f2d105d69a608",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/mat_testScene_waterFall 1.mat",
+      "bytes": 2535,
+      "sha256": "7022f808da1c24b9f82da83c22d02f141bc87714d6afe3b8fbda8be561b2ffb0",
+      "guid": "5c7e48e9b6c65074ab3e7dc8358e20b4",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/mat_testScene_waterRipples.mat",
+      "bytes": 2087,
+      "sha256": "d10973ef22435e3807fd743c8981d9efa54add75d984c45857fe62315fc4c46f",
+      "guid": "67d48ce2e4416b042a0fdb7faf275492",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/red.mat",
+      "bytes": 1885,
+      "sha256": "f44aac87bb3f5b362544b35a83b8f7b595756ac7bd34b7733efce651f787090c",
+      "guid": "d493e2db3993c284fb503844c1ce4cbc",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/rock_material 1.mat",
+      "bytes": 1812,
+      "sha256": "5151e674769cd2b5fb643e63bf64fbf94e523cb9fc641fddb3066f894ad2acfe",
+      "guid": "5e6e775ec931c9f4282f33774d2b1baf",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/rock_material 2.mat",
+      "bytes": 1812,
+      "sha256": "a98c02e0af389be58f45a427a6ae00aa950d247177e7e37a0cfaea4f7063c4f5",
+      "guid": "0e128e121447b9041a321e4c69205d91",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/rock_material 3.mat",
+      "bytes": 1806,
+      "sha256": "278965091aa29649e8565f8aeb27d07ac74d099d18d448713ec45d7c7ec5c3d1",
+      "guid": "0653607e50e5bad45ad9c930b45f617a",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/rock_material 4.mat",
+      "bytes": 1812,
+      "sha256": "3c0c6b15bc26463b91e57bf5201d8667f71a5b606a127979a442740a16bf6998",
+      "guid": "aa56c377a665f704c9ba4a8baf505273",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/snowy_house1_fill.mat",
+      "bytes": 1976,
+      "sha256": "30e8486e26ab0cafce96f55cc59b3b73048e9f4465e15bf6c4d3a287b84caf58",
+      "guid": "63b1a326719889d48ab3dbb98f2663ab",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/snowy_house2_fill.mat",
+      "bytes": 1976,
+      "sha256": "ee1aa4e5223b9d1822f7b8bc68667e7bcdec9e6c74a30385b8556496f3bd3acb",
+      "guid": "24e558df1ce54404d94394369ed26798",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/snowy_house3_fill.mat",
+      "bytes": 1976,
+      "sha256": "acffe8ba6de054da6cda0af7a5db5eea4e75a3dfa73fe03b4e5abf9869b1e475",
+      "guid": "cb3ee381fb9f79149a73f52265a4ad00",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/snowy_housetower_fill.mat",
+      "bytes": 1982,
+      "sha256": "0d6437b241b16f57d3791e639d2e2046d3d034185cb386ee0839d58911581746",
+      "guid": "2608a3b56ec0aea43939d623c3b2cd04",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/snowy_market_fill.mat",
+      "bytes": 1978,
+      "sha256": "6bfcd77e7c1b426ffd8da4408d01308ec0b007effa6f35e84ccde880318dbd35",
+      "guid": "bd07e3eace7a1b6499fedb7c511095a1",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/tower_fill.mat",
+      "bytes": 1954,
+      "sha256": "d1cb6e0c6ac48a23d142d7b8df506bfa49dd99a08157a3c489769ffc5fcbbea8",
+      "guid": "c0403680129c4454dac08a9b5c6ce907",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/tropical_hut_fill 1.mat",
+      "bytes": 1986,
+      "sha256": "75dcd7f1aa17e980df3905fbf9fbb728867289db89adab04a3b8b829792ecb63",
+      "guid": "17a25a4ed56c40f42bc8fe90022a5574",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/tropical_hut_fill.mat",
+      "bytes": 1996,
+      "sha256": "4a9450c2b92b3478265198c92ff4c9a4fa18287c5cd37d76b3712488c014f4fe",
+      "guid": "08ed1fe238a16474c8075b0becb17b36",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/tropical_openhut_fill 1.mat",
+      "bytes": 1989,
+      "sha256": "932c8418099e185693c6dba708c76ff862efb31986b24ac543f69bb789db33ac",
+      "guid": "d7dc82c99373640488aae5806d265b17",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/tropical_openhut_fill.mat",
+      "bytes": 1987,
+      "sha256": "ede8d1e5a436f7bad638ea8eb1b8850640884b705b58997abd3dcf6ad6fc5d47",
+      "guid": "9c234cf83caecf84f9859f87c3e8462a",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Environment/wood 3.mat",
+      "bytes": 1814,
+      "sha256": "b4e52d0d9725e250dbce5506bf8ec103b2dad88bf12fb67e1f52fefd4bb27de2",
+      "guid": "f82d15c010ab6fc4f961b035acd72240",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/GamePlay/Units/Egg_Common_Material 6.mat",
+      "bytes": 4773,
+      "sha256": "debc61a188766a81cd5c7d5c645585fd926f7c07a5fb6047bf63d49aeff98f33",
+      "guid": "3656924bfa747c94e83ffda97ddd16fa",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/Bullding_effect.mat",
+      "bytes": 1598,
+      "sha256": "f26ac88280fc79760083bfd7cddeac397654632b7755c468d8b4249f80f9abcc",
+      "guid": "6988f26f7bda79f4ead928732aab2a9c",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/FX_TrailAdd.mat",
+      "bytes": 948,
+      "sha256": "17240c5d0b8fa713743d0c49cbcda63d4c6f0deb522e4b021330229768769b98",
+      "guid": "f1c3013c41c326547b3cef77193f76d8",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/Moon.mat",
+      "bytes": 1520,
+      "sha256": "0b1d4233414bd45925a11e7508fb9e82b00474512a48bc4e3ff52c43af1e0f16",
+      "guid": "104944f36dff2c146867709adbc8a6b7",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/Shadow Material.mat",
+      "bytes": 2359,
+      "sha256": "595ef391b7146a73be44ee3574eb7bd1abbb394f057e5bda388df1d39881c60b",
+      "guid": "b1ee8e711b3029b499f164baf4192f52",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/Smoke Toon PRT MAT Aplha.mat",
+      "bytes": 1188,
+      "sha256": "dde7dbaaa30c2c2590b67118bac5f903fc1b8b52dddd3470e79e5ad40bf2779a",
+      "guid": "c06273db599477a41860a8b84a7be6d0",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/ToonProjectile01_MobAdd.mat",
+      "bytes": 1471,
+      "sha256": "5d5092b908527c52e7694c709b9781f2da5651e21aa8133c88a2257dceb657f9",
+      "guid": "81d73d768781ebf4a8375032c4297e7f",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/ToonSmokeTrail01_MobAB_3x3.mat",
+      "bytes": 1474,
+      "sha256": "c494c7e0cbdeecf4cab4e5ec660186d3dfddcd253c96275a964475ac22caa906",
+      "guid": "3b34f6f0d1bebd14c88637b69fa05962",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/WaterParticle.mat",
+      "bytes": 1404,
+      "sha256": "a872df372ea4105f723da724f5bacbe61dd36ebf67eca5ee0333a8da99a6371e",
+      "guid": "c9f647143f0c0c845a1fd5458fda26fd",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/circle_AB.mat",
+      "bytes": 2160,
+      "sha256": "6254cc2ea9eb0e664f2ba7259c2b6a16c9f9fbc6ac9f56520988ec8f9a934f58",
+      "guid": "b59577ca2bf17a74ba32002f982026ad",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/cloud_2x2_default_AB.mat",
+      "bytes": 2139,
+      "sha256": "18c186f45557d8ea9005a83fae8ab81bd105d08699b10af0e52e42c56266b36c",
+      "guid": "ed0a91df36dcece4c81b2972d3e3ecf3",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/confetti_AB.mat",
+      "bytes": 2067,
+      "sha256": "966e5e61fced4812fb0b2d9f80491bcf273c92d872fe41c3172bc9d610b56844",
+      "guid": "bd406fb8b4fb53140933d9b2eb16f227",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/fire_soft_blank_AB.mat",
+      "bytes": 2134,
+      "sha256": "63681c895cfcebbcdfadd6764516200605accdc5a153deef5c5456802ad55920",
+      "guid": "de5b9aefacb388a4cb9eb21aab18e1d4",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/fx_Star_l_clear_White.mat",
+      "bytes": 1544,
+      "sha256": "b60a097de255303d89644e356fd968f585b2fbf1ce013ff978ea6031eb52dab4",
+      "guid": "bae4fecec12d8da4187335f37245178f",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/fx_Star_l_clear_yellow.mat",
+      "bytes": 1399,
+      "sha256": "3b5992a8fb5a850f99539874bac051b6e6267d5108515eb556aa5f929b674249",
+      "guid": "14043b5c5b2fe1e4f87152e5d1c9abcf",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/fx_circle.mat",
+      "bytes": 1386,
+      "sha256": "327c788f1cdf30d0e7d0a775a6b6694ef509b7d969aedc7729ef94f2b31c1f45",
+      "guid": "e77d6733086e5424abad58e273234e80",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/fx_circle_glow01.mat",
+      "bytes": 1393,
+      "sha256": "31c81f5c04c645e1c1386e19f1bdddd28c5772b1415a68ec0931c4ee5d8d3efd",
+      "guid": "3ecb05b64954c594781320a7a19aed35",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/fx_circle_glow02 1.mat",
+      "bytes": 1395,
+      "sha256": "e0b8be2b814ebf9f7943ecc10cb49cddf3ff636aa2928e841dcbe9c0da36c32b",
+      "guid": "0fa4254b94c09ca4c8e959f372302878",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/fx_circle_glow02.mat",
+      "bytes": 1393,
+      "sha256": "0a0a93697537db83e70028c265202f61b526dd06ab834bd2a6e02753d49f1681",
+      "guid": "9fe366e22b8f51745b0ffd8644fcfa32",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/fx_circle_glow03.mat",
+      "bytes": 1393,
+      "sha256": "e112ce7daa7a78f69189798c6d64b4903aa03f6d5dff9d07bf239b074248b6ed",
+      "guid": "2189d8fe97427194c8c07622cb38a146",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/fx_light02_line.mat",
+      "bytes": 1392,
+      "sha256": "33d2db75e08cb4909f7de044816e3756cd8504ca85eed394403dfc464c72ae7b",
+      "guid": "ef30324eb9eb7fb4e903d23538b82b81",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/fx_light03_line_small.mat",
+      "bytes": 1398,
+      "sha256": "45e3844c710e09ebb0a1f2fca453e0a7a12e361964fc1b0ad58d2b6ca4b51e46",
+      "guid": "d52e929a589407a4b99d837460312a8c",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/fx_star_s_blurry_white.mat",
+      "bytes": 1642,
+      "sha256": "1f0a7711117b204eaab99c7c868ec9546dc4855335c7f4bd641d76b14c278419",
+      "guid": "9c444ec36f8fc4740ba397f915f9fd33",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/fx_star_s_blurry_yellow.mat",
+      "bytes": 1402,
+      "sha256": "5e1b58d9d2dcb17a59da2290569e00de70ae04e97ec16985b99f2737c501d596",
+      "guid": "b5062f435a1889d4ca718b5cc018b43b",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/fx_star_s_clear_yellow.mat",
+      "bytes": 1399,
+      "sha256": "dbe86989a0e4fdc302a0f1954b5796582c281bf61652be52d7e990ecc5e7fb87",
+      "guid": "05154b75423b7534b94f616192077f3e",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/grab2_ADD.mat",
+      "bytes": 2124,
+      "sha256": "fb0a278b95f616433f497831801b91748ca5aefe9a7cc56b4edd16dde2271d59",
+      "guid": "61d297d6a6da0db4d825fdfb422127e3",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/leaf_3x3_AB.mat",
+      "bytes": 2130,
+      "sha256": "407341c23eee7c042657add79edf5d9c8e72f799713826487612b9ed5cdd370d",
+      "guid": "7da2ea32732713e46b1730bb447bc248",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/lightray1_ADD 1.mat",
+      "bytes": 2345,
+      "sha256": "a004ee0edf1bd4a016716cbfde78978a9c112e8882ed819555e72e0b2de003bc",
+      "guid": "a07423f8456a40143b0a1dfbeb28e085",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/magic_line_ADD.mat",
+      "bytes": 2129,
+      "sha256": "46f4839612847c249d4dbd2c9e31be9c57c5bb93ff17009301141c3b6066c425",
+      "guid": "e54b317d9f7a5c946a093eed12905d3f",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Materials/VFX/sparkle_ADD.mat",
+      "bytes": 2040,
+      "sha256": "5d1a6785b2cb6091c98dd746790c2150b7707cac67c771bdc86e4754588422ca",
+      "guid": "b9572b65e3fb3c2488ab39c588dd8c95",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/GamePlay/Levels/Level-004-00.prefab",
+      "bytes": 222119,
+      "sha256": "50da8a32b67f1fa5368e24998a7c58789f7dcbc33c22da882b54946d73b22711",
+      "guid": "d911f604b9450204f919866c4c581984",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/Combat/Hit_Blaster.prefab",
+      "bytes": 739282,
+      "sha256": "781969ffe375811ccbe7eee8737657d8e2cbd71d94c2da0f1de35492dc6f3d6f",
+      "guid": "c032f2b80f4d50b45809b95c4dc56f28",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/Combat/Hit_Bullet.prefab",
+      "bytes": 615864,
+      "sha256": "dd7691819c5f61f7fb18854dc394fcfbbd1a849371166d253dab7cb1d98cb945",
+      "guid": "7d3694b0eee0b094facc007c4cac997d",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/Combat/Hit_Flame.prefab",
+      "bytes": 615895,
+      "sha256": "7594fcff330eb00ea1ed86f1da7dd5c8c0292ccc4abac42681042d857262109d",
+      "guid": "001e8da6957b726448b9534f37458eeb",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/Combat/Hit_Orb.prefab",
+      "bytes": 862795,
+      "sha256": "29c381622de34ec0233af25bf0f43e547e39974a698dd4d0d35b4655c9c96704",
+      "guid": "f9d1c929ba0aa1044a07613fc1960d1f",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/Combat/Hit_Rocket.prefab",
+      "bytes": 986356,
+      "sha256": "99ff0f6d51fae3da60ad63e4246b60bed52bf5720f0d1a9615665872b84afe01",
+      "guid": "163ceb3a7cbb52e41b722869dcddd60b",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/Combat/Muzzle_Blaster.prefab",
+      "bytes": 492315,
+      "sha256": "37b05b1ed303fb27f159d7c0b1dbdade1687b09c5fc744e15855a819589769f5",
+      "guid": "e8d931633da0033488361bb52a658d97",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/Combat/Muzzle_Bullet.prefab",
+      "bytes": 615893,
+      "sha256": "dfce5845baa6de34768dcc21bf8323928e098e21ca20c7267dd5935c4f11625a",
+      "guid": "176cb3a62542fa649a03cf83c6edf7fe",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/Combat/Muzzle_Flame.prefab",
+      "bytes": 368880,
+      "sha256": "a1dd03ad45257658daa70c603ec4c9bf309efdeb4d346b7fc8e6d8b4b7e11409",
+      "guid": "834269ea79e24724e95dbd875352ff53",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/Combat/Muzzle_HMG.prefab",
+      "bytes": 615914,
+      "sha256": "201911e6b81aee7974b59a60469c8c79d228645393dc00bdc84837fb37b9370d",
+      "guid": "f62431b46943cb54b9b5ad72dbfd7957",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/Combat/Muzzle_Orb.prefab",
+      "bytes": 492358,
+      "sha256": "fec9ed6c4aa0717aa03b0e7f8fafa1da5f46d090219063c815c1a208aa947243",
+      "guid": "4d32add2c62556e4ebf45e9ff8d52569",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/Combat/Muzzle_Rocket.prefab",
+      "bytes": 492375,
+      "sha256": "f2d0335565126686894923d7bd2907b5771769c2e46d0e7248085e540c77a9bb",
+      "guid": "9802dd52a9f7af8498f0fe5a0f8ff8ac",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/Combat/Proj_Blaster.prefab",
+      "bytes": 492760,
+      "sha256": "a50877bda93d1ee9a480c027347917f32650188c5cf6813cd900e6b9dd96ad9a",
+      "guid": "b727f05a196fd3d4b9a01965a13dc0f4",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/Combat/Proj_Flame.prefab",
+      "bytes": 370807,
+      "sha256": "efe06b28fabab1c44234314687c28ae4e3be8b8f3d3a86ede74c68e144a06f15",
+      "guid": "f534e4ef4768bfc4bb1527a77d4864ae",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/Combat/Proj_HMG.prefab",
+      "bytes": 747531,
+      "sha256": "1d2f1e0aabf100e9374632d859c71b276b01522493615c0cad606980204f9143",
+      "guid": "0d37fc31d7987b94d97a5cc567eb8508",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/Combat/Proj_Orb.prefab",
+      "bytes": 614624,
+      "sha256": "1a4af329ab3f7fc4f2b292a082abe80a201fc308bd090fe6c06f1979ee56b2f4",
+      "guid": "c75f7b7fb1dc1784b9e1d76fc0e3463b",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/Ball.prefab",
+      "bytes": 58013,
+      "sha256": "17bb15a6a54467af7fdcf12a55846ebd8191b42f19ac3a6be399764c6ebc5313",
+      "guid": "6add18ade4959b042895543c85f969dc",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/Beam.prefab",
+      "bytes": 57906,
+      "sha256": "87ae06a20acf40d9393eddd8fb01775c2a1ec87b4f908c4fcbb28139b5939eab",
+      "guid": "8f0b9036cf8f17348ad82220459e49e8",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/Circle.prefab",
+      "bytes": 58433,
+      "sha256": "c56839430d9bda81af7ad3be12d32b908e9683ac637da04bec6f29657b4be27f",
+      "guid": "27a8745d9f213dc48be1a43493cfe979",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/CircleNegative.prefab",
+      "bytes": 59273,
+      "sha256": "a2ed8a03dd3cd2d4338f945b89ec0c508eb01c445c2910c23f899bd8f6d1855f",
+      "guid": "953ca2160597fd84f87f272e727e972d",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/CirclePositive.prefab",
+      "bytes": 59270,
+      "sha256": "4759a7817080ab96276946e3cfb890df485d866631a763d2d43dba251fdc98e5",
+      "guid": "4290b726188219d4f89ce3ab3ee12514",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/ConfettiRainbow.prefab",
+      "bytes": 171819,
+      "sha256": "129bdfc50b7bce635d20bd560fecfed553147b2d5f536acd01dd01bcab960a43",
+      "guid": "5a6bea694fb81d0478a3c99d924059bf",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/CurrencyFlowingVFX_v2.prefab",
+      "bytes": 56150,
+      "sha256": "cdf9add025e1db010de91923d45baf132e1ced8cd123e5a8214b81ffe88eb13a",
+      "guid": "f557d2974a1ab1a418ed4118d0babff5",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/DustMotesCalm.prefab",
+      "bytes": 57207,
+      "sha256": "8dfea1de6b47f5bfd0ab5d24515789649f03bd1b9d1a65eb116c65817e874856",
+      "guid": "17529fb8eaacd6b48a58083ff70f3bfd",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/Fire.prefab",
+      "bytes": 113573,
+      "sha256": "fe48aa623406b77bbcefcea5f4ae4bdc97bc0343430a05597aa81a714c74f3f4",
+      "guid": "9e85e4d81b6237940bc40f75d760a472",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/Fire_2.prefab",
+      "bytes": 113638,
+      "sha256": "f5364c4dc8f42c4876f5d4935de60ce1e4095d162be8e9df853c775d9b955f16",
+      "guid": "0da984487efde3244ae59aa69b2d37b8",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/Fire_3.prefab",
+      "bytes": 113683,
+      "sha256": "f3f1f5d507fbcd6d29cec31d1509bb5e5108f28f5622bb71e0d28304099cb1d7",
+      "guid": "41ce913dae6ce7a4cb37f7e62f7bddc0",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/Fire_4.prefab",
+      "bytes": 113676,
+      "sha256": "9e6e65a9404d57abe0f20d8f334f9749f0f8015d44ffcd99a73b24afd2e1851b",
+      "guid": "5a47f059cf107ff45899693a2035d355",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/GlowRays.prefab",
+      "bytes": 116438,
+      "sha256": "600e9bd72258b90db19082fc99aeeb5f5a3f27aa981339b4fde6f9906b4fec45",
+      "guid": "a160d7075e9c8f546a246ab5c3cfc51b",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/GodRays.prefab",
+      "bytes": 56640,
+      "sha256": "0c01f3c697630a8b3cd470b6664ca4a8dccc9f106aec7098f37f644be7ec943e",
+      "guid": "37884525866e3cf45a3631094d210ef5",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/MagicDust.prefab",
+      "bytes": 59870,
+      "sha256": "d613ee3461074911eacf2fed0792714f913d1eaa1af09bd39e3d37bf96358d8b",
+      "guid": "c2e9e1816fc18574681d60960ac57e5a",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/Particles.prefab",
+      "bytes": 57322,
+      "sha256": "f37bc04ba54cf97d23338716e5e6b6690b9a654be585a3347b8f7e7a5a09107b",
+      "guid": "10a54c3d30abdc544b06dd9761a5aae2",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/SM_Waterfall_Foam.prefab",
+      "bytes": 57493,
+      "sha256": "2c06521fcf480691221b69d13e6d1ed9f10d67bf7d775df608ef151fd77e32b1",
+      "guid": "6f2e6d2cf42f20241a96ad64ef03abb6",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/SemiCircles.prefab",
+      "bytes": 58345,
+      "sha256": "9ac90445944babe1ddb658ff375f25293f5755c22aa806bd71a6ed1675d84a9d",
+      "guid": "683aa27cf44ebfa40b29995b844e88ab",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/Smoke PS.prefab",
+      "bytes": 58196,
+      "sha256": "02ab0a1b24f39d3204efe2f78155fb7a382e66eadb5c0603c335e58223e249e3",
+      "guid": "b12292095b7eece4785b3f5eab691735",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/Smoke.prefab",
+      "bytes": 58427,
+      "sha256": "b7ca2febb046cfdf647543a976e728cc8e507e6973cf68a561579e5eb710e99d",
+      "guid": "e5070d040bf0523458c6ed9209465ebc",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/SnowSpinny.prefab",
+      "bytes": 56293,
+      "sha256": "89ebca5709452fc2a476ca9ac72f6aa3c04f1386b8dc570e552b83efda8f2e2a",
+      "guid": "4fa85de712d63784aa05dc223ff81ddf",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/SoftFightAction2.prefab",
+      "bytes": 172969,
+      "sha256": "0fefbe91ced4c5c84bdfebf9c797e22d2cb72ca7af8efe65bc7499b127f5bcc8",
+      "guid": "c0191fc34b15cb9408edb3c8054ce2a3",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/SoftTallFireYellow.prefab",
+      "bytes": 174477,
+      "sha256": "e4b621cc4f444e9f0a226d6467186555cce4e0ff8fb34d72fe181516ab6ee5bb",
+      "guid": "7efdbd36e65cc7f47ac04e42d5be15d9",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/SpikyFireBigAdditiveRed.prefab",
+      "bytes": 233415,
+      "sha256": "7d386a853015ca66f53b02228b48c8e71a45e0211245f9e42f5c7fcc312510cb",
+      "guid": "953716b248834e045bca261e0b7104bc",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/VFX New Unit Unlocked.prefab",
+      "bytes": 620350,
+      "sha256": "d4fcb8d97f452189228f4c2c90a58863887b73a47b9887571e16b7309e0ca61a",
+      "guid": "a0232fd39dcb01c46b1e328fcf3301a7",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/VFX.prefab",
+      "bytes": 57111,
+      "sha256": "0010c03a3adf6f89654b3f75331421f0ddabd4f0055b56fd53ce14c00fb60b1a",
+      "guid": "e0fa4c3449c65e446b22a9e9f70a0846",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/WindlinesStormy.prefab",
+      "bytes": 175423,
+      "sha256": "8ab09eb44c468db3965e2f0eb004425900201d4d0a92537f282a42daaacc4562",
+      "guid": "a576b273a03634a42ba96ce416c772e4",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/GamePlay/buildingVFX.prefab",
+      "bytes": 57378,
+      "sha256": "baf93f05800609eb640e47756d32ca41837597936ab41c48c572b68f9c109048",
+      "guid": "8b71cc206779b1f4fb9a03b0994b30bc",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/UI/Fx_Rotate_Light02.prefab",
+      "bytes": 116658,
+      "sha256": "03db41a94d787ca051d5ffcdeff3cd588677cd0bbbe535baa035b88cd0ef0193",
+      "guid": "7d80c584802734c40b21f9b4cf900450",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/UI/Fx_Sparkle_LongStar01_ClearWhite.prefab",
+      "bytes": 58606,
+      "sha256": "053cbb5a050374a4df82d4a4a2eaa7cca68231cce7b3269c847aab41e19b240f",
+      "guid": "f368b8122781f0f438e5e4381f39de50",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/UI/Fx_Sparkle_XStar02_ClearYellow.prefab",
+      "bytes": 58628,
+      "sha256": "37e3ffc9344e98feec3513c913b2ee1dccc38d8336357a85058a7ea82adb20a1",
+      "guid": "ecdb6dacab203254c9fda8312f70faec",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/UI/GemGlowParticlesVFX.prefab",
+      "bytes": 57615,
+      "sha256": "1bf688e26ce783e371ca16a9689f310eed3af084e8794101e11f8c89d63f9089",
+      "guid": "0245ced30d1325d418f790c2d8b6a05b",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/UI/GlowParticlesVFX.prefab",
+      "bytes": 57285,
+      "sha256": "c3be6340aa3000c27a15c1e001134a7a9b54f89c6cf860fe5cccf1fc3cb47a9c",
+      "guid": "d5d6eec6cac98e5438ec0630aa0a4551",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/UI/MagicDust_2.prefab",
+      "bytes": 61101,
+      "sha256": "028d370e3eee577c15ad8ac95119dc6d0a661cb8620fde672849e1e958ded2ab",
+      "guid": "f72f5e96998e84b4fbfb2add71317aa2",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/UI/VICTORYFx_Rotate_Light02.prefab",
+      "bytes": 116650,
+      "sha256": "ac345740baf244e24d4f449c1ed3f40a9cf20f553b069abeebaae8a10a227bd9",
+      "guid": "67c0e037a69c2e64f9704ab4669dd1d3",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/UI/VICTORYFx_Sparkle_LongStar01_ClearYellow.prefab",
+      "bytes": 58622,
+      "sha256": "7f8c1cf28369920600dcd8f63d7cc94997f9bc87c676c2359dcd4bfeef81e58c",
+      "guid": "10a8db59280176b46a728b9e2ca14329",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Prefabs/VFX/UI/particles_2.prefab",
+      "bytes": 57313,
+      "sha256": "2b2fdf3ec541b8c940fe857926b94917fa23728ee64c18ed7d479e37ba34c822",
+      "guid": "c816be7d0c792534e8831da8933b3d93",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Scenes/GamePlay.unity.bak",
+      "bytes": 1100906,
+      "sha256": "2768871e4429a8f838eb02fa1a903f50dfe96a85e650c80cf3572907b0120fbb",
+      "guid": "f15e1c8dda6ed5d4f8ade73aeabd33cc",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Scenes/GamePlay.unity.pre_cleanup_bak",
+      "bytes": 1132464,
+      "sha256": "b20d477ddc2ec144e21388fb864e56e34a28a9c6e819c05b9c6f2652e998db73",
+      "guid": "5febc91377c390546b765633212fa061",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Scenes/SampleScene/LightingData.asset",
+      "bytes": 18152,
+      "sha256": "2203f96856d3c8c4be48d432f9b290dfd5889b078ea12e97826b04b5d5c361ea",
+      "guid": "9bb136aa5edf73e438d558010c391a50",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/Fx/FX_SoftLine.png",
+      "bytes": 267,
+      "sha256": "19bcdeb1b6d8f4fd9b1260889c8864a89ed4f7539cd53e15eb46371c3474cb21",
+      "guid": "54df1ff26d20dda46a5c148c19e9498f",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/Fx/Smoke Toon PRT TEX.png",
+      "bytes": 21596,
+      "sha256": "d11bfa4d7b66780506dba8eb7fb35422860f0caf189bd96bf9fe9b61ad36097f",
+      "guid": "3ead8611bd7545a41bb26eda41fd90ae",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/Fx/ToonProjectile01_512.png",
+      "bytes": 26521,
+      "sha256": "d372cff67aec08dc195148ab6ed8092a4fe6e6f657d54d3c4ca021d2b2645831",
+      "guid": "0353f8c256522234da3cec8d52bd48aa",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/Fx/ToonSmokeTrail01_3x3.png",
+      "bytes": 122511,
+      "sha256": "704ae36dd6c1f69582d3741618caac076e3e564b0d77ca5e5786c5f570532160",
+      "guid": "dfc3d67333f3b5e4e98e5cccbb2faed7",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/Fx/circle.png",
+      "bytes": 5893,
+      "sha256": "2a9cd3179b85b75d0be306243340c2db9b632314067da0b7b267e7c3b2a87c26",
+      "guid": "202f1e66804ed9745bbc0328b452bf76",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/Fx/cloud_2x2_hardshadow.png",
+      "bytes": 40898,
+      "sha256": "896a0ef17cff999a3fddedeafb87f11600d1cab82c8eae3044399fd4296d2aba",
+      "guid": "29c64a3478cbb4d49a3975bba84a9f4f",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/Fx/confetti_0.png",
+      "bytes": 138575,
+      "sha256": "b00d9fbb6a04603692f46234b61e5bc13a2d57b35803e292b316cf5f70c9f58a",
+      "guid": "6f3881124f9a33941999d180f7f298c2",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/Fx/fire_soft_blank.png",
+      "bytes": 475294,
+      "sha256": "7e962e182fb72ad0ec235466eb1893b437312c7a7607c9671a716108a84dba3b",
+      "guid": "88d97e3c1d61ba64bbfde0eb5c610297",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/Fx/fx_circle.png",
+      "bytes": 767,
+      "sha256": "d9cf3f667ee2aadd586c5894f4e613ebec6e11c2128404db3da03b42627e5a64",
+      "guid": "26ec258deaa9d5c45888da0c7b9856b4",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/Fx/fx_special_particle_white.png",
+      "bytes": 9439,
+      "sha256": "318931e3c746b666fb0bddfa967731e3650129b591bffcb7f75192cbb928b30e",
+      "guid": "5faf3f7b14f13a04ba508de981bf2556",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/Fx/fx_special_particle_yellow.png",
+      "bytes": 11070,
+      "sha256": "74f1abfde03ac29401ef27656a98eec6f84dc3a066b77d17977fcdfa9a8d9240",
+      "guid": "2bf5d4c7a26eedf4d9d0716d4185556c",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/Fx/fx_star_yellow.png",
+      "bytes": 11376,
+      "sha256": "ecea2dd875751a40f2895889ee33f9b31d84e5551c41ac0a5aeb2db8f1db5045",
+      "guid": "f807b89370414d84993c1959637a75b9",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/Fx/grab2.png",
+      "bytes": 213260,
+      "sha256": "c2ce3eeee385961f9a262764d93da98a86f9728bef11b79a6f75070429691a51",
+      "guid": "10283b384eb14ba47932da211914f4f5",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/Fx/leaf_3x3.png",
+      "bytes": 87900,
+      "sha256": "5b004ddb015789ac80cdcf91da0a221d2676eb90322ff6f25717c9f3cbf70120",
+      "guid": "5fd8f553c8b0a154baa5a63ff88f49e3",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/Fx/lightray1.png",
+      "bytes": 109564,
+      "sha256": "b6991e0148b729c62d5ec25fb4f2b0bf51b8f059a3f12c4a7976e6ef9fb6e97a",
+      "guid": "6deebbdc1b3e91f4a95dd8a738e20340",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/Fx/magic_line.png",
+      "bytes": 97334,
+      "sha256": "3eadbb02efc8e96a3cd50c700a3ea3a83955232b06b6c2a6d2b7877bab827097",
+      "guid": "20fb0e77781b5014b83fde0968f616cc",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/Fx/mooncrecentparticle.png",
+      "bytes": 37290,
+      "sha256": "48de33ae8cc8133dd9118a8d216054589cfd3593fa8ac2f5b07d6409fb9c234d",
+      "guid": "6512a2b6b5197e043b515326c6245185",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/Fx/sparkle3.png",
+      "bytes": 46050,
+      "sha256": "9aff5223ed2a949cd5ad03516ed1fcae21e674120e2792a4681fe595dbae37de",
+      "guid": "401aebe9475dc3641932fd3090795863",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/BlueHP.png",
+      "bytes": 6641574,
+      "sha256": "98a6248aaddbb3813d476e4c84f194fab0594583370c93853edb8fa49a431685",
+      "guid": "239070ea73c72d341bcb8886c06cd68a",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/Main.png",
+      "bytes": 3414427,
+      "sha256": "14c9f828fdce20f3ccc864d415cbbbdf6f346b678c21e902cc37e97d3caaf14a",
+      "guid": "c49038b12d7a09842ace15a02753bc5d",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/Main_0.png",
+      "bytes": 3414427,
+      "sha256": "14c9f828fdce20f3ccc864d415cbbbdf6f346b678c21e902cc37e97d3caaf14a",
+      "guid": "3ff1bb3838f3242439253bc678aa9f0c",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/PolyAdventureTexture_01.png",
+      "bytes": 17969,
+      "sha256": "be4111472c412d2098bf5e88d39c4c3af03e7e717c23964df80e18db47bcdb63",
+      "guid": "c912ce766225fde4abe5abf6c84a921a",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/PolyAdventureTexture_Dark_01.png",
+      "bytes": 18481,
+      "sha256": "3faba9917596523f2843d809d032f8594fc8d1da3e64f9ce19dd69f02d46e448",
+      "guid": "a94e4628421b42542a2a66c3bdda5b98",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/Seagull_COL_1k.png",
+      "bytes": 40427,
+      "sha256": "27ce88d3aef083e8cb703a7917c62245c62cadbe49905735a893a761580a29c6",
+      "guid": "22be4e60902581a4e92c82b49cb2b863",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/Snake_Red_COL_1k.png",
+      "bytes": 32577,
+      "sha256": "8c39181ebdeed48f03994ecdde73176bf54a550f44a37b0a3d27a1a2ad9d7261",
+      "guid": "988e8c65cdaee3b429a9e5a490ea014c",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/atlas-albedo-LPUP.png",
+      "bytes": 33673,
+      "sha256": "ccbd1a945f1295cd49c1e6aa1155f9c33923a33f39ff1faddccce138e6925e0f",
+      "guid": "369efe637a02d5c45aeff4295e173397",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/gd_28.png",
+      "bytes": 6083,
+      "sha256": "fc9c6e4750b1d48a6ae40d4d80cd48a200a26a4db09055c08e5c49c63496d3bd",
+      "guid": "996a8f9cd925df74c86f219c706d0da6",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/gd_33.png",
+      "bytes": 4552,
+      "sha256": "1097c08e4e508e8aed1534d4871c863a373f3f153c1c54a0238c72f68d8596b4",
+      "guid": "6aeace5848867a64b84ea6ad4904e221",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/gd_37.png",
+      "bytes": 6123,
+      "sha256": "5598751828a871216aec4bd98c6d7133de33bbb073e067082880a13ae3f9a640",
+      "guid": "b0529ebd8a0fabe4a88ede635a540640",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/gd_38.png",
+      "bytes": 7355,
+      "sha256": "b8affa60ca61772c508f29aaed042523545a2eff1666cbfc7d132f4d09d60d33",
+      "guid": "02c65ca1dbfc2cb47beecca3cbfeef51",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/speech_bubble_01.png",
+      "bytes": 6249,
+      "sha256": "e9b19b24ade4f2dfec6616cd4bf1bbbc1b4cdf232a583701fded791cd0e4b1a4",
+      "guid": "0c47d055bc7405f4a84109342d55c8a7",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/stone icon ts.png",
+      "bytes": 34978,
+      "sha256": "b2ee2f3e912c524d89b963def1418bc131cc5fa9d34af8f12e3ed4b7c3476248",
+      "guid": "6653d89b114197649ba31ab1284a01c2",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/t_vfx_clouds.png",
+      "bytes": 401845,
+      "sha256": "60b7d6e72987fa0eac33af0dcc5ca569a8d898cae416808a93adc8bcad250aec",
+      "guid": "9cd052632b33b8c4298c0e57e604b1b5",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/t_vfx_cloudsColorBlur.png",
+      "bytes": 1152090,
+      "sha256": "fb2a04cbd1445c4d1e2808bb3e202c848b828fc6cb067d6f46d9a01e44d63627",
+      "guid": "488895426f7b5f646946a3a4b5364dc8",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/t_vfx_cloudsContrast.png",
+      "bytes": 421719,
+      "sha256": "d95b5017afb604d3bbf4bbf950515796a58fd67b15183e5d055ac49d4d33bc23",
+      "guid": "94d87fbdaf842344c89daa92c2ff7dbb",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/t_vfx_waterTexture_DF.png",
+      "bytes": 201692,
+      "sha256": "98d8afd00f3e1cdf7f97015d9e12e2b62b3dbf85982dc6619eed1cec7a88b098",
+      "guid": "d58db6aed726e924f9b2e829618c6f81",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Environment/t_vfx_waterfallTexture_DF.png",
+      "bytes": 68437,
+      "sha256": "1395e835b431b49f7fc6aa23642973802393ef68886a04b64b76833ff26eef8b",
+      "guid": "83a82973d5a4b34449dd993ac50b0f66",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Units/TCP2_Ramp_Unity.png",
+      "bytes": 601,
+      "sha256": "e2b4618da0bfe03aec906a227b7e11c98105e4c2c495c61819596f5d5c86b56d",
+      "guid": "a5cde34abe097864387a94559c6af208",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/GamePlay/Units/lava_texture.png",
+      "bytes": 3230018,
+      "sha256": "4087d2f680fe5010699da867f187157721c28baffc5f07e19820f769ae3e46df",
+      "guid": "daa19419e75b40f448aac100eb3559bb",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Default Sprites.png",
+      "bytes": 241946,
+      "sha256": "53f14341d46269ba18ed6204339d5896b41311529b361b0de013aa276134de0b",
+      "guid": "03c13cd802cb9f248908a18ff13daf7d",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Diorama_Main_Icon_holder.png",
+      "bytes": 2223,
+      "sha256": "869418abebd6e03c32b3b06ddeb6f686321da19ede1f46266ed40693c206d377",
+      "guid": "99544fadee0b5de42812b563273998a4",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/EmojiOne.png",
+      "bytes": 186991,
+      "sha256": "af749ab18623e79547e3eda62d961850877956a0b019247b85997a39542c8ad8",
+      "guid": "7914b58820bb6784cabb1f06e54360c4",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Icon_PictoIcon_Exit.png",
+      "bytes": 2636,
+      "sha256": "4eaf83163e156868147768aea24d5077a453a194c6ed856527e815fc1c9eb11b",
+      "guid": "4ca4ef0e7e7d9634e90cf728628d6d51",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/LoadingBG.png",
+      "bytes": 501902,
+      "sha256": "eea3389fe522335f9f1791f0feca3c285ac69a26e335364581b0c084c9e052c9",
+      "guid": "63986d5542460114aac7cd216ea8ec6f",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Play_Black.png",
+      "bytes": 4051,
+      "sha256": "b12d1b08df1cb01c257b890d5f0a751a8b9030367a35898c998e5fd22096f1f2",
+      "guid": "43682e918b29855419d1bcbebed2f661",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/RobotUI/SummonRobotDinoIcon.png",
+      "bytes": 134452,
+      "sha256": "a03473af37eee8da7b877b1e1c249b5e20b7ed98d8e47f341a8bb277981deaec",
+      "guid": "cd2dc66dc6568f94886f7e3648ba9b03",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/CardLock.png",
+      "bytes": 3310,
+      "sha256": "299aebf67b2b93315779eb5244b7fc219a8632fbba604d0a00cc16d395249889",
+      "guid": "1919e66104de562479c7edcb38d3cab4",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/CardLockBackgrund.png",
+      "bytes": 1188,
+      "sha256": "a199bcc3d3c7e31a21320a4b213507b8dae69fecefd21f1a1fba87512f2a2c42",
+      "guid": "2873351d465c8204397b8640a2b384f8",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/CardPopUpDetailBackground.png",
+      "bytes": 1804,
+      "sha256": "edbbfe7b301df680099f007160df8149ced1e67c99b419a1b8c5c0c3e6380227",
+      "guid": "e7d0162484507504aa3b683b8e9df0b9",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/CardPopupBackground.png",
+      "bytes": 52765,
+      "sha256": "7a8ae45d8735a50ba9b929bac7139f540c4a2423c30b8595ae5c0c1a1fa89e77",
+      "guid": "4401a57d9bf353443b0ee3f777e4056b",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/CardStar.png",
+      "bytes": 1438,
+      "sha256": "b9aeb8c7dabf77be24ec4265306565c285782d936109502d03b81c8526876826",
+      "guid": "e0185bf46af0cf54ebf425e56d57bb20",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/CharacterCardAttackBadge.png",
+      "bytes": 1877,
+      "sha256": "43552653cbbd78c693675ece8c800ce94441fe9a06440bea3afc6995bb436329",
+      "guid": "93b93d11f9080ba4fa45f77c04e036a6",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/CharacterCardHealthBadge.png",
+      "bytes": 1837,
+      "sha256": "b68c9624407e6b48f5b6cc0204739a231f9d42bdd98a0222eb5824ec88dee49f",
+      "guid": "0a2fd4d60a02d9c4faa68122b9b019cf",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/FightBtnBackground.png",
+      "bytes": 5635,
+      "sha256": "d4cceba3ff0044e654e0d6d0425be279fbe4e4c0b0f16c73482eac74467cbd6f",
+      "guid": "290fd20c305378246a0c542f36ed6da3",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/LevelBarSkull.png",
+      "bytes": 4849,
+      "sha256": "afba65705ebc7ea85a20c977712366aad7209e7b3c464b41179f5f93c9c749c5",
+      "guid": "e06e3c71de116a342bb7f810a4e9612a",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/LevelBarSword.png",
+      "bytes": 6919,
+      "sha256": "9959cfcd09ed0b59fc13d138b56785f44d35acdf1368443a29aeb95188b8c355",
+      "guid": "fc52f63b97a9d7440868d1acfba45cca",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/LevelEndDamageBarBackground.png",
+      "bytes": 413,
+      "sha256": "4a15836448286f6cd933ef75cf9943bd97cab28155392e427afe3963c4833183",
+      "guid": "38f9f18285786bc4d85481e82b3b3713",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/LevelEndDamageBarFill.png",
+      "bytes": 737,
+      "sha256": "de4bb5a1a735e787acecec561b48b3d5cea8966f291c9c86b3911fa038f966ea",
+      "guid": "f761b3d363ba2644198d7410d9d99658",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/LevelEndGlow.png",
+      "bytes": 118663,
+      "sha256": "3bc42ebd9e1828c369720a802f8e690cc45073a5d5747c908413c23c665968c4",
+      "guid": "63cafff64a40b3f4f97b38f56fe78fdd",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/LevelEndWheel.png",
+      "bytes": 109361,
+      "sha256": "b83b61ef9f8fe651d19c5347fed1c408bf517a6eebe623d729e8a8f4bfca5b5d",
+      "guid": "422e16c7c04b63243b2c39788b017915",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/LevelEndWheelArrow.png",
+      "bytes": 5075,
+      "sha256": "198dc41962779a91460cf5ecba88f4ffe83bc44d8a2cc757bbc3ebe4edffe3c1",
+      "guid": "778b19e4d5017914383f98538822a855",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/LightRays.png",
+      "bytes": 51294,
+      "sha256": "40196052b24292ea2b2644fe5809204784f4496470db4e7ca03e8c3f2dd5bd78",
+      "guid": "16e3455b88c21e740a7b61255ca84d3d",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/OfflineEarningGolds.png",
+      "bytes": 66204,
+      "sha256": "98d52e999f6a2c1ed48f8084d672d77d166ff475a9702591104c2770c76315b9",
+      "guid": "050361b5f081a1d4e8bca71a5207c003",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/RankCircleBackground.png",
+      "bytes": 16456,
+      "sha256": "e2accf1d654d8c328f4c86af0d6a39ff027d3272abe722a932b8f76ce79a09b3",
+      "guid": "0240f0a02cbb5e7428d7367ef4402c0a",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/RankingPopupCard-Red.png",
+      "bytes": 25284,
+      "sha256": "3e162c59c1759ca90b296539e4133ee54d1766b133a485ed35ea4f16e4227b4f",
+      "guid": "6e47cc663fbe5ef40a895528c23b3fe0",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/RankingPopupCard.png",
+      "bytes": 22545,
+      "sha256": "7249ba34d9d90f518156c310d45482d4ef75393f77e02b4c0245d1b3946c5d8c",
+      "guid": "dff9f16530b7512408bde7f4c21f514d",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/RankingPopupFrame.png",
+      "bytes": 1020,
+      "sha256": "b79d922352077ac447debeaa3906fb59c5a91ae37ff93e464e926a85c023fe1e",
+      "guid": "dd58cde09584f4a44b6911c459630f61",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/RankingPopupPowerBar.png",
+      "bytes": 543,
+      "sha256": "b3b7c915eb07f85d5f53c0099168e071135df46787774112e3893e5f3f5ae1cf",
+      "guid": "13523fa8a48b22a4f86675f994371dac",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/RankingPopupPowerBarFill.png",
+      "bytes": 529,
+      "sha256": "659fbfb6f078aa3784d02ef31ce2d060435091f698e8f9e21b68c1da896ee7f7",
+      "guid": "bf5a5de285bb7c04092715fde30abc54",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/RankingPopupPowerBarIcon.png",
+      "bytes": 3902,
+      "sha256": "25884250be5758220e1074b3e19233d7b59da907bf760a5fd1f18b7aac0adef9",
+      "guid": "2e54b5ac12251bb4ead145b54c94aec5",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/RankingPopupTabSelector.png",
+      "bytes": 258,
+      "sha256": "4cf94c0224d516896ee565c61382d333b6817d25d43113dfaf5e41edbcdaf95c",
+      "guid": "324c2d491cf03d045859985f00c93eba",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/ScrollBarTrack.png",
+      "bytes": 561,
+      "sha256": "7a6aa6e5e17c729329ca662a3d60199babd400e70536b0f4d1da2f11da9a8caa",
+      "guid": "87b8362e058cb614e80962d3f990f7b7",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/SettingsPopUpDivider.png",
+      "bytes": 375,
+      "sha256": "2d03043db40c43388a2c32d9829208a0d53c81fc67b2c3fd1dcf0c2d78fecc87",
+      "guid": "de996f0e05eb8cf4d9d27ed10550d392",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/SwitchOff.png",
+      "bytes": 2210,
+      "sha256": "b1993191b2edd263eec677ed49900bb7d406f646862f4cfa91e149a39dc903fd",
+      "guid": "3a70e8f79a6738045b0f714827d821eb",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/SwitchOn.png",
+      "bytes": 2116,
+      "sha256": "dc91ae8563c32b1d481c77d1e9c3ec592636ce4ca455670ac6682703361b2c91",
+      "guid": "8e0bffdfa8443cc4c878219201c27584",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/WhitePanel.png",
+      "bytes": 1135,
+      "sha256": "7b8e3fdb2f36d63b96b6f57e3d1882f940f1f71b60a9663fe85f14a540a7f091",
+      "guid": "c559e5d606f9709419af258a08be2fb9",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Sprites/gradient_linear.png",
+      "bytes": 284,
+      "sha256": "1c1b00fb18dab47c9c6325f269bfa9552e4fba90fe54c70c52152d40202b127f",
+      "guid": "4301d4c20d9965842bcdc29481624be2",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Title_Ribbon01_InnerMask.png",
+      "bytes": 1253,
+      "sha256": "c4289dbf5b3d067c157e98644f34744e387f043b8609df78011cd1a00fc54847",
+      "guid": "a67b985fc9685f444a9c7da54f8cccc1",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/Tutorial/FlyingDinoArrow.png",
+      "bytes": 11119,
+      "sha256": "41c45ed155aab68e2e7e8ec9e5bf1fb3f4d7e5bff088bc97268f70053a991c55",
+      "guid": "8dcfd424c221a974c961bac8701e8496",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/adremove_bg_glow_white.png",
+      "bytes": 438151,
+      "sha256": "d784d7b3698d76ee67eefec8fee532a07d9bf75cb6630c90460ebabe9068614a",
+      "guid": "1f25bd1b753c0554798a55bb04826c18",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/fx_circle_glow.png",
+      "bytes": 1191,
+      "sha256": "7999bc1fe1f856e57cde5eee100f8e1369c70f266f1f57d00ceb2f982e6385c1",
+      "guid": "c61b3ced536c8ca49802626a414d3f94",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/fx_rotate_line.png",
+      "bytes": 604880,
+      "sha256": "aec77eb2003435a54f0d7ff46e2987fffbc68c83e3639cf1b642aa7825399239",
+      "guid": "af7eaac3e3bab0445a03a3d554470c54",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/halo.png",
+      "bytes": 389526,
+      "sha256": "54bca2ac54dfd733d537a2a1b29a8d964bf6b6337b6dd56b884be90533c2d96d",
+      "guid": "4b193907650f2f244ad844475f03dfc6",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/stone icon new.png",
+      "bytes": 34682,
+      "sha256": "2b28a90b8efb42d9f38a7efedfb55e21b2493c6864718f81c4741f1b330e7948",
+      "guid": "981473b4df9eae94da360d1930ab6954",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/summon_card_bg.png",
+      "bytes": 664702,
+      "sha256": "f33bcc53536f6537a8b9e80d9fec1dab195e67f88da485bfce693901be2187bb",
+      "guid": "70781a6ba0d1dc042aaff4e06d1d3e9e",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/summon_circle_icon.png",
+      "bytes": 161195,
+      "sha256": "581acef4e32f45306fcd06849d1ca9e31b049b32231c31d94ffee1f42d12aabb",
+      "guid": "5cf8876ae390ae045aa70663853d3d16",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/summon_circle_icon_frame.png",
+      "bytes": 60587,
+      "sha256": "cefa8911933ffe06af38e79cb98ff7f734deb65444a443781415fd78e88371b0",
+      "guid": "1e5bbe38ef0eead4bb6d2c57028b183b",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/summon_hex_icon.png",
+      "bytes": 350542,
+      "sha256": "0715decb26d8347401934b42f8cc648bed6bffc31161f937ad45abd74b46f066",
+      "guid": "5958fb4542387cc4082743f4f288748e",
+      "previous_export_bytes": null
+    },
+    {
+      "path": "Assets/_ProjectTemplate/Textures/UI/summon_icon_diamond.png",
+      "bytes": 22867,
+      "sha256": "c1f4ca2447341f5ac0a21f142bdc15c4e3b49da31956e32801210221a7b10cb6",
+      "guid": "1b69441bcac4eb04eaf93fa971e32e23",
+      "previous_export_bytes": null
+    }
+  ],
+  "source_bytes": 42982681,
+  "previous_export_bytes": null
+}

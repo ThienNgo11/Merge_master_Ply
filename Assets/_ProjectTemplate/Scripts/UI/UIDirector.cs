@@ -119,8 +119,8 @@ namespace Funlab.MergeMaster
 			PlayMechanics.MoneyAltered += OnMoneyAltered;
 		}
 
-		private bool _storeRedirectTriggered;
-		private float _stage4EnteredTime = -1f;
+		private const int FinalPlayableStage = 3;
+		private bool _playableCompleted;
 
 		private void Start()
 		{
@@ -135,21 +135,11 @@ namespace Funlab.MergeMaster
 
 		private void Update()
 		{
-			if (GameTuning.stage >= 4 && !_storeRedirectTriggered)
+			// A tap remains a fallback if the host requires a user gesture to open the store.
+			if (_playableCompleted && (Input.GetMouseButtonDown(0) ||
+				(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)))
 			{
-				if (_stage4EnteredTime < 0f)
-				{
-					_stage4EnteredTime = Time.unscaledTime;
-				}
-
-				if (Time.unscaledTime - _stage4EnteredTime >= 0.05f)
-				{
-					if (Input.GetMouseButtonDown(0) || (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began))
-					{
-						_storeRedirectTriggered = true;
-						GameManager.Instance.InstallFullGame();
-					}
-				}
+				GameManager.Instance.InstallFullGame();
 			}
 		}
 
@@ -594,44 +584,44 @@ namespace Funlab.MergeMaster
 			if (gamerDirector != null) gamerDirector.SetActive(false);
 			if (clashCtrl != null) clashCtrl.SetActive(false);
 
-			yield return new WaitForSeconds(1.2f);
-
 			if (stageOutcome == StageOutcome.Accomplishment)
 			{
-				// Win: Level 1, 2, 3 transition to next level (L1->L2, L2->L3, L3->L4)
-				if (GameTuning.stage < 4)
+				if (gameplayCore != null && gameplayCore.audioDirector != null)
 				{
-					JumpToUpcomingStage(true);
+					gameplayCore.audioDirector.PlayVictorySound();
 				}
-				else
-				{
-					GameManager.Instance.InstallFullGame();
-				}
+				yield return new WaitForSeconds(2.0f);
 			}
 			else
 			{
-				// Defeat: at Level >= 4, open store; earlier levels replay
-				if (GameTuning.stage >= 4)
-				{
-					GameManager.Instance.InstallFullGame();
-				}
-				else
-				{
-					JumpToUpcomingStage(false);
-				}
+				yield return new WaitForSeconds(1.2f);
+			}
+
+			if (stageOutcome == StageOutcome.Accomplishment)
+			{
+				JumpToUpcomingStage(true);
+			}
+			else
+			{
+				// All playable levels, including level 3, can be retried after defeat.
+				JumpToUpcomingStage(false);
 			}
 		}
 
 		public void JumpToUpcomingStage(bool isWin = true)
 		{
+			if (_playableCompleted) return;
 			isClashing = false;
+			if (isWin && GameTuning.stage >= FinalPlayableStage)
+			{
+				_playableCompleted = true;
+				GameTuning.arenaInteractionAllowed = false;
+				GameManager.Instance.InstallFullGame();
+				return;
+			}
 			if (isWin)
 			{
 				GameTuning.stage++;
-				if (GameTuning.stage >= 4)
-				{
-					_stage4EnteredTime = Time.unscaledTime;
-				}
 			}
 			if (gameplayCore != null)
 			{
@@ -647,9 +637,8 @@ namespace Funlab.MergeMaster
 		{
 			if (dispatcher == null) return;
 
-			if (GameTuning.stage >= 4)
+			if (_playableCompleted)
 			{
-				_storeRedirectTriggered = true;
 				GameManager.Instance.InstallFullGame();
 				return;
 			}

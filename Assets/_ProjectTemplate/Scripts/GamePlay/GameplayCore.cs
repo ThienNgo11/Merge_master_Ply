@@ -454,6 +454,7 @@ namespace Funlab.MergeMaster
 			// The scene ships with the ev1 instance (environments[0]) already under the container.
 			_biomeOrdinal = biome != null ? 0 : -1;
 			FlipLiveMatchTouchBarrier(true);
+			FindConfettiEffect();
 		}
 
 		private void OnDestroy()
@@ -2188,6 +2189,10 @@ namespace Funlab.MergeMaster
 
 			if (latestStageOutcome == StageOutcome.Accomplishment)
 			{
+				if (confettiEffect == null)
+				{
+					FindConfettiEffect();
+				}
 				if (confettiEffect != null)
 				{
 					// The confetti bursts from (0, 0.79, -0.34), inside the fight's GameTapBlocker box (3 x 1 x 5); its world
@@ -2196,6 +2201,11 @@ namespace Funlab.MergeMaster
 					FlipLiveMatchTouchBarrier(false);
 					confettiEffect.SetActive(false);
 					confettiEffect.SetActive(true);
+					ParticleSystem[] systems = confettiEffect.GetComponentsInChildren<ParticleSystem>(true);
+					for (int i = 0; i < systems.Length; i++)
+					{
+						systems[i].Play();
+					}
 				}
 				Toolbox.PerformTactileNotice(NotificationFeedbackStyle.Success);
 				// YOU EARNED = 40 * PL^4, x10 ("Level Completed Bonus x10") when this level advances the PL (skip = 0).
@@ -3286,6 +3296,20 @@ namespace Funlab.MergeMaster
 			float lift = Vector3.Dot(brink, upward) - (level - 0.5f) * 2f * halfTan * brinkReach;
 			GameTuning.handsetArenaLensExtent = 2f * Mathf.Atan(halfTan) * Mathf.Rad2Deg;
 			return _arenaLensStandardLoc + upward * lift;
+		}
+
+		private void FindConfettiEffect()
+		{
+			if (confettiEffect != null) return;
+			GameObject[] roots = gameObject.scene.GetRootGameObjects();
+			for (int i = 0; i < roots.Length; i++)
+			{
+				if (roots[i] != null && roots[i].name.Contains("ConfettiExplosionMix"))
+				{
+					confettiEffect = roots[i];
+					break;
+				}
+			}
 		}
 	}
 }

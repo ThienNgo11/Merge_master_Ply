@@ -1,0 +1,7 @@
+{
+  "removed_assets": 276,
+  "removed_source_bytes_excluding_meta": 42982681,
+  "remaining_references_to_removed_guids": [],
+  "status": "PASS",
+  "limitations": "Static reference validation only; Unity batch blocked by another open instance. Playworks export and browser gameplay not verified."
+}

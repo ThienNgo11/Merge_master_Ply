@@ -25109,6 +25109,8 @@ MonoBehaviour:
   - audioCue: 40
     sound: 111
   clashMusic: 2
+  clashMusicClip: {fileID: 8300000, guid: 7dc2ae50ae0f0c64dae638e6d7485285, type: 3}
+  victoryClip: {fileID: 8300000, guid: 87f0e3d6c424db641bf27c52ce9682f9, type: 3}
   clashLoudness: 70
   preloadedSounds: 5700000058000000590000005a000000
 --- !u!114 &21616
@@ -25140,7 +25142,6 @@ MonoBehaviour:
     - {fileID: 114000955326284023, guid: 04f244a1671ef0a4e8218c3cb0797e85, type: 3}
     - {fileID: 114000955326284023, guid: 69700aa04e36f044a83a12792076cafe, type: 3}
     - {fileID: 114000955326284023, guid: c8ed7ec9ff2b72e408d10b1d1d90f434, type: 3}
-    - {fileID: 114000955326284023, guid: d911f604b9450204f919866c4c581984, type: 3}
   exclusiveGuideStages: []
   foeTemplates:
   - kind: 1
@@ -25256,7 +25257,7 @@ MonoBehaviour:
   guardianWrapper: {fileID: 6881}
   projectileWrapper: {fileID: 6909}
   demiseLight: {fileID: 79}
-  confettiEffect: {fileID: 0}
+  confettiEffect: {fileID: 410}
   lattice: {fileID: 166}
   lensMotionRig: {fileID: 7929}
   saurianTitles:
@@ -41022,6 +41023,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &410 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5228772423741507345, guid: 4d97bd1296ea41d4dbfb401c58d3f618, type: 3}
+  m_PrefabInstance: {fileID: 5814953562115280290}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5814953562115280290
 PrefabInstance:
   m_ObjectHideFlags: 0

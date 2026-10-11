@@ -35,6 +35,10 @@ namespace Funlab.MergeMaster
 		[SerializeField]
 		private eMusicName clashMusic;
 
+		[Header("Playable audio")]
+		[SerializeField] private AudioClip clashMusicClip;
+		[SerializeField] private AudioClip victoryClip;
+
 		[SerializeField]
 		[Range(0f, 100f)]
 		private float clashLoudness = 70f;
@@ -61,6 +65,8 @@ namespace Funlab.MergeMaster
 		private bool _subscribed;
 
 		private bool _soundtrackRequested;
+		private bool _soundtrackPending;
+		private bool _awaitingMusicGesture = true;
 
 		private bool[] _audibleSounds;
 
@@ -82,6 +88,18 @@ namespace Funlab.MergeMaster
 			Subscribe();
 			AdjustMasterLoudness(masterLoudness);
 			PreloadSounds();
+		}
+
+		private void Update()
+		{
+			if (!_soundtrackRequested || !GameTuning.isSoundtrackOn) return;
+			bool firstGesture = _awaitingMusicGesture && (Input.GetMouseButtonDown(0) ||
+				(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began));
+			if (firstGesture) _awaitingMusicGesture = false;
+			if (_soundtrackPending || firstGesture)
+			{
+				PerformSoundtrack(_latestSoundtrackLooping, firstGesture);
+			}
 		}
 
 		private void AdjustMasterLoudness(float loudnessPercent)
@@ -347,6 +365,7 @@ namespace Funlab.MergeMaster
 
 		public void HaltMusic()
 		{
+			_soundtrackPending = false;
 			HaltSoundtrack();
 		}
 
@@ -388,22 +407,45 @@ namespace Funlab.MergeMaster
 			}
 		}
 
-		private void PerformSoundtrack(bool isRepeating)
+		private void PerformSoundtrack(bool isRepeating, bool restart = false)
 		{
 			AssembleCatalogs();
-			if (clashMusic == eMusicName.None || !AudioManager.IsInstanceValid() || !AudioPlayer.IsInstanceValid())
+			if (!AudioPlayer.IsInstanceValid() || !AudioManager.IsInstanceValid())
 			{
-				HaltSoundtrack();
+				_soundtrackPending = true;
 				return;
 			}
 			AudioSource musicSpeaker = AudioPlayer.Instance.musicSpeaker;
+			AudioClip clip = clashMusicClip != null ? clashMusicClip :
+				(clashMusic != eMusicName.None ? AudioManager.Instance.GetAudioClip(clashMusic) : null);
+			if (musicSpeaker == null || clip == null)
+			{
+				_soundtrackPending = false;
+				Debug.LogWarning("Playable music source or clip is missing.");
+				return;
+			}
+			_soundtrackPending = false;
 			musicSpeaker.volume = clashLoudness / 100f * MasterVolume;
-			if (musicSpeaker.isPlaying && musicSpeaker.clip != null && musicSpeaker.clip == AudioManager.Instance.GetAudioClip(clashMusic))
+			if (!restart && musicSpeaker.isPlaying && musicSpeaker.clip == clip)
 			{
 				return;
 			}
-			HaltSoundtrack();
-			AudioManager.Instance.PlayMusic(clashMusic, isRepeating);
+			musicSpeaker.Stop();
+			musicSpeaker.clip = clip;
+			musicSpeaker.loop = isRepeating;
+			musicSpeaker.Play();
+		}
+
+		public void PlayVictorySound()
+		{
+			if (!GameTuning.isAudioOn) return;
+			// Use the same source as combat effects, which is initialized with this scene.
+			if (victoryClip != null && combatantEmitter != null && combatantEmitter.CanControlAudioSource())
+			{
+				combatantEmitter.AudioSource.PlayOneShot(victoryClip, MasterVolume);
+				return;
+			}
+			PerformUISample(eSoundName.FL_Win);
 		}
 
 		private void HaltSoundtrack()

@@ -483,10 +483,6 @@
                 "excluded": true
             },
             {
-                "name": "System.ArgumentNullException",
-                "excluded": true
-            },
-            {
                 "name": "System.ArithmeticException",
                 "excluded": true
             },
@@ -16306,7 +16302,7 @@
                     },
                     {
                         "name": "GetActiveScene",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetActiveScene",
@@ -23620,7 +23616,7 @@
                     },
                     {
                         "name": "GetItem",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetItem",
@@ -23646,7 +23642,7 @@
                     },
                     {
                         "name": "Get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Set",
@@ -26584,11 +26580,11 @@
                     },
                     {
                         "name": "AdvanceVolleys",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "LaunchMimic",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "PresentDemiseBurst",
@@ -26948,6 +26944,10 @@
                     },
                     {
                         "name": "SeatHandsetArenaLens",
+                        "excluded": false
+                    },
+                    {
+                        "name": "FindConfettiEffect",
                         "excluded": false
                     }
                 ]
@@ -35411,6 +35411,14 @@
                     {
                         "name": "Perform",
                         "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlayVictorySound",
+                        "excluded": false
                     }
                 ]
             },
@@ -35606,7 +35614,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -36716,6 +36724,10 @@
                     },
                     {
                         "name": "OnMoneyAltered",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update",
                         "excluded": false
                     }
                 ]
@@ -38190,6 +38202,10 @@
                     },
                     {
                         "name": "Tick",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Tick\",this)}this.c$-=t;if(this.c$<=0){pc.Application.getApplication().events.off(\"update",
                         "excluded": false
                     }
                 ]
@@ -40464,7 +40480,7 @@
                     },
                     {
                         "name": "weight0#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "weight0#set",
@@ -40472,7 +40488,7 @@
                     },
                     {
                         "name": "weight1#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "weight1#set",
@@ -40480,7 +40496,7 @@
                     },
                     {
                         "name": "weight2#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "weight2#set",
@@ -40488,7 +40504,7 @@
                     },
                     {
                         "name": "weight3#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "weight3#set",
@@ -40496,7 +40512,7 @@
                     },
                     {
                         "name": "boneIndex0#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "boneIndex0#set",
@@ -40504,7 +40520,7 @@
                     },
                     {
                         "name": "boneIndex1#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "boneIndex1#set",
@@ -40512,7 +40528,7 @@
                     },
                     {
                         "name": "boneIndex2#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "boneIndex2#set",
@@ -40520,7 +40536,7 @@
                     },
                     {
                         "name": "boneIndex3#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "boneIndex3#set",
@@ -40544,6 +40560,28 @@
                     },
                     {
                         "name": "$clone",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "System.ArgumentNullException",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ctor",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$ctor1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "$ctor2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$ctor3",
                         "excluded": true
                     }
                 ]

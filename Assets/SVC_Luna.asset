@@ -2391,7 +2391,7 @@ MonoBehaviour:
     - LIGHTPROBE_SH
   _includedShaderVariants: []
   _excludedShaderVariants: []
-  version: 420
+  version: 556
   _shaderParsedShaders:
   - ParsedSubShaders:
     - Index: 0
