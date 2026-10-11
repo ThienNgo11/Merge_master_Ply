@@ -118,11 +118,16 @@ namespace UnityEngine.UI.Extensions.CasualGame
 
 		protected override void Awake()
 		{
+#if UNITY_LUNA
+			enabled = false;
+			return;
+#else
 			base.Awake();
 			if (!Initialize())
 			{
 				enabled = false;
 			}
+#endif
 		}
 
 		protected override void OnEnable()
@@ -138,13 +143,16 @@ namespace UnityEngine.UI.Extensions.CasualGame
 
 		protected override void OnPopulateMesh(VertexHelper vh)
 		{
+			vh.Clear();
+#if UNITY_LUNA
+			return;
+#else
 #if UNITY_EDITOR
 			if (!Application.isPlaying && !Initialize())
 			{
 				return;
 			}
 #endif
-			vh.Clear();
 
 			if (!gameObject.activeInHierarchy || pSystem == null || particles == null)
 			{
@@ -261,6 +269,7 @@ namespace UnityEngine.UI.Extensions.CasualGame
 
 				vh.AddUIVertexQuad(_quad);
 			}
+#endif
 		}
 
 		private Vector4 GetTextureSheetUV(ParticleSystem.Particle particle)

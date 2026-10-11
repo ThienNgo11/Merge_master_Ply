@@ -365,7 +365,7 @@ namespace Funlab.MergeMaster
 			return Mathf.Sin(norm * Mathf.PI);
 		}
 
-		private void RenewCaption(long worth)
+		public void RenewCaption(long worth)
 		{
 			if (activeSumCaption != null)
 			{

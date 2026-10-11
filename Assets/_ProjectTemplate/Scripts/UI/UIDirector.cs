@@ -42,6 +42,9 @@ namespace Funlab.MergeMaster
 
 		[Header("STAGE TEXT")]
 		public TextMeshProUGUI stageText;
+		[Header("COIN / FUNDS DISPLAY")]
+		public TextMeshProUGUI cashText;
+		public UIFundsSoarMotion moneyFundsSoarMotion;
 
 		[Header("BATTLE CONTROLS")]
 		public GameObject clashCtrl;
@@ -67,7 +70,6 @@ namespace Funlab.MergeMaster
 		// Non-serialized properties for external compatibility (will NEVER appear on Inspector)
 		public Dialog liveDialog { get => null; set { } }
 		public Animation tileControlMotion => null;
-		public UIFundsSoarMotion moneyFundsSoarMotion => null;
 		public RectTransform mastheadTilesControlLoc => null;
 
 		// Internal battle states
@@ -75,6 +77,20 @@ namespace Funlab.MergeMaster
 		private float[] combatantBeginVitalities = new float[2];
 		private float _vitalityInfillBreadth = 246f;
 		private Animation clashCtrlMotion;
+
+		private enum ArenaPhase
+		{
+			ClashSolely = 0,
+			ProcureSoldier = 1,
+			ShiftSaurianForward = 2,
+			ProcureSaurian = 3,
+			FuseSaurians = 4,
+			Usual = 5
+		}
+
+		private ArenaPhase _arenaPhase = ArenaPhase.Usual;
+		private const int ProcureControlsFloorStage = 3;
+		private bool[] _troopControlTransitionsDestroyed = new bool[2];
 
 		// ------------------------------------------------------------------ Lifecycle
 
@@ -95,14 +111,16 @@ namespace Funlab.MergeMaster
 				}
 			}
 
-			// Unlimited currency in Playable so buying troops is never blocked
-			PlayMechanics.money = 999999;
-
 			if (combatantVitalityMeters != null)
 			{
 				combatantVitalityMeters.SetActive(false);
 			}
+
+			PlayMechanics.MoneyAltered += OnMoneyAltered;
 		}
+
+		private bool _storeRedirectTriggered;
+		private float _stage4EnteredTime = -1f;
 
 		private void Start()
 		{
@@ -112,15 +130,42 @@ namespace Funlab.MergeMaster
 			}
 
 			Reset();
+			ReviseMoney();
+		}
+
+		private void Update()
+		{
+			if (GameTuning.stage >= 4 && !_storeRedirectTriggered)
+			{
+				if (_stage4EnteredTime < 0f)
+				{
+					_stage4EnteredTime = Time.unscaledTime;
+				}
+
+				if (Time.unscaledTime - _stage4EnteredTime >= 0.05f)
+				{
+					if (Input.GetMouseButtonDown(0) || (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began))
+					{
+						_storeRedirectTriggered = true;
+						GameManager.Instance.InstallFullGame();
+					}
+				}
+			}
 		}
 
 		private void OnDestroy()
 		{
 			CancelInvoke();
+			PlayMechanics.MoneyAltered -= OnMoneyAltered;
 			if (_shared == this)
 			{
 				_shared = null;
 			}
+		}
+
+		private void OnMoneyAltered(long amount)
+		{
+			ReviseMoney();
 		}
 
 		// ------------------------------------------------------------------ Public UI Controls
@@ -128,6 +173,7 @@ namespace Funlab.MergeMaster
 		public void Reset()
 		{
 			isClashing = false;
+			AssignControlHighlighterLive(false);
 			RenewStageTag();
 			ReviseGamerDirector(false);
 		}
@@ -143,7 +189,7 @@ namespace Funlab.MergeMaster
 
 		public void ReviseGamerDirector(bool dispatchTelemetry = true)
 		{
-			if (gamerDirector == null)
+			if (gamerDirector == null || gameplayCore == null)
 			{
 				return;
 			}
@@ -157,27 +203,36 @@ namespace Funlab.MergeMaster
 
 			gamerDirector.SetActive(true);
 
-			// Always keep buy buttons active and clickable in Playable
-			if (feeControls != null)
+			GuideKind guide = GameTuning.finishedGuideKind;
+			int stage = GameTuning.stage;
+			if (guide >= GuideKind.PersonAcquisition)
 			{
-				for (int i = 0; i < feeControls.Length; i++)
-				{
-					if (feeControls[i] != null)
-					{
-						feeControls[i].gameObject.SetActive(true);
-						feeControls[i].interactable = true;
-					}
-				}
+				DestroyTroopControlDOTweenComponentAndRevertSize(true);
+			}
+			if (guide >= GuideKind.SaurianAcquisition)
+			{
+				DestroyTroopControlDOTweenComponentAndRevertSize();
 			}
 
-			// Update fight button state
-			bool hasTroops = HasGuardians();
+			_arenaPhase = GetArenaPhase(guide, stage);
+			bool clashOnscreen = IsClashControlOnscreen(_arenaPhase);
 			if (clashCtrl != null)
 			{
-				clashCtrl.SetActive(hasTroops);
+				clashCtrl.SetActive(clashOnscreen);
+			}
+			ImposeGuideGating(_arenaPhase, out bool personPulse, out bool saurianPulse);
+			RenewFeeTags();
+
+			if (personPulse)
+			{
+				PerformTroopControlPulse(0);
+			}
+			if (saurianPulse)
+			{
+				PerformTroopControlPulse(1);
 			}
 
-			if (hasTroops)
+			if (clashOnscreen)
 			{
 				BeginClashControlMotion();
 			}
@@ -185,6 +240,171 @@ namespace Funlab.MergeMaster
 			{
 				HaltClashControlMotion();
 			}
+		}
+
+		private static ArenaPhase GetArenaPhase(GuideKind guide, int stage)
+		{
+			switch (GameplayCore.GetGuidePhase())
+			{
+			case GameplayCore.GuidePhase.ProcureSoldier:
+				return ArenaPhase.ProcureSoldier;
+			case GameplayCore.GuidePhase.ShiftForward:
+				return ArenaPhase.ShiftSaurianForward;
+			case GameplayCore.GuidePhase.ProcureSaurian:
+				return ArenaPhase.ProcureSaurian;
+			case GameplayCore.GuidePhase.Fuse:
+				return ArenaPhase.FuseSaurians;
+			case GameplayCore.GuidePhase.Unset:
+				return stage >= ProcureControlsFloorStage ? ArenaPhase.Usual : ArenaPhase.ClashSolely;
+			default:
+				return ArenaPhase.ClashSolely;
+			}
+		}
+
+		private bool IsClashControlOnscreen(ArenaPhase phase)
+		{
+			if (!HasGuardians())
+			{
+				return false;
+			}
+			switch (phase)
+			{
+			case ArenaPhase.ProcureSoldier:
+			case ArenaPhase.ProcureSaurian:
+				return false;
+			case ArenaPhase.ShiftSaurianForward:
+				return !HasGuardianOfKind(ActorKind.Saurian);
+			case ArenaPhase.FuseSaurians:
+				return !HasFusablePair();
+			default:
+				return true;
+			}
+		}
+
+		private void ImposeGuideGating(ArenaPhase phase, out bool personPulse, out bool saurianPulse)
+		{
+			bool procureSoldier = phase == ArenaPhase.ProcureSoldier;
+			bool procureSaurian = phase == ArenaPhase.ProcureSaurian;
+			bool usual = phase == ArenaPhase.Usual;
+			personPulse = procureSoldier;
+			saurianPulse = procureSaurian;
+
+			bool personOnscreen = usual || procureSoldier;
+			bool saurianOnscreen = usual || procureSaurian;
+
+			if (feeControls != null)
+			{
+				if (feeControls.Length > 0 && feeControls[0] != null)
+				{
+					feeControls[0].gameObject.SetActive(personOnscreen);
+				}
+				if (feeControls.Length > 1 && feeControls[1] != null)
+				{
+					feeControls[1].gameObject.SetActive(saurianOnscreen);
+				}
+			}
+
+			AssignControlHighlighterLive(procureSoldier || procureSaurian);
+		}
+
+		private void AssignControlHighlighterLive(bool live)
+		{
+			if (controlHighlighter == null || controlHighlighter.activeSelf == live)
+			{
+				return;
+			}
+			controlHighlighter.SetActive(live);
+			if (live)
+			{
+				DOTweenAnimation dissolve = controlHighlighter.GetComponent<DOTweenAnimation>();
+				if (dissolve != null)
+				{
+					dissolve.DORestart();
+				}
+			}
+		}
+
+		private void PerformTroopControlPulse(int ordinal)
+		{
+			if (ordinal < 0 || ordinal >= _troopControlTransitionsDestroyed.Length || _troopControlTransitionsDestroyed[ordinal])
+			{
+				return;
+			}
+			Button control = (feeControls != null && ordinal < feeControls.Length) ? feeControls[ordinal] : null;
+			if (control == null || !control.gameObject.activeInHierarchy)
+			{
+				return;
+			}
+			DOTweenAnimation[] throbs = control.GetComponentsInChildren<DOTweenAnimation>();
+			bool resting = throbs.Length > 0 && (throbs[0].tween == null || !throbs[0].tween.IsPlaying());
+			foreach (DOTweenAnimation throb in throbs)
+			{
+				if (resting)
+				{
+					throb.DORestart();
+				}
+				else
+				{
+					throb.DOPlay();
+				}
+			}
+		}
+
+		private void RenewFeeTags()
+		{
+			for (int slot = 0; slot < 2; slot++)
+			{
+				ActorKind kind = slot == 0 ? ActorKind.Person : ActorKind.Saurian;
+				if (feeTags != null && slot < feeTags.Length && feeTags[slot] != null)
+				{
+					long charge = PlayMechanics.GetCharge(kind);
+					feeTags[slot].text = charge >= 1000 ? $"{charge / 1000f:0.#}K" : charge.ToString();
+				}
+				if (feeControls != null && slot < feeControls.Length && feeControls[slot] != null)
+				{
+					bool canAfford = PlayMechanics.CanAffordAcquisition(kind);
+					bool hasSpace = gameplayCore == null || gameplayCore.emptyLatticeSlotExists;
+					feeControls[slot].interactable = canAfford && hasSpace;
+				}
+			}
+		}
+
+		private bool HasGuardianOfKind(ActorKind kind)
+		{
+			if (!HasGuardians())
+			{
+				return false;
+			}
+			foreach (Combatant combatant in gameplayCore.registry.guardians)
+			{
+				if (combatant != null && combatant.kind == kind && combatant.vitality > 0f)
+				{
+					return true;
+				}
+			}
+			return false;
+		}
+
+		private bool HasFusablePair()
+		{
+			if (!HasGuardians())
+			{
+				return false;
+			}
+			HashSet<int> visited = new HashSet<int>();
+			foreach (Combatant combatant in gameplayCore.registry.guardians)
+			{
+				if (combatant == null)
+				{
+					continue;
+				}
+				int entry = ((int)combatant.kind * 100000) + combatant.worth;
+				if (!visited.Add(entry))
+				{
+					return true;
+				}
+			}
+			return false;
 		}
 
 		public void ConcealGamerInteractionControls()
@@ -220,12 +440,23 @@ namespace Funlab.MergeMaster
 				return;
 			}
 
-			PlayMechanics.money = 999999;
+			if (!PlayMechanics.CanAffordAcquisition(kind))
+			{
+				return;
+			}
+
+			GuideKind prior = GameTuning.finishedGuideKind;
 			gameplayCore.SlotCombatant(kind, false);
 
-			if (controlHighlighter != null)
+			if (kind == ActorKind.Person && prior == GuideKind.Unset)
 			{
-				controlHighlighter.SetActive(false);
+				AssignControlHighlighterLive(false);
+				DestroyTroopControlDOTweenComponentAndRevertSize(true);
+			}
+			else if (kind == ActorKind.Saurian && prior < GuideKind.SaurianAcquisition)
+			{
+				AssignControlHighlighterLive(false);
+				DestroyTroopControlDOTweenComponentAndRevertSize();
 			}
 
 			ReviseGamerDirector(false);
@@ -367,8 +598,8 @@ namespace Funlab.MergeMaster
 
 			if (stageOutcome == StageOutcome.Accomplishment)
 			{
-				// Win: Level 1 - 6 transition to next level; Level 7 opens store
-				if (GameTuning.stage < 7)
+				// Win: Level 1, 2, 3 transition to next level (L1->L2, L2->L3, L3->L4)
+				if (GameTuning.stage < 4)
 				{
 					JumpToUpcomingStage(true);
 				}
@@ -379,8 +610,15 @@ namespace Funlab.MergeMaster
 			}
 			else
 			{
-				// Defeat: Replay current level
-				JumpToUpcomingStage(false);
+				// Defeat: at Level >= 4, open store; earlier levels replay
+				if (GameTuning.stage >= 4)
+				{
+					GameManager.Instance.InstallFullGame();
+				}
+				else
+				{
+					JumpToUpcomingStage(false);
+				}
 			}
 		}
 
@@ -390,6 +628,10 @@ namespace Funlab.MergeMaster
 			if (isWin)
 			{
 				GameTuning.stage++;
+				if (GameTuning.stage >= 4)
+				{
+					_stage4EnteredTime = Time.unscaledTime;
+				}
 			}
 			if (gameplayCore != null)
 			{
@@ -404,6 +646,13 @@ namespace Funlab.MergeMaster
 		public void ControlResponder(Button dispatcher)
 		{
 			if (dispatcher == null) return;
+
+			if (GameTuning.stage >= 4)
+			{
+				_storeRedirectTriggered = true;
+				GameManager.Instance.InstallFullGame();
+				return;
+			}
 
 			switch (dispatcher.name)
 			{
@@ -439,9 +688,9 @@ namespace Funlab.MergeMaster
 
 		public void FlipShiftForwardGuide(bool show)
 		{
-			if (sceneHowTo != null && sceneHowTo.Length > 0 && sceneHowTo[0] != null)
+			if (sceneHowTo != null && sceneHowTo.Length > 2 && sceneHowTo[2] != null)
 			{
-				sceneHowTo[0].SetActive(show);
+				sceneHowTo[2].SetActive(show);
 			}
 		}
 
@@ -463,15 +712,73 @@ namespace Funlab.MergeMaster
 		public void PresentDialog(eUIName name) { }
 		public void PresentActorTile(ActorKind kind, int worth) { }
 		public void ReviseTags() { }
-		public void ReviseAcquisitionControls() { }
-		public void ReviseMoney() { }
-		public void RenewCashTag() { }
+		public void ReviseAcquisitionControls()
+		{
+			RenewFeeTags();
+		}
+		public void ReviseMoney()
+		{
+			RenewCashTag();
+			RenewFeeTags();
+		}
+
+		public void RenewCashTag()
+		{
+			bool isTweening = moneyFundsSoarMotion != null && moneyFundsSoarMotion.IsTweening;
+			if (isTweening)
+			{
+				return;
+			}
+			long presentedSum = PlayMechanics.money;
+			if (cashText != null)
+			{
+				cashText.text = Toolbox.CompactNumeralToThousands(presentedSum);
+			}
+			else if (moneyFundsSoarMotion != null)
+			{
+				moneyFundsSoarMotion.RenewCaption(presentedSum);
+			}
+		}
 		public void FlipMastheadCashMotion(bool play) { }
 		public void PresentJewelsMotion() { }
 		public int GetActorGradeTally(ActorKind kind, int stage) => 11;
 		public bool IsAnyExclusiveVidControlLive() => false;
 		public void FlipLiveHotVidControlsMotion(bool live) { }
-		public void DestroyTroopControlDOTweenComponentAndRevertSize(bool isHuman = false) { }
+		public void DestroyTroopControlDOTweenComponentAndRevertSize(bool isHuman = false)
+		{
+			DestroyTroopControlTransitions(0);
+			if (!isHuman)
+			{
+				DestroyTroopControlTransitions(1);
+			}
+		}
+
+		private void DestroyTroopControlTransitions(int ordinal)
+		{
+			if (ordinal < 0 || ordinal >= _troopControlTransitionsDestroyed.Length || _troopControlTransitionsDestroyed[ordinal])
+			{
+				return;
+			}
+			Button control = (feeControls != null && ordinal < feeControls.Length) ? feeControls[ordinal] : null;
+			if (control == null)
+			{
+				return;
+			}
+			_troopControlTransitionsDestroyed[ordinal] = true;
+			GameObject node = control.gameObject;
+			foreach (DOTweenAnimation transitionMotion in node.GetComponentsInChildren<DOTweenAnimation>(true))
+			{
+				transitionMotion.DOKill();
+				Destroy(transitionMotion);
+			}
+			foreach (DOTweenVisualManager visualCoordinator in node.GetComponentsInChildren<DOTweenVisualManager>(true))
+			{
+				Destroy(visualCoordinator);
+			}
+			DOTween.Kill(node);
+			node.transform.DOKill();
+			node.transform.localScale = Vector3.one;
+		}
 		public bool PresentIncentivizedFilm(PrizeKind prizeKind) => false;
 		public void OnMiniatureControlTapResponder() { }
 		public void ProcessMiniatureExit() { }

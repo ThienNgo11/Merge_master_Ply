@@ -369,6 +369,21 @@ namespace Funlab.MergeMaster
 			}
 		}
 
+		// Fixed gold budget granted at the start of each stage in Playable
+		public static readonly long[] StageStartingGold = new long[]
+		{
+			2,   // Level 1: exactly enough for 1 Warrior (cost 2)
+			2,   // Level 2: exactly enough for 1 Dinosaur (cost 2, warrior is 10)
+			160, // Level 3: exactly enough for 1 unit at PL 2 (cost 160)
+			0,   // Level 4: 0 gold (tap anywhere redirects to store)
+		};
+
+		public static void ResetGoldForStage(int stageNumber)
+		{
+			int idx = Mathf.Clamp(stageNumber - 1, 0, StageStartingGold.Length - 1);
+			money = StageStartingGold[idx];
+		}
+
 		public static void Boot()
 		{
 			if (_isBooted)
@@ -378,6 +393,8 @@ namespace Funlab.MergeMaster
 			_isBooted = true;
 			GameTuning.Boot();
 			GameData gameData = GameData.Instance;
+
+			ResetGoldForStage(GameTuning.stage);
 
 			_personAcquisitionTally = Math.Max(0, gameData.PersonAcquisitionTally);
 			_saurianAcquisitionTally = Math.Max(0, gameData.SaurianAcquisitionTally);
@@ -486,7 +503,8 @@ namespace Funlab.MergeMaster
 			_creditedProceeds = Math.Max(0L, stageProceeds);
 			_creditOutstanding = true;
 			_creditResolved = false;
-			money += _creditedProceeds;
+			// In Playable: disable receiving gold after win (each stage has fixed budget)
+			// money += _creditedProceeds;
 			TraceResource(true, StageOutroLocation(false), CoinResource, _creditedProceeds);
 		}
 
@@ -503,7 +521,7 @@ namespace Funlab.MergeMaster
 				if (coef > 1)
 				{
 					long bonus = GuardedMultiply(_creditedProceeds, coef - 1);
-					money += bonus;
+					// money += bonus;
 					TraceResource(true, StageOutroLocation(true), CoinResource, bonus);
 				}
 				return;
@@ -513,7 +531,7 @@ namespace Funlab.MergeMaster
 				return;
 			}
 			long proceeds = GuardedMultiply(Math.Max(0L, stageProceeds), coef);
-			money += proceeds;
+			// money += proceeds;
 			TraceResource(true, StageOutroLocation(coef > 1), CoinResource, proceeds);
 		}
 

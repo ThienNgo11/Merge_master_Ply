@@ -17,7 +17,7 @@ namespace Funlab.MergeMaster
 
 		private void OnEnable()
 		{
-			if (_motion != null)
+			if (_motion != null && _motion.clip != null)
 			{
 				_motion.Stop();
 				_motion.Play();

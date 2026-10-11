@@ -74,6 +74,10 @@ namespace Funlab.MergeMaster
 
 		public GameObject meshEntity;
 
+		protected Transform skeletonRootNode;
+
+		protected Vector3 initialSkeletonLocalPos;
+
 		protected GameObject dart;
 
 		private ActorStatus _actorStatus;
@@ -158,6 +162,8 @@ namespace Funlab.MergeMaster
 			}
 			motionRig = null;
 			meshEntity = null;
+			skeletonRootNode = null;
+			initialSkeletonLocalPos = Vector3.zero;
 			dart = null;
 			vitalityMeterLocation = null;
 			sphereHitbox = null;
@@ -200,6 +206,17 @@ namespace Funlab.MergeMaster
 #endif
 			}
 
+			if (smrs.Length > 0 && smrs[0].rootBone != null && smrs[0].rootBone.parent != null)
+			{
+				skeletonRootNode = smrs[0].rootBone.parent;
+				initialSkeletonLocalPos = skeletonRootNode.localPosition;
+			}
+			else if (motionRig != null && motionRig.transform.childCount > 0)
+			{
+				skeletonRootNode = motionRig.transform.GetChild(0);
+				initialSkeletonLocalPos = skeletonRootNode.localPosition;
+			}
+
 			if (motionRig != null)
 			{
 				motionRig.speed = MotionPaceScalar;
@@ -234,14 +251,16 @@ namespace Funlab.MergeMaster
 			{
 				return false;
 			}
+#if !UNITY_LUNA
 			if (motionRig.isActiveAndEnabled)
 			{
 				return motionRig.HasState(0, Animator.StringToHash(status));
 			}
+#endif
 			string ending = "_" + status;
 			foreach (AnimationClip sample in motionRig.runtimeAnimatorController.animationClips)
 			{
-				if (sample != null && sample.name.EndsWith(ending, StringComparison.Ordinal))
+				if (sample != null && (sample.name.EndsWith(ending, StringComparison.OrdinalIgnoreCase) || sample.name.Equals(status, StringComparison.OrdinalIgnoreCase) || sample.name.EndsWith(" " + status, StringComparison.OrdinalIgnoreCase)))
 				{
 					return true;
 				}
@@ -292,7 +311,11 @@ namespace Funlab.MergeMaster
 					break;
 				case ActorStatus.Celebrate:
 					motionRig.speed = pace;
+#if !UNITY_LUNA
 					string celebration = motionRig.isActiveAndEnabled && motionRig.HasState(0, CelebrateHash) ? "Dance" : "Victory";
+#else
+					string celebration = "Victory";
+#endif
 					if (withConquestPause && isActiveAndEnabled)
 					{
 						StartCoroutine(PerformMotionAfterPause(celebration, Random.Range(0f, 0.3f)));
@@ -311,6 +334,7 @@ namespace Funlab.MergeMaster
 			{
 				return;
 			}
+#if !UNITY_LUNA
 			int statusHash = Animator.StringToHash(status);
 			if (motionRig.HasState(0, statusHash))
 			{
@@ -320,6 +344,9 @@ namespace Funlab.MergeMaster
 			{
 				motionRig.Play("Idle", 0);
 			}
+#else
+			motionRig.Play(status);
+#endif
 		}
 
 		private IEnumerator PerformMotionAfterPause(string status, float pause)
@@ -468,6 +495,27 @@ namespace Funlab.MergeMaster
 		{
 			StatusRevise();
 			SenseOutline();
+		}
+
+		protected virtual void LateUpdate()
+		{
+			SanitizeSkeletonMotion();
+		}
+
+		protected void SanitizeSkeletonMotion()
+		{
+			if (skeletonRootNode != null)
+			{
+				Vector3 pos = skeletonRootNode.localPosition;
+				if (float.IsNaN(pos.x) || float.IsNaN(pos.y) || float.IsNaN(pos.z) || pos.z > 5f || pos.z < -5f)
+				{
+					skeletonRootNode.localPosition = new Vector3(
+						float.IsNaN(pos.x) ? initialSkeletonLocalPos.x : pos.x,
+						float.IsNaN(pos.y) ? initialSkeletonLocalPos.y : pos.y,
+						initialSkeletonLocalPos.z
+					);
+				}
+			}
 		}
 
 		protected GameObject SeekNodeInDescendantWithTag(Transform holder, string wantedTag)

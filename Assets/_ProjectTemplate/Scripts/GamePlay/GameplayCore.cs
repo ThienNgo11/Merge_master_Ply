@@ -357,8 +357,26 @@ namespace Funlab.MergeMaster
 
 		public static GuidePhase GetGuidePhase()
 		{
-			// In Playable Ad, allow unrestricted free play: dragging, merging, buying and fighting at any time
-			return GuidePhase.Unset;
+			int stage = GameTuning.stage;
+			switch (GameTuning.finishedGuideKind)
+			{
+				case GuideKind.Unset:
+					if (stage > 1)
+					{
+						// Only reachable with an inconsistent save; FetchStage normalizes it.
+						return stage == 2 ? GuidePhase.ProcureSaurian : GuidePhase.Unset;
+					}
+					// Bỏ qua bước đánh thua đầu tiên: Vào Level 1 là có hướng dẫn mua và sắp xếp luôn
+					return GuidePhase.ProcureSoldier;
+				case GuideKind.PersonAcquisition:
+					return stage <= 1 ? GuidePhase.ShiftForward : (stage == 2 ? GuidePhase.ProcureSaurian : GuidePhase.Unset);
+				case GuideKind.ShiftSaurianForward:
+					return stage <= 1 ? GuidePhase.ClashSolely : (stage == 2 ? GuidePhase.ProcureSaurian : GuidePhase.Unset);
+				case GuideKind.SaurianAcquisition:
+					return stage <= 2 ? GuidePhase.Fuse : GuidePhase.Unset;
+				default:
+					return stage <= 2 ? GuidePhase.ClashSolely : GuidePhase.Unset;
+			}
 		}
 
 		// START FIGHT is available (visible) only in these steps.
@@ -410,11 +428,28 @@ namespace Funlab.MergeMaster
 			registry.onCombatantAppended += OnCombatantAppended;
 			registry.onCombatantDiscarded += OnCombatantDiscarded;
 
+#if !UNITY_LUNA
 			Application.quitting += IsExiting;
+#endif
 
+			if (blendLens == null)
+			{
+				blendLens = CinemachineBlendingLensDirector.Instance ?? FindObjectOfType<CinemachineBlendingLensDirector>();
+			}
+			if (troopLens == null && blendLens != null)
+			{
+				troopLens = blendLens.GetLens(2);
+			}
 			if (troopLens != null)
 			{
-				troopLens.Follow = troopLens.LookAt;
+				if (troopLens.LookAt == null && blendLens != null)
+				{
+					troopLens.LookAt = blendLens.transform.Find("FollowTarget");
+				}
+				if (troopLens.Follow == null)
+				{
+					troopLens.Follow = troopLens.LookAt;
+				}
 			}
 			// The scene ships with the ev1 instance (environments[0]) already under the container.
 			_biomeOrdinal = biome != null ? 0 : -1;
@@ -428,7 +463,9 @@ namespace Funlab.MergeMaster
 				registry.onCombatantAppended -= OnCombatantAppended;
 				registry.onCombatantDiscarded -= OnCombatantDiscarded;
 			}
+#if !UNITY_LUNA
 			Application.quitting -= IsExiting;
+#endif
 			TerminateFuseTransition();
 		}
 
@@ -725,6 +762,7 @@ namespace Funlab.MergeMaster
 				PlayMechanics.stageProceeds = 0L;
 				PlayMechanics.terminatedFoesThisStage = 0;
 				_soaringSaurianPresentedThisStage = false;
+				PlayMechanics.ResetGoldForStage(GameTuning.stage);
 
 				ProduceStageFoes();
 				ConstructArena();
@@ -809,10 +847,27 @@ namespace Funlab.MergeMaster
 			{
 				return;
 			}
+			LatticePiece[] pieces = activeStage.pieces;
+			StageLayout liveStageInstance = null;
+			if (pieces == null || pieces.Length == 0)
+			{
+				liveStageInstance = Instantiate(activeStage);
+				pieces = liveStageInstance.pieces;
+				if (pieces == null || pieces.Length == 0)
+				{
+					pieces = liveStageInstance.GetComponentsInChildren<LatticePiece>(true);
+				}
+			}
+
 			// Past the last level the original replays the LAST level layout (Level-00300) unchanged for L301, L302 …
 			// (DISCREPANCIES A13: no random repeat, no enemy scaling); GameTuning.stageOrdinal already points at it.
-			ProduceFoes(PlayMechanics.ConstructStage(activeStage.pieces, 0f));
+			ProduceFoes(PlayMechanics.ConstructStage(pieces, 0f));
 			AdjustFoeVitalityForFinanceSpikesReduction();
+
+			if (liveStageInstance != null)
+			{
+				Destroy(liveStageInstance.gameObject);
+			}
 		}
 
 		private void ProduceFoes(Dictionary<ActorKind, LatticePieceWorth[]> byKind)
@@ -1405,6 +1460,7 @@ namespace Funlab.MergeMaster
 			{
 				return;
 			}
+#if !UNITY_LUNA
 			int clashStatus = Animator.StringToHash(LensClashStatus);
 			if (lensMotion.HasState(0, clashStatus))
 			{
@@ -1415,6 +1471,9 @@ namespace Funlab.MergeMaster
 			{
 				lensMotion.SetTrigger(LensShiftTrigger);
 			}
+#else
+			lensMotion.SetTrigger(LensShiftTrigger);
+#endif
 		}
 
 		private IEnumerator ClashBeginRoutine()
@@ -2326,7 +2385,19 @@ namespace Funlab.MergeMaster
 
 		private Transform FocusSpotlightObjective(Combatant troop)
 		{
+			if (troopLens == null && blendLens != null)
+			{
+				troopLens = blendLens.GetLens(2);
+			}
 			Transform trailObjective = troopLens != null ? troopLens.LookAt : null;
+			if (trailObjective == null && blendLens != null)
+			{
+				trailObjective = blendLens.transform.Find("FollowTarget");
+				if (troopLens != null)
+				{
+					troopLens.LookAt = trailObjective;
+				}
+			}
 			if (trailObjective != null && troop != null)
 			{
 				trailObjective.position = troop.transform.position;
@@ -2341,7 +2412,14 @@ namespace Funlab.MergeMaster
 				trailObjective.gameObject.SetActive(true);
 				// ShowUnitCamera (Transposer offset (1,1,1), damping 1, Composer offset y 0.34) must start the 1 s blend
 				// from its pose around the new target (b_024: low close-up on the unit), not damp over from the last one.
-				troopLens.PreviousStateIsValid = false;
+				if (troopLens != null)
+				{
+					troopLens.PreviousStateIsValid = false;
+				}
+				if (spotlightVirtualLens != null)
+				{
+					spotlightVirtualLens.UpdatePose();
+				}
 			}
 			return trailObjective;
 		}

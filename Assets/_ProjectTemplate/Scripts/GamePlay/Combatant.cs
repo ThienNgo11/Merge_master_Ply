@@ -523,6 +523,11 @@ namespace Funlab.MergeMaster
 			_hunting = false;
 		}
 
+		protected override void LateUpdate()
+		{
+			base.LateUpdate();
+		}
+
 		protected override void StatusRevise()
 		{
 			if (!IsLiving)
@@ -872,7 +877,7 @@ namespace Funlab.MergeMaster
 		{
 			GuaranteeBoot();
 			bool concealsFigure = activity == ActorArenaActivity.Slot || activity == ActorArenaActivity.Fuse;
-			bool canTween = coreMotionRig != null && coreMotionRig.isActiveAndEnabled;
+			bool canTween = coreMotionRig != null && coreMotionRig.isActiveAndEnabled && coreMotionRig.runtimeAnimatorController != null;
 			if (concealsFigure)
 			{
 				if (canTween && Figure != null)
@@ -889,7 +894,7 @@ namespace Funlab.MergeMaster
 			}
 			if (canTween)
 			{
-				coreMotionRig.Play(activity.ToAnimatorState(), 0, 0f);
+				coreMotionRig.Play(activity.ToAnimatorState());
 			}
 			if (concealsFigure && isActiveAndEnabled)
 			{
